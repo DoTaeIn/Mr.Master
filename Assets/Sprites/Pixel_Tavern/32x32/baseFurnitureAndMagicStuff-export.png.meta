@@ -1,0 +1,2239 @@
+fileFormatVersion: 2
+guid: 25d714559ec044dc28aa17f87201428b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_0
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 970
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821811fa2e3f049e889c9fc7f55c0b81
+      internalID: -2010155459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_1
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 970
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29238b93c47ed4896aab9fc19dca6db7
+      internalID: -1808569743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_2
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 970
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73bf6e323d1341ebbc62846c767a492
+      internalID: 1529127864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 936
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc40cbd4b8794b2ab50f79e61f412c0
+      internalID: 466491874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 928
+        width: 224
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095350d50dbce4337b15aa054230e5b3
+      internalID: -9242001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 928
+        width: 224
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93bdc0a29ad94565ac32fce19d36b80
+      internalID: -852157508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_6
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 950
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80043fdce0c974eac9ee3e35ec64487f
+      internalID: -1625713980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_7
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 928
+        width: 224
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d40df1892599445787c687be5bdef4e
+      internalID: 1230465000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 938
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011615fc2742e4f7eb6223694180857a
+      internalID: 613550752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 872
+        width: 224
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0216929613062451c8b8a237981cd900
+      internalID: 544548628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 872
+        width: 224
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b58f9be7494143f7bbf416b721a9261
+      internalID: 1779620390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 912
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702f55bc48f904d7889ce555cf086713
+      internalID: -1525349789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_12
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 872
+        width: 224
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec2fa8622c5445b2862de2d5c415470
+      internalID: 785689503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_13
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 872
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d694518e4fc4b90946b496662f448a
+      internalID: -1326556687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_14
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 884
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdefb80c7b51a4d5ca3f9f92665bf87b
+      internalID: -1517173198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 804
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17671f5bfcd5348c38079ec0311b6f88
+      internalID: -1189801050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 806
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f711a0e26f0504e6f9770f93f8c37f64
+      internalID: 2045809737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 806
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f214f91ad9e14a44a0fa1840ddc237a
+      internalID: -1543099681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 806
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e53c2b51c0dd4e6aa48662292ae841b
+      internalID: -1673290479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 744
+        width: 224
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6261e52ae0b4ee891ebdd029498317
+      internalID: 874148113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 800
+        width: 224
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031e263ec354a4bcb9199d3cbd44e150
+      internalID: -2089090880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 762
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f608ab141b5a446fb05dd322c4a4aa6
+      internalID: -1442712985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_22
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 762
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d5656207d6e4b76b7b4c7dc9c39756
+      internalID: 1676653496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 762
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4108e7cbb67f45f7a7cf8531223aea3
+      internalID: -2089702067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_24
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 776
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc89f7fda63f449ec914ef2423d5c422
+      internalID: 729549448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 744
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474318ac00e3148fea8233c25f4c4310
+      internalID: 735451911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 744
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62309ed0090c44d7b93dd86ee4f9db80
+      internalID: -1084665833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 648
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cdfeafea1844a12b521f4e20dc7959
+      internalID: -1133147189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 648
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e714dd7c1f8f45498bc0c751d8c4a85
+      internalID: -1863503432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_29
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 648
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f8f2b57484f4327b06163defe1774a
+      internalID: -1519512898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_30
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 648
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f4c41b6e2fd4cb3be5a9d1b47a9fd8
+      internalID: 1903074689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_31
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 648
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a492afe806b1b45b391d7f1a156956f9
+      internalID: 682414660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_32
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 648
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec056db8a0334445c958187171c586bd
+      internalID: -1009849465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 648
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a0c294f0ab941a78e034fbc69e5c2c
+      internalID: -40529057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_34
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 614
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bdf9e4b36844cce950aa017afde4cb
+      internalID: -172486800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_35
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 616
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194c9607aef2d40129e186eb3f64e0c3
+      internalID: -1227484042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_36
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 616
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277214b660bc746e98d23f0ed2a4c5ed
+      internalID: -1869771396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 552
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ed77ba0ed3044e794e107a9a977bac
+      internalID: -933170604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 552
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c537c1c8d8a99417f87d9ae3d584928d
+      internalID: 169013351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 552
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3821f516071fa4b2ca5bfba9b5245905
+      internalID: 796832576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_40
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 552
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1df8bda945d4dcc83b110e36a0c0dd
+      internalID: -1912886812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 550
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cbf6fc5381b4e0a9ba99a77ce24411
+      internalID: -1854495890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_42
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 588
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c8096f9569e4eefb5c9b0ee5b96261
+      internalID: 1241530203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_43
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 588
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab68223ff400440e49343a5665bda9e3
+      internalID: 1347650687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 496
+        width: 96
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8372f8a916c646b58313fcbb2726c50
+      internalID: 1659889413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 496
+        width: 96
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7259098f13c284b8c88b85697cdd09e7
+      internalID: -1204949455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 496
+        width: 96
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53801e921837842808d231ac941ccbe7
+      internalID: 1550497017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_47
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 496
+        width: 96
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5befc3c77d348ac92aa45f0e438c70
+      internalID: 1569086862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_48
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 516
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff280c211529c4a67a5e5b235b363e01
+      internalID: 153886028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_49
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 516
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6857dbf46c1b844cea00b39157caa3b7
+      internalID: 597509243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_50
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 516
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29abc36501ec4564922dc7ab1cd66e8
+      internalID: -1936731483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_51
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 488
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13113e485d1f4e3e916d0a6891c6083
+      internalID: -708570518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_52
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 486
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7ba2df1cd9944499d9970df6e50888
+      internalID: 1969384677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_53
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 486
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9e9f94c57dc4a488090500704c5119
+      internalID: 1795745550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_54
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 486
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e5f7d7cc67e459f855b43a063dee0d
+      internalID: -1022492675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 410
+        width: 148
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314833b2c5cde4b6697c4fe3b199f887
+      internalID: 917474686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_56
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 442
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e138408c64640d8891be6ce4c01f48
+      internalID: -1114822906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_57
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 442
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79c2145bc42f4967a3ba46ef3190301
+      internalID: 1517399795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_58
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 442
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce012cbdf2b594ce6bb12efe18ee2794
+      internalID: 1179627660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_59
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 442
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa58e645f656d4329926e5211fe49aa9
+      internalID: 1959688752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 422
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd12c3cad06d45a5b493b933027518d
+      internalID: -1967924189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_61
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 422
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723ee324759f04c6bbc1473e65f9a05d
+      internalID: 227601421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_62
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 422
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62af047268cc84edc9f6cb8ae2468931
+      internalID: 230292202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_63
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 422
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09e4ebe7551d4a539d8b98e84e49d64
+      internalID: -1271180957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_64
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 456
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149847cb05dca49258b3c5b70295e5f5
+      internalID: -1053770772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_65
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 456
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0370b3d711e4618818dfe55ff46c02
+      internalID: 1218877563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_66
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 454
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d022f70ccb4489c9e04a7e9bed1457
+      internalID: 1877544837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 454
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b297055ef336d4614a0bfcbab0027e87
+      internalID: -1633885841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_68
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 454
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af73725e8be334512aaf166896fa825c
+      internalID: -1756619319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_69
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 444
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e923cc213245449c18f3c37328a7c79c
+      internalID: 706657506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_70
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 392
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26968f9b24949476e9ac3abcf8d9691d
+      internalID: 612747905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_71
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 392
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3592a47f0a404430d961d195d2d805ce
+      internalID: 1774812307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_72
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 392
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fa9fbeac5024d57a260351ac5c47cd
+      internalID: 55987078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_73
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 392
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7b572cefd33482faecaa4cb74c0f60
+      internalID: 1223982828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 358
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5867ca9779cf0430ebdcf39b85ec8864
+      internalID: -1518838600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_75
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 358
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca60dc50de6a047b7b1b0ba8b476bfd4
+      internalID: -1109816215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_76
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 392
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967faf9cf92234dbaa2d2c2944268f5e
+      internalID: 1311817228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_77
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 390
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6c7556d7be44935a520f270dd9cd40
+      internalID: 1772244629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 390
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29768b10528774241a931504918468b8
+      internalID: 957359779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_79
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 390
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f0423c0314a4de0be555aad61af50b
+      internalID: 525315841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 360
+        width: 96
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a58d30b78508430cbac34071f48cb1e
+      internalID: 1048095937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 294
+        width: 86
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2bd2a2479034735947d8e8481b6dba
+      internalID: 2093796316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_82
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 358
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d6f85a47334436cae518898c184cba
+      internalID: 1450238740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_83
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 358
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5055af4e97e742b7a9327329063bb49
+      internalID: 328540864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_84
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 358
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8401d7d4ae46d4d64868b6217ad12f75
+      internalID: -238624031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_85
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 296
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a6dfe65516a4b49921ae490f4f9417
+      internalID: 424430484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_86
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea26bcdd59bc4e9bbf4ca38adefa43b
+      internalID: -1825494743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_87
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 296
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7bac32306a841d9ac959f34ba508f8
+      internalID: -778375264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_88
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 270
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e028c91b680e84f599a19c970e725ec3
+      internalID: 172356533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_89
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 264
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe69759ba8c0249d09ce9a1ddcde11eb
+      internalID: -202322164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_90
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 294
+        width: 110
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae75d77e0618f4ab2841858a543b56bc
+      internalID: -806495875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_91
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 308
+        width: 92
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b906b2aa79646aeb721a45fe47f5e2
+      internalID: 2091101245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_92
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 282
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2ab5718a9014770b25175f6fc95d1c
+      internalID: 2126080476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_93
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 282
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369e16d3da1514753a2aaa5f0aa4bfa2
+      internalID: 277540013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 576
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27337916bf0844dd08c269cbec0e6f84
+      internalID: 24863511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_95
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 40
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7782f91ceb7164b139c42c6784ec3aee
+      internalID: 1548449394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      baseFurnitureAndMagicStuff-export_0: -2010155459
+      baseFurnitureAndMagicStuff-export_1: -1808569743
+      baseFurnitureAndMagicStuff-export_10: 1779620390
+      baseFurnitureAndMagicStuff-export_11: -1525349789
+      baseFurnitureAndMagicStuff-export_12: 785689503
+      baseFurnitureAndMagicStuff-export_13: -1326556687
+      baseFurnitureAndMagicStuff-export_14: -1517173198
+      baseFurnitureAndMagicStuff-export_15: -1189801050
+      baseFurnitureAndMagicStuff-export_16: 2045809737
+      baseFurnitureAndMagicStuff-export_17: -1543099681
+      baseFurnitureAndMagicStuff-export_18: -1673290479
+      baseFurnitureAndMagicStuff-export_19: 874148113
+      baseFurnitureAndMagicStuff-export_2: 1529127864
+      baseFurnitureAndMagicStuff-export_20: -2089090880
+      baseFurnitureAndMagicStuff-export_21: -1442712985
+      baseFurnitureAndMagicStuff-export_22: 1676653496
+      baseFurnitureAndMagicStuff-export_23: -2089702067
+      baseFurnitureAndMagicStuff-export_24: 729549448
+      baseFurnitureAndMagicStuff-export_25: 735451911
+      baseFurnitureAndMagicStuff-export_26: -1084665833
+      baseFurnitureAndMagicStuff-export_27: -1133147189
+      baseFurnitureAndMagicStuff-export_28: -1863503432
+      baseFurnitureAndMagicStuff-export_29: -1519512898
+      baseFurnitureAndMagicStuff-export_3: 466491874
+      baseFurnitureAndMagicStuff-export_30: 1903074689
+      baseFurnitureAndMagicStuff-export_31: 682414660
+      baseFurnitureAndMagicStuff-export_32: -1009849465
+      baseFurnitureAndMagicStuff-export_33: -40529057
+      baseFurnitureAndMagicStuff-export_34: -172486800
+      baseFurnitureAndMagicStuff-export_35: -1227484042
+      baseFurnitureAndMagicStuff-export_36: -1869771396
+      baseFurnitureAndMagicStuff-export_37: -933170604
+      baseFurnitureAndMagicStuff-export_38: 169013351
+      baseFurnitureAndMagicStuff-export_39: 796832576
+      baseFurnitureAndMagicStuff-export_4: -9242001
+      baseFurnitureAndMagicStuff-export_40: -1912886812
+      baseFurnitureAndMagicStuff-export_41: -1854495890
+      baseFurnitureAndMagicStuff-export_42: 1241530203
+      baseFurnitureAndMagicStuff-export_43: 1347650687
+      baseFurnitureAndMagicStuff-export_44: 1659889413
+      baseFurnitureAndMagicStuff-export_45: -1204949455
+      baseFurnitureAndMagicStuff-export_46: 1550497017
+      baseFurnitureAndMagicStuff-export_47: 1569086862
+      baseFurnitureAndMagicStuff-export_48: 153886028
+      baseFurnitureAndMagicStuff-export_49: 597509243
+      baseFurnitureAndMagicStuff-export_5: -852157508
+      baseFurnitureAndMagicStuff-export_50: -1936731483
+      baseFurnitureAndMagicStuff-export_51: -708570518
+      baseFurnitureAndMagicStuff-export_52: 1969384677
+      baseFurnitureAndMagicStuff-export_53: 1795745550
+      baseFurnitureAndMagicStuff-export_54: -1022492675
+      baseFurnitureAndMagicStuff-export_55: 917474686
+      baseFurnitureAndMagicStuff-export_56: -1114822906
+      baseFurnitureAndMagicStuff-export_57: 1517399795
+      baseFurnitureAndMagicStuff-export_58: 1179627660
+      baseFurnitureAndMagicStuff-export_59: 1959688752
+      baseFurnitureAndMagicStuff-export_6: -1625713980
+      baseFurnitureAndMagicStuff-export_60: -1967924189
+      baseFurnitureAndMagicStuff-export_61: 227601421
+      baseFurnitureAndMagicStuff-export_62: 230292202
+      baseFurnitureAndMagicStuff-export_63: -1271180957
+      baseFurnitureAndMagicStuff-export_64: -1053770772
+      baseFurnitureAndMagicStuff-export_65: 1218877563
+      baseFurnitureAndMagicStuff-export_66: 1877544837
+      baseFurnitureAndMagicStuff-export_67: -1633885841
+      baseFurnitureAndMagicStuff-export_68: -1756619319
+      baseFurnitureAndMagicStuff-export_69: 706657506
+      baseFurnitureAndMagicStuff-export_7: 1230465000
+      baseFurnitureAndMagicStuff-export_70: 612747905
+      baseFurnitureAndMagicStuff-export_71: 1774812307
+      baseFurnitureAndMagicStuff-export_72: 55987078
+      baseFurnitureAndMagicStuff-export_73: 1223982828
+      baseFurnitureAndMagicStuff-export_74: -1518838600
+      baseFurnitureAndMagicStuff-export_75: -1109816215
+      baseFurnitureAndMagicStuff-export_76: 1311817228
+      baseFurnitureAndMagicStuff-export_77: 1772244629
+      baseFurnitureAndMagicStuff-export_78: 957359779
+      baseFurnitureAndMagicStuff-export_79: 525315841
+      baseFurnitureAndMagicStuff-export_8: 613550752
+      baseFurnitureAndMagicStuff-export_80: 1048095937
+      baseFurnitureAndMagicStuff-export_81: 2093796316
+      baseFurnitureAndMagicStuff-export_82: 1450238740
+      baseFurnitureAndMagicStuff-export_83: 328540864
+      baseFurnitureAndMagicStuff-export_84: -238624031
+      baseFurnitureAndMagicStuff-export_85: 424430484
+      baseFurnitureAndMagicStuff-export_86: -1825494743
+      baseFurnitureAndMagicStuff-export_87: -778375264
+      baseFurnitureAndMagicStuff-export_88: 172356533
+      baseFurnitureAndMagicStuff-export_89: -202322164
+      baseFurnitureAndMagicStuff-export_9: 544548628
+      baseFurnitureAndMagicStuff-export_90: -806495875
+      baseFurnitureAndMagicStuff-export_91: 2091101245
+      baseFurnitureAndMagicStuff-export_92: 2126080476
+      baseFurnitureAndMagicStuff-export_93: 277540013
+      baseFurnitureAndMagicStuff-export_94: 24863511
+      baseFurnitureAndMagicStuff-export_95: 1548449394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
