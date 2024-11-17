@@ -11,7 +11,7 @@ public class UIManager : MonoBehaviour
     [Header("UIs")]
     [SerializeField] private GameObject talkUI;
     private Dictionary<string, GameObject> talkUIDictionary = new Dictionary<string, GameObject>();
-    private string currentPanelName;
+    public string currentPanelName;
     CircleTransition transition;
     
     [Header("Talk UI")]
@@ -21,6 +21,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image person2_ImgR;
     //Text Output delay
     public float delay = 0.1f;
+    
+    [Header("Choice UI")]
+    public GameObject[] dontDestory;
     
     //Current name of the talk
     private string name;
@@ -50,6 +53,11 @@ public class UIManager : MonoBehaviour
         {
             talkUIDictionary.Add(UIPanels[i].name.ToLower(), UIPanels[i]);
             Debug.Log(UIPanels[i].name);
+        }
+
+        for (int i = 0; i < dontDestory.Length; i++)
+        {
+            DontDestroyOnLoad(dontDestory[i]);
         }
             
     }

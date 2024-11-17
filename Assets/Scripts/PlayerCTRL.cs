@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Yarn.Unity;
 
 public class PlayerCTRL : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerCTRL : MonoBehaviour
     Interactables interactables;
     CircleTransition circleTransition;
     TalkDatas talkDatas;
+    public DialogueRunner dialogueRunner;
     
     
     [SerializeField] Animator animator;
@@ -27,6 +29,8 @@ public class PlayerCTRL : MonoBehaviour
     [SerializeField] private float runSpeed = 3.0f;
     [SerializeField] private Transform playerUnitBody;
     
+    [SerializeField] InMemoryVariableStorage variableStorage;
+    
     //Limiting movement when interacting.
     public bool isInteracting;
     public bool canInteract;
@@ -42,6 +46,14 @@ public class PlayerCTRL : MonoBehaviour
         talkDatas = FindObjectOfType<TalkDatas>();
         circleTransition = FindObjectOfType<CircleTransition>();
     }
+
+    /**
+    private void Start()
+    {
+        variableStorage.SetValue("$playerName", "Mr.Master");
+    }
+    **/
+
     void FixedUpdate()
     {
         if (!isInteracting)
@@ -105,7 +117,7 @@ public class PlayerCTRL : MonoBehaviour
 
                     if (interactables.GetInteractableType(interactObjId) == InteractableType.Sign)
                     {
-                        uiManager.setActivePanelWName("talkui", true);
+                        //uiManager.setActivePanelWName("talkui", true);
                         Interactable temp = null;
                         foreach (Interactable interobj in interactables.interactables)
                         {
@@ -128,9 +140,10 @@ public class PlayerCTRL : MonoBehaviour
                         uiManager = FindObjectOfType<UIManager>();
                     }
                     Debug.Log("Test NPC");
-                    uiManager.setActivePanelWName("talkui", true);
-                    TalkData temp = talkDatas.getTalkDataById(npc.talkDataIds[0]);
-                    uiManager.setNameNTalk(npc.npcName, temp.Lines, false);
+                    uiManager.setActivePanelWName("choiceui", true);
+                    dialogueRunner = FindObjectOfType<DialogueRunner>();
+                    if (dialogueRunner != null)
+                        dialogueRunner.StartDialogue("100");
                 }
             }
         }
