@@ -140,10 +140,12 @@ public class PlayerCTRL : MonoBehaviour
                         uiManager = FindObjectOfType<UIManager>();
                     }
                     Debug.Log("Test NPC");
+                    
                     uiManager.setActivePanelWName("choiceui", true);
                     dialogueRunner = FindObjectOfType<DialogueRunner>();
                     if (dialogueRunner != null)
                         dialogueRunner.StartDialogue("100");
+                    
                 }
             }
         }

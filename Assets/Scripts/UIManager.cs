@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Yarn.Unity;
 
 public class UIManager : MonoBehaviour
 {
@@ -24,6 +25,9 @@ public class UIManager : MonoBehaviour
     
     [Header("Choice UI")]
     public GameObject[] dontDestory;
+    
+    [Header("Dialogue")]
+    DialogueRunner dialogueRunner;
     
     //Current name of the talk
     private string name;
@@ -59,13 +63,21 @@ public class UIManager : MonoBehaviour
         {
             DontDestroyOnLoad(dontDestory[i]);
         }
+        
+        dialogueRunner.onDialogueComplete.AddListener(playerFinishInteract);
             
+    }
+
+    private void playerFinishInteract()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCTRL>();
+        player.isInteracting = false;
     }
 
     private void Awake()
     {
         transition = FindObjectOfType<CircleTransition>();
-        
+        dialogueRunner = FindObjectOfType<DialogueRunner>();
     }
 
     private void Update()
@@ -159,8 +171,6 @@ public class UIManager : MonoBehaviour
         player = FindObjectOfType<PlayerCTRL>();
         player.isInteracting = false;
     }
-
-
     
     //Void that prints word one by one.
     IEnumerator PrintTextOneByOne(string line)
@@ -220,6 +230,7 @@ public class UIManager : MonoBehaviour
     {
         //Debug.Log($"Scene changed to: {scene.name}");
         transition.StartExpand();
+        dialogueRunner.onDialogueComplete.AddListener(playerFinishInteract);
     }
     
 }
