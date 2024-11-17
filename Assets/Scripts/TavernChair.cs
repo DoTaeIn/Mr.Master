@@ -26,6 +26,7 @@ public class TavernChair : MonoBehaviour
             //Debug.Log("Player entered the trigger zone");
             isInteractable = true;
             other.GetComponent<PlayerCTRL>().npc = currentNPC;
+            other.GetComponent<PlayerCTRL>().canInteract = true;
         }
     }
 
@@ -36,6 +37,7 @@ public class TavernChair : MonoBehaviour
             //Debug.Log("Player exited the trigger zone");
             isInteractable = false;
             other.GetComponent<PlayerCTRL>().npc = null;
+            other.GetComponent<PlayerCTRL>().canInteract = false;
         }
     }
 

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -11,6 +12,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject talkUI;
     private Dictionary<string, GameObject> talkUIDictionary = new Dictionary<string, GameObject>();
     private string currentPanelName;
+    CircleTransition transition;
     
     [Header("Talk UI")]
     [SerializeField] private TMP_Text nameTxt;
@@ -31,6 +33,8 @@ public class UIManager : MonoBehaviour
     private List<string> talks = new List<string>();
     private bool isDone;
 
+    private PlayerCTRL player;
+
     
     //Get&Set
     public string Name { get => name; set => name = value; }
@@ -39,6 +43,8 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+        DontDestroyOnLoad(this.gameObject);
+        
         GameObject[] UIPanels = GameObject.FindGameObjectsWithTag("UIPanel");
         for(int i = 0; i < UIPanels.Length; i++)
         {
@@ -46,6 +52,12 @@ public class UIManager : MonoBehaviour
             Debug.Log(UIPanels[i].name);
         }
             
+    }
+
+    private void Awake()
+    {
+        transition = FindObjectOfType<CircleTransition>();
+        
     }
 
     private void Update()
@@ -70,62 +82,93 @@ public class UIManager : MonoBehaviour
         }
     }
 
-
-    public void setNameNTalk(string name, List<string> talks)
+    
+    //Print name and talk lines in UI. 
+    public void setNameNTalk(string name, List<string> talks, bool isChoice)
     {
-        nameTxt.text = name;
+        this.Name = name; // Store the name
+        this.Talks = talks; // Store the talk lines
+        this.MaxTalk = talks.Count - 1; // Set the maximum talk index
 
-        for (int i = 0; i < talks.Count; i++)
-        {
-            StartCoroutine(PrintTextOneByOne(talks[i]));
-        }
-    }
-
-    public void nextLine()
-    {
-        if (!isDone)
-        {
-            if (talkTxt.isTextOverflowing && talkTxt.textInfo.pageCount > talkTxt.pageToDisplay )
-            {
-                talkTxt.pageToDisplay++;
-            }
-            else if (talkTxt.textInfo.pageCount == talkTxt.pageToDisplay)
-            {
-                talkTxt.pageToDisplay = 1;
-            }
-            else if (!talkTxt.isTextOverflowing)
-            {
-                if (currentTalk > maxTalk)
-                {
-                    currentTalk = 0;
-                    if (currentPage > maxPage)
-                    {
-                        currentPage = 0;
-                        isDone = true;
-                    }
-                    else
-                        currentPage++;
-                }
-                else
-                    currentTalk++;
-            }
-        }
+        // Set the initial line of the conversation
+        currentTalk = 0;
+        nameTxt.text = name; // Display the name
+        if(!isChoice)
+            StartCoroutine(PrintTextOneByOne(talks[currentTalk]));
         else
         {
-            isDone = false;
-            setActivePanelWName(currentPanelName, false);
+            
         }
     }
 
+
+    
+    //Void for button on talk panel. It will show next line if available, 
+    //Will show next page if overflows,
+    //and next Will end Talk when end of conversation.
+    public void nextLine()
+    {
+        // If text is still printing, skip to the full text immediately
+        if (!isDone && talkTxt.text != Talks[currentTalk])
+        {
+            StopAllCoroutines(); // Stop the ongoing printing coroutine
+            talkTxt.text = Talks[currentTalk]; // Show the full text
+            isDone = true; // Mark as done
+            return;
+        }
+
+        // Handle text overflow: Show the next page if available
+        if (talkTxt.isTextOverflowing && talkTxt.pageToDisplay < talkTxt.textInfo.pageCount)
+        {
+            talkTxt.pageToDisplay++; // Move to the next page
+            return;
+        }
+
+        // If no more pages, move to the next line
+        if (talkTxt.pageToDisplay == talkTxt.textInfo.pageCount)
+        {
+            talkTxt.pageToDisplay = 1; // Reset page display
+
+            if (currentTalk < MaxTalk)
+            {
+                currentTalk++; // Go to the next talk line
+                StartCoroutine(PrintTextOneByOne(Talks[currentTalk]));
+            }
+            else
+            {
+                // If no more lines, end the talk
+                EndTalk();
+            }
+        }
+    }
+    
+    private void EndTalk()
+    {
+        currentTalk = 0; // Reset current talk
+        talkTxt.pageToDisplay = 1; // Reset page display
+        setActivePanelWName(currentPanelName, false); // Deactivate the current panel
+        Debug.Log("Talk ended."); // Optional debug log
+        player = FindObjectOfType<PlayerCTRL>();
+        player.isInteracting = false;
+    }
+
+
+    
+    //Void that prints word one by one.
     IEnumerator PrintTextOneByOne(string line)
     {
         talkTxt.text = ""; // Clear the current text
-        for (int i = 0; i < line.Length; i++)
+        isDone = false; // Mark as not done
+
+        foreach (char c in line)
         {
-            talkTxt.text += line[i]; // Add one character at a time
+            talkTxt.text += c; // Add one character at a time
             yield return new WaitForSeconds(delay); // Wait before adding the next character
         }
+
+        isDone = true; // Mark as done
     }
+
 
     
     //Get UI GameObj that has same name
@@ -148,6 +191,27 @@ public class UIManager : MonoBehaviour
         currentPanelName = name;
         GameObject panel = GetKeyByValue(name);
         panel.SetActive(active);
+    }
+    
+    
+    //Detects SceneLoading
+    void OnEnable()
+    {
+        // Subscribe to the sceneLoaded event
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+    
+    void OnDisable()
+    {
+        // Unsubscribe to avoid memory leaks
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    // Callback method triggered when a new scene is loaded
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        //Debug.Log($"Scene changed to: {scene.name}");
+        transition.StartExpand();
     }
     
 }

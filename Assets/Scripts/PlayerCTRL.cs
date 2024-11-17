@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,6 +10,7 @@ public class PlayerCTRL : MonoBehaviour
     Rigidbody2D rb;
     Interactables interactables;
     CircleTransition circleTransition;
+    TalkDatas talkDatas;
     
     
     [SerializeField] Animator animator;
@@ -19,6 +21,7 @@ public class PlayerCTRL : MonoBehaviour
     Dictionary<float, Drink> currentDrink = new Dictionary<float, Drink>();
     
     //Movement
+    [Header("Movement")]
     Vector2 movement;
     [SerializeField] private float walkSpeed = 2.0f;
     [SerializeField] private float runSpeed = 3.0f;
@@ -36,7 +39,7 @@ public class PlayerCTRL : MonoBehaviour
     {
         drinkManager = FindObjectOfType<DrinkManager>();
         rb = GetComponent<Rigidbody2D>();
-        interactables = FindObjectOfType<Interactables>();
+        talkDatas = FindObjectOfType<TalkDatas>();
         circleTransition = FindObjectOfType<CircleTransition>();
     }
     void FixedUpdate()
@@ -79,9 +82,10 @@ public class PlayerCTRL : MonoBehaviour
         {
             if (canInteract)
             {
+                interactables = FindObjectOfType<Interactables>();
                 //Interacting with Interactable Objs
                 isInteracting = true;
-                if (interactables.GetInteractable(interactObjId) != null)
+                if (interactables != null)
                 {
                     if (uiManager == null)
                     {
@@ -95,6 +99,23 @@ public class PlayerCTRL : MonoBehaviour
                         circleTransition.StartShrink();
                         interactObj = null;
                         isInteracting = false;
+                        LoadSceneWithDelay("Tavern", 1f);
+                        
+                    }
+
+                    if (interactables.GetInteractableType(interactObjId) == InteractableType.Sign)
+                    {
+                        uiManager.setActivePanelWName("talkui", true);
+                        Interactable temp = null;
+                        foreach (Interactable interobj in interactables.interactables)
+                        {
+                            if (interobj.Id == interactObjId)
+                            {
+                                temp = interobj;
+                            }
+                        }
+                        if(temp != null)
+                            uiManager.setNameNTalk("나", temp.InteractLines, true);
                     }
                 }
                 
@@ -106,7 +127,10 @@ public class PlayerCTRL : MonoBehaviour
                     {
                         uiManager = FindObjectOfType<UIManager>();
                     }
+                    Debug.Log("Test NPC");
                     uiManager.setActivePanelWName("talkui", true);
+                    TalkData temp = talkDatas.getTalkDataById(npc.talkDataIds[0]);
+                    uiManager.setNameNTalk(npc.npcName, temp.Lines, false);
                 }
             }
         }
@@ -207,6 +231,19 @@ public class PlayerCTRL : MonoBehaviour
     
 
     #endregion
+    
+    
+    
+    public void LoadSceneWithDelay(string name, float time)
+    {
+        StartCoroutine(LoadSceneAfterDelay(name, time));
+    }
+
+    private IEnumerator LoadSceneAfterDelay(string name, float time)
+    {
+        yield return new WaitForSeconds(time); // Wait for the specified delay
+        SceneManager.LoadScene(name); // Load the scene
+    }
 
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -215,7 +252,8 @@ public class PlayerCTRL : MonoBehaviour
         {
             canInteract = true;
             interactObj = collision.gameObject;
-            interactObjId = collision.gameObject.GetComponent<InteractData>().interactId;
+            if(collision.gameObject.GetComponent<InteractData>() != null)
+                interactObjId = collision.gameObject.GetComponent<InteractData>().interactId;
         }
     }
 
@@ -225,7 +263,8 @@ public class PlayerCTRL : MonoBehaviour
         {
             canInteract = false;
             interactObj = null;
-            interactObjId = 0;
+            if(other.gameObject.GetComponent<InteractData>() != null)
+                interactObjId = 0;
         }
     }
 }
