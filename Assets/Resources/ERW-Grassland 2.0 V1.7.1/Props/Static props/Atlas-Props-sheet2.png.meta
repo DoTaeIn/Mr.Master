@@ -3,7 +3,7 @@ guid: 19deb5ad76d540d45976798fd1abd6d3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -42,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,11 +116,6690 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_0
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2542
+        width: 262
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748e1f54ccc3644c5b91e47915fc0c9a
+      internalID: -233637609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 2537
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5217f758a394fb8b8f42ca30cdb9a6
+      internalID: -695801131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2537
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff450d1ae97764eb98bad10450c94c33
+      internalID: 1513480197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_3
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 2535
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d681e37c1a26845218bd174a49b1af49
+      internalID: 863250017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_4
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 2541
+        width: 449
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1baff36442d448ab6683125033292a
+      internalID: 1216793767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_5
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 2469
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba633803858f46f7ac1a3f92f6143a4
+      internalID: 684659360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_6
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2470
+        width: 90
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78da83a26fbd4f0db5afeb51b4f6945
+      internalID: -1666108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2502
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cf6495d1c4443bb87dbd07a45dc723
+      internalID: -1885754101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_8
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2505
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3d257fb8d0c43a0bdbc7dd59b94580
+      internalID: 259501303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2505
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb08d4c1efd64bddb07f2855e047265
+      internalID: -1736607097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_10
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 2504
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c898c7fc6474160bc52d46c6540759
+      internalID: -1195934737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2504
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab804ed87c95b46f8b58e2a14093426d
+      internalID: 522306801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_12
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 2504
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389da170341604b48888c96666acbec9
+      internalID: 519506826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_13
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2502
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b909fefbfc9d43dbbc00c3958c686d1
+      internalID: -1655216181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_14
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2502
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7727d96633a994c87bfa9280006dea20
+      internalID: -1952976221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_15
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2499
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea334e74d177a432c9243ad461d98d6a
+      internalID: 295864993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_16
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 2502
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d49a12373d954925b63d6b4458ebb9c
+      internalID: 723372962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_17
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2501
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c984494ee92de49019f43226e333f2af
+      internalID: -960672223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_18
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 2505
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fae50f2859b34f2191c3dd933d54230
+      internalID: 32572608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_19
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 2501
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a90bb38642540f0b856931154c689d
+      internalID: -2059981818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_20
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2501
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a3fac13e1cf47a68d52af057e1eb77
+      internalID: 57000061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_21
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2502
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e94f31ce38584142b30c699ad9c87bf
+      internalID: -1000556790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_22
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2502
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0e031cda33a42338ac1858a710a67b
+      internalID: -653923793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_23
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 2504
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f2ba1d65b3447199734567d5f73d1d
+      internalID: 1516347869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_24
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 2504
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d00c00605e374dba9d2716164c47659
+      internalID: 977910375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2404
+        width: 12
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fd8b346633e4403925a473253aa90b
+      internalID: -157768310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_26
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2404
+        width: 12
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8fc2863f39f4863a399012bde2c5cb
+      internalID: -1471692738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2404
+        width: 12
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d54e65f19d94d4b8727d10487aec55
+      internalID: -366333238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2404
+        width: 13
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853ed2cab159b462a93220d24aaeb66b
+      internalID: 1086176861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_29
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2404
+        width: 11
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdf5055e8bca4e8ba261affdefde601
+      internalID: -691910861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2471
+        width: 62
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b524b03ca529246f3b99a1fbd652a356
+      internalID: 1518612583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2472
+        width: 62
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bcf1d75e4da47fca9b077c7298ee7f
+      internalID: -1114735129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_32
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2472
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ade6b1949d74832ade09d2bf194c0f
+      internalID: 467689043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_33
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2472
+        width: 331
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bb85f17c644473ca105e688e03efc6
+      internalID: 1618451739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_34
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 2467
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d477b39d0f4540e39f99ebe61e8f49d
+      internalID: 1631509492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_35
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 2467
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fce88bd86f74a4b9ec57abec8575b3
+      internalID: 1300574218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_36
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2467
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3791c259cd9f844349e9d49be77945b0
+      internalID: 711309217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_37
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 2467
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a046e28d203d642569c470d45570c8fd
+      internalID: -1720413365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_38
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2467
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285a6adf22eec44268d0940302c5bf52
+      internalID: -1006167962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_39
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 2467
+        width: 62
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24662d0956c2a42f68d9911f0f8a6903
+      internalID: -1407676735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_40
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2467
+        width: 62
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dd2ca8a682440b8a5890bb427dcb67
+      internalID: -427047476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_41
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 2467
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df5c72308e874d59986a8203ad8ebcb
+      internalID: 229246448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_42
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2340
+        width: 10
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c20e8b8bbff346c095a3b45a2bacdeb
+      internalID: 286637405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_43
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2340
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2df34e294a3462f978f8619caf936d
+      internalID: -994165659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_44
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2340
+        width: 10
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc6cb07cc5604b64891d9e685d4bdf0
+      internalID: -272521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_45
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2340
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c6dcbedaedf4973abfc2368bfab904
+      internalID: -30432758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2340
+        width: 10
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c198306fef3d4cbb860d332254f1fa3
+      internalID: 1525333461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_47
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2367
+        width: 22
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffd1e961d12a40288cda9a0e979a6a9
+      internalID: -1359572894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_48
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2369
+        width: 22
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dd71c5f58e34fb690d1751320a4657
+      internalID: 729181671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_49
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2367
+        width: 23
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c560152d9945848599a5535d3cf3e0af
+      internalID: 684710731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_50
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2369
+        width: 21
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c1270e4492e4deb97c1589c60c9847
+      internalID: 642056639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_51
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 2367
+        width: 22
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70281c19a33804e28bb179f74928dbfa
+      internalID: -1452974779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_52
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2369
+        width: 22
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9233e18797b432aaea7564b0b4699d
+      internalID: -520066195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_53
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 2367
+        width: 23
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4ca9f5563b74c59882e65a664dcea2
+      internalID: 1968716759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_54
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2369
+        width: 22
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7932efb6df74f47b35f34161ac8116
+      internalID: 148754601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_55
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2367
+        width: 23
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaee074f7433443ba1526c5db243309
+      internalID: -634215593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_56
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2369
+        width: 21
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387ac778ac3ae479c8b82e06680308a7
+      internalID: -1893378489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_57
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2367
+        width: 22
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf0f60770ece4aa9b9e2e1b02750115
+      internalID: -945271464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_58
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2369
+        width: 22
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38091abf1e0ef41a682234d74093eef9
+      internalID: 170777580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_59
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2367
+        width: 23
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4d01e2c2f674fdeb97491a2c977eb2
+      internalID: -355905926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_60
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 2369
+        width: 21
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f780e3838ab54c7e900eceb2cefed89
+      internalID: -800316105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_61
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2367
+        width: 22
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b2c79a36cc64c0aa3c1396458f8042
+      internalID: 1231423648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_62
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 2369
+        width: 22
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff79832d4d594c7881ed0959a2bb668
+      internalID: -1325259533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_63
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 2367
+        width: 22
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c9113902f304f4d9756bcae33f0223
+      internalID: -2024736446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_64
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 2369
+        width: 22
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1154c2c514dfc42d6be8323457674df3
+      internalID: -1217639577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_65
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2367
+        width: 23
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeee566af4ecb49c09820be4f42fab2f
+      internalID: 1464524894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_66
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2369
+        width: 21
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f01073a5f8b54f9489d13feb670c273
+      internalID: -512006718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_67
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2367
+        width: 22
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b26b8e9c8d447c8baf2eb3882bd25e
+      internalID: 724047447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_68
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 2369
+        width: 22
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b2f1e6c58a14f0481fb658699fd3a3
+      internalID: 488645848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_69
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2367
+        width: 23
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9eef5a19a02f422eb9e9af4e435b228
+      internalID: 910725778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_70
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 2369
+        width: 22
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33c646a5a8a04eff9526e0500e87bf9
+      internalID: -1529192702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_71
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2369
+        width: 238
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becc07a248ee34b93824842f64f619e0
+      internalID: -534132038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_72
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 2372
+        width: 89
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f1d695d0844056b197d3a07cdcb8f
+      internalID: -305607637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_73
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 2372
+        width: 90
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ff23ef7f1124a70b788afc4b495cea
+      internalID: -106101041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_74
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2276
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dafdf3664754d809ea79f4f89b9f24
+      internalID: -1462835517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2276
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bbe472c1e4b419f8ba246268275b11
+      internalID: 1074308411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_76
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2276
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585d717f7b7a143e1bd786244688d71c
+      internalID: 2054111591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_77
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2276
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357e7bda0e8224dfbbab9e339c6b68f8
+      internalID: -61234727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_78
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2276
+        width: 13
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ce54999390740a4990e2e06c6081e1
+      internalID: 904148541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2271
+        width: 31
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69f078362d89460caeae2d617de6fa9
+      internalID: 771180681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_80
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2271
+        width: 23
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61556bccf96614ef18c6a32f3b7659c8
+      internalID: 1187507631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_81
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2271
+        width: 26
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4c00e312513429f827587c671bac8c
+      internalID: -178186406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_82
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2271
+        width: 24
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cf65b079099436389a83f3a4897a00
+      internalID: 219024638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_83
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 2271
+        width: 22
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189c42e22afaa4578b83d33dfd556442
+      internalID: -497535680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_84
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2272
+        width: 28
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2481c8012409644d4aaa961e9eadf4b0
+      internalID: 213578757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_85
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 2271
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e71ddac2df7b486ca2ea46b9ac75998
+      internalID: 248289520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_86
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2272
+        width: 22
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0acfbc8f787440d6ae257a3dfc3498a
+      internalID: 1694190949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_87
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2271
+        width: 22
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a56594b134b4af4baff840af38429e
+      internalID: -897468465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_88
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2271
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4c0435c2eb347559007ec5a52685f1
+      internalID: -294062255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_89
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2272
+        width: 24
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094aa2d4094b8448189272a6be6df0bc
+      internalID: 142834470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_90
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2271
+        width: 29
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94d6c1f7c8ee46c897af5a99a5f0da9
+      internalID: 1215714191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_91
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2271
+        width: 30
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0aae929a32c4cb7917e7a9a9833f1c
+      internalID: 865878283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_92
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 2271
+        width: 24
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f997b3200cc6545af9371010eb228091
+      internalID: 203224246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_93
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2271
+        width: 27
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ff3a3cf98e94c4e96e767249906d62
+      internalID: 1678334286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_94
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2271
+        width: 24
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb38037fb28be45eaa6d3bf212fe221b
+      internalID: 457118342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_95
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 2271
+        width: 22
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2417b9b2fc24d46a73a9683f8efec2
+      internalID: 142471769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_96
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2271
+        width: 56
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2def511bb95e9493482af28616604bd0
+      internalID: -856079164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_97
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2272
+        width: 22
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c6fed6179b484b998fe0948df4e73
+      internalID: -410569341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_98
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2271
+        width: 23
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3c2c7818d774b7a91f70bb817752d1
+      internalID: 1697709899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_99
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2271
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9504fb27a5a45318b1f4bed3c0ced9
+      internalID: -778683426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_100
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2272
+        width: 24
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b24110a0d955472d9aab79442f45ecd
+      internalID: -842542358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_101
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 2271
+        width: 28
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad598b570bfd41ca8ba1b8ad0149315
+      internalID: 1196316623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_102
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2271
+        width: 238
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1826bbe05af894ff0ab05614c98c4810
+      internalID: -1078352748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_103
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 2277
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6060db33243164103bf347b47664043d
+      internalID: -782996604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_104
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 2277
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daca77e629c9c49efaea1eb1e0d7b4be
+      internalID: -1200106882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_105
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1994
+        width: 335
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4744e4f4ecc684cd0bb54a1ee2ac8a46
+      internalID: 1738242884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_106
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2002
+        width: 301
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e25301d186b4911b6e44f778cb5e46
+      internalID: 2142785425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_107
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 2031
+        width: 300
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0008e465a7b94518807d3cfd13b1037
+      internalID: 1785640302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_108
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 2244
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9d96f02b8eb408689cc6fb91f83831
+      internalID: -323848665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_109
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 2227
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c172880fbcf82479b87218f462ee1d75
+      internalID: 728069014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_110
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 2212
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b1e15a9fbd748c0bb8da9e83a72c11
+      internalID: 1754362802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_111
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2062
+        width: 138
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981739e3e1a6f4e1b805f0bb917f3782
+      internalID: 373999629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_112
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 2062
+        width: 138
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223a4edf9c26846b3bdf9a91c199222d
+      internalID: 818838152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_113
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 2180
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05191db85608d4dabbb9445cac98f4b1
+      internalID: -335974520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_114
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 2131
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3517ec5d2d94a9abc8df16fcb07169
+      internalID: -514980070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_115
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 2054
+        width: 10
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6aeb87832db437e8e9caffc117f4c6
+      internalID: -1376287552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_116
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1706
+        width: 335
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc3ccb4bcff54ea1ba7af085bd70f74
+      internalID: -633820004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_117
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1714
+        width: 301
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6876ae45f6c4d40afe3b42dd8dde5c
+      internalID: 253929470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_118
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1742
+        width: 300
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60b5fd27fdeb49b58d9c823cad8f3ea
+      internalID: 233250350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_119
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1902
+        width: 138
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81894bd80752547f39bb7dd7905d2d6d
+      internalID: -1082838410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_120
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1902
+        width: 138
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8074e6a0bafed4dc5af20c745cc7a63c
+      internalID: -552424161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_121
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1839
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1195f03188c641328cbdcf4bcd34266
+      internalID: 887083033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_122
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1837
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c5c3df3100342c98a388751db7de97
+      internalID: 1027188071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_123
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1836
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171611be7ee72457c83720f54e53bd0d
+      internalID: -9921054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_124
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1841
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d0bc619298e46dfb585d15d56c6b89
+      internalID: -947145200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_125
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1750
+        width: 228
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35b3f958cd8d402f8880b27620a0f02
+      internalID: -354769767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_126
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1792
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504857bfc1c434a4590c2b278b4d9ac7
+      internalID: -1198250620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_127
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1795
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1a1ebbf409741e4a7cdee0119d1626
+      internalID: -909935689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_128
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1800
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b050be0e09d52432daecdffa282d44dc
+      internalID: 703543716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_129
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1739
+        width: 90
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cf504a030094f7daefc4e671f5faa2
+      internalID: 1977129735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_130
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1549
+        width: 145
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed0a32609d074a2996fa1812e9ac473
+      internalID: -199736612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_131
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1546
+        width: 138
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ca663b213e34bbe8268e2b8904295f
+      internalID: -68826528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_132
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1546
+        width: 138
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d213a709e14f10869d9118e341310
+      internalID: -1743394742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_133
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1546
+        width: 137
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d0e48dc8ea247dfa58a1dc3a26656f
+      internalID: -1777947307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_134
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1572
+        width: 180
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee9482612b7f4833b34e1c8eeef9af2
+      internalID: -387994530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_135
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1473
+        width: 257
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36ebbbe7571f472d92f0d0657a7b17a
+      internalID: -1509573547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_136
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1602
+        width: 46
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba99bad919e1447cb711c793f91a2be
+      internalID: -1397388850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_137
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1602
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7943558a1e2f24d8a81409f4b5dc6453
+      internalID: -479664269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_138
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1638
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8866913aafcf4da1b93558d1b1c5a2e
+      internalID: 1539405221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_139
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1639
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f407b4ce919a94924a4460c33fb30dd1
+      internalID: 2910221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_140
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1541
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9682b5999c6743e4ae778aaf302ae72
+      internalID: 720482257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_141
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1554
+        width: 69
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00a06a6fff4548ffb01eaf900f83cd2
+      internalID: 1089638595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_142
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1567
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f4b6e05ac0e47179a1142db553b2ed
+      internalID: 612069179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_143
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1447
+        width: 52
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a661a64f8854acba38413678a6d57c
+      internalID: -15942219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_144
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1466
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0b6daa0a6d24eb29cef246ee6d7dbc
+      internalID: 1329701828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_145
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1450
+        width: 48
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d8b9df5ec1340c386c448f9a1ac31d
+      internalID: -843448737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_146
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1539
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b04420271a9942a2a237dba2a567246
+      internalID: 1362807695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_147
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1539
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c69dbf97bb645a18c81451a35f427b
+      internalID: -1125784510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_148
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1386
+        width: 138
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba95ce2a4909a4f3c850b1db3451a7dc
+      internalID: 961771796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_149
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1386
+        width: 138
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124d4cc1443bb406b862dac86db48621
+      internalID: 329992720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_150
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1509
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ab8b93a38d74f059cac4553ce21ab2
+      internalID: 2141451697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_151
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1509
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628074b896b0f4ea384a169049b95cda
+      internalID: -191941780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_152
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1509
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fc6454d3ff54842b10f89c89f27ed7
+      internalID: 674006041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_153
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1382
+        width: 146
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d992400f136345f9a36614c572e3419
+      internalID: -1386804196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_154
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1386
+        width: 137
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ff136b320214521b922e311bd0f2e2
+      internalID: -1067773949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_155
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1478
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890b76df6236f453d86258879ad51f70
+      internalID: 1033345830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_156
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1480
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5104f4f062464440b9291c472888360
+      internalID: -190287680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_157
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1479
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace6e506034f14897837f3668121c38c
+      internalID: -212192911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_158
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1484
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ef1b278bfae4ec783b727d8e4de529
+      internalID: 367004327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_159
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1478
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028cfbcb1e52c49019e5144876b1b094
+      internalID: -1185234997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_160
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1377
+        width: 123
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e429e5b3dbcd84f99a2aca2af070f111
+      internalID: -1345635423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_161
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1407
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5fc38681f52492688e6b9e0fb5f66d
+      internalID: 1142890998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_162
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1361
+        width: 67
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292a56223d4f742c19d504d069307fa4
+      internalID: 2061742450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_163
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1363
+        width: 74
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c54fb4f57b884f8bb436d7b63a4a0a8
+      internalID: -83458380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_164
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1375
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b79f431a3deb43679646dbb2c9c372b
+      internalID: -1057163042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_165
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1318
+        width: 100
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82788ac5e0ed84436a4c0aac9e77c052
+      internalID: -1589137375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_166
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1345
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f35ed725a18944d892fb97a026c2f5c
+      internalID: -1266802176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_167
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1314
+        width: 122
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e670b7017e343f890967078d8024c2
+      internalID: -1935978988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_168
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1348
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a338fe835e948fcb80785b6fff7018
+      internalID: 1855156733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_169
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1376
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fd0cd32d68248449f33e955fe2a1aa
+      internalID: 528454583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_170
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1318
+        width: 15
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb76bc2d459b488bb3dc36b7bdc1b1b
+      internalID: -1844064171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_171
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1350
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74969b2964d504b1e971d5a7d926f94f
+      internalID: -719590042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_172
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1344
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543c9ebc9f1044c398f6009b58087c8d
+      internalID: 1016173272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_173
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1344
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57ee2b03fcb546b585664e4db173de8
+      internalID: -2088727716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_174
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1361
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe290d89db2074a199fec42c7d34fe71
+      internalID: -904934204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_175
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1318
+        width: 11
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdde1ad94686490d83daab05b4e0fdb
+      internalID: -2131263341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_176
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1152
+        width: 130
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258e857743de24a938115e9a0d2a558c
+      internalID: -1775569391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_177
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1281
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7f921cc26834979bb3a0ee9e8e46f1
+      internalID: 498669621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_178
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1217
+        width: 27
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dcc56c89206414cbe92f3adca32b2b
+      internalID: 789566811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_179
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1217
+        width: 29
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc589797116442a79dba9f4288506fa
+      internalID: -2121581199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_180
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1281
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ba67b968d9a4c768595b231901b665
+      internalID: 114769887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_181
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1084
+        width: 169
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788bbc5e8c9204165b2a41153fec8ee0
+      internalID: -92865111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_182
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1284
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85e4f9ff322c46cd9e564d19c0c1e9c
+      internalID: 605849473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_183
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1284
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9a3430f19c34bea8f71ba9c2a3b504
+      internalID: 751903100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_184
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1231
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef165e11d65f64fdebbdf218039c99d8
+      internalID: -1536301619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_185
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1117
+        width: 27
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277859e911134498aadff24b3465041f
+      internalID: 1921186930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_186
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1116
+        width: 22
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879331436215e4aaa8f51d9d749f6dd6
+      internalID: -885913861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_187
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1121
+        width: 98
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1dc5c888d624c78911e20134fe0324
+      internalID: 752696382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_188
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1120
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b595f1f4f18042c48abf660b59a5fee
+      internalID: 178522453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_189
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1121
+        width: 43
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa3c4d89a7db46e78de3e6f54e0a962
+      internalID: -1929721389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_190
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1081
+        width: 52
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312096146d4034ae39e560b688519a16
+      internalID: -114867282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_191
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1080
+        width: 48
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c6fe675361c4401ae7d19066042cf0
+      internalID: 1144808022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_192
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1247
+        width: 7
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b7de0cf635c44c6ad6a921e4631dcc
+      internalID: -201897225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_193
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1222
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b881095e3bc494496a1f4d7eea940182
+      internalID: -418582260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_194
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1219
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd162ad0ea444bcead1e8029675be69
+      internalID: -494086365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_195
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1222
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa42ff350d62f4fb598d060ba7810c30
+      internalID: 1558030377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_196
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1219
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcedcdd236134daa934f8e755be54e7
+      internalID: -1098953558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_197
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1082
+        width: 11
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7503e77d3959c4fefb3fc45db7fc5532
+      internalID: -329071744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_198
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1082
+        width: 10
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb61b8b198de4bec93715ed0fad826b
+      internalID: 2008643910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_199
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1189
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875336cd428544e4783b3b160b913a0a
+      internalID: 2040851263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_200
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 976
+        width: 260
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb6e046b3e8347049f677d470d6cbf5
+      internalID: -1748289593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_201
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1189
+        width: 63
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92897cd75341949e8bb4e1a280d57c11
+      internalID: -1137290576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_202
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1057
+        width: 27
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d755462e0ab450eaf4886690b3efb4
+      internalID: 1257523045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_203
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1057
+        width: 29
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c246d718fd619448587f009cf88a498e
+      internalID: 837148181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_204
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1125
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70af87b14fc1a4241a3b0284db0e809e
+      internalID: 764274151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_205
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1046
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745cf1b1f6081486d89d37e56e0e12ff
+      internalID: 1807484211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_206
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1047
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab688785e5db47ae9e2eb23e6f76d20
+      internalID: 1190250289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_207
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1047
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c09d4b385110485bbb0a81e0499057c
+      internalID: -1457836190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_208
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1047
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5190b588c87d448839eea4cfa027b469
+      internalID: 1750802024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_209
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1072
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c81478aafc3c40a9bab4db31f6823b3
+      internalID: 145947326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_210
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1079
+        width: 97
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204dc81c18f8248b389fc87746af0519
+      internalID: -1173276600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_211
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1079
+        width: 108
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e9e9f4777cf4ea5a1b79976a769249
+      internalID: 624627904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_212
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1057
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd5f7a7bfec54bac91285be20dbe43a
+      internalID: 905032580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_213
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1057
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67058952bae2c4d07b439f3c0629411d
+      internalID: 1165886286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_214
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1062
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483c8bc5b8353400dbcdcefca9358f11
+      internalID: -1486037716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_215
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1060
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaa0181478204863a3eae1780918fe1
+      internalID: 94536288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_216
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 959
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc58dd54dc814541b237fa0951b3053
+      internalID: 1529039299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_217
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1047
+        width: 201
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5864879beace94aa488cbf1d55767491
+      internalID: 39827758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_218
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1022
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bef06990aef47eb927fd17e7bd4cdc
+      internalID: 1872415298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_219
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1025
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2350edde33a364b40a0400b9ffcc8ac6
+      internalID: 1007143422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_220
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1036
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fa2e4409f174f5cbe6c5a9d9af759b
+      internalID: 1235153064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_221
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 991
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566743c327e2c4b56941d58487a6e60d
+      internalID: 933594837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_222
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 895
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd83ce55a5024101a1877365bf72e38
+      internalID: 1198318460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_223
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 927
+        width: 72
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0935175bb097c4c46b50661f50ea54fa
+      internalID: -71853808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_224
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1012
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2140e863b9a064007b7bcd7f1acf07bf
+      internalID: -2019013213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_225
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1012
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ab6ca71fdb642dea6f50202063af14
+      internalID: -387640169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_226
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 961
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aeeb888ba994a8990a0516b8644b66
+      internalID: 1446969567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_227
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1000
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f11dbbc7e5e42258abf6643543695f
+      internalID: -679516677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_228
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1001
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d303cbd2f24064867868d0b41c36aa6a
+      internalID: 50615076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_229
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 876
+        width: 85
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610e0d3e2b2f24a53b46d10cf43dc62b
+      internalID: -973959668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_230
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 869
+        width: 60
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc156646bb5647f9883146c247e8819
+      internalID: -1748257802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_231
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 930
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3f4366aa19544248d711a3c3cb57d4
+      internalID: -2046414927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_232
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 912
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccd12258fd754bf7815b9419d3c9eb1
+      internalID: 1212642659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_233
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 870
+        width: 23
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4ccb57352914ae49a957dc343f15ba
+      internalID: 48491721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_234
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 756
+        width: 253
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9c9cded093c48c1afee635712955fb
+      internalID: -367530609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_235
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 865
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff6544a6ba6540d992736ed3cc33c94
+      internalID: 1847608643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_236
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 835
+        width: 81
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22572512e999a4ee6a92e2f16c1513d4
+      internalID: 1691632396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_237
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 857
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e498f6915b23041d7847259b1d53ffd4
+      internalID: 553369393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_238
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 802
+        width: 7
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d160fec1dddf40bcbd2305a4bc3cdf4
+      internalID: -576741177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_239
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 854
+        width: 150
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be98458ce700a4be781af99a48d3a9bc
+      internalID: 202112406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_240
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 673
+        width: 161
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807b9c02ecf164791bbfaf9b5ab6169a
+      internalID: 843802742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_241
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 790
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d512f88e4358488aacae2089097eb52
+      internalID: 894463791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_242
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 790
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476d59bfd56d24f8eb846326eb68f640
+      internalID: 767315105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_243
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 703
+        width: 25
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a36dd137222474caf2152c41855a65
+      internalID: -1231698919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_244
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 703
+        width: 18
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dc240913c3f45a2984733634ca88f9
+      internalID: -749200623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_245
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 707
+        width: 99
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b997ebbc3f40544aeba5404bca386828
+      internalID: 1109106614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_246
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 707
+        width: 107
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7baaf12a17d7144fca4f79f18a07663d
+      internalID: -1851183890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_247
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 707
+        width: 44
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee70e3782ad74d1a9c8fb15b483f587
+      internalID: 828637890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_248
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 704
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf98db16989e4bf79c253f870091c53
+      internalID: 128600851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_249
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 705
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d1c56cf235949a4ba54e7520ed1623
+      internalID: -124428273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_250
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 557
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe030e93a88a4948b77c6cb8438bc4b
+      internalID: -526480447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_251
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 530
+        width: 143
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31c31a376b9042a0b1721986b86b22c
+      internalID: -182410523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_252
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 530
+        width: 141
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a564851156b0405da02a2f923bda760
+      internalID: -1933402869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_253
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 640
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8739787d9528e49c0aa9c0c2a61217b5
+      internalID: 564967267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_254
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 642
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc29900d46afb42919ca169d5047330b
+      internalID: -548471331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_255
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 642
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a290f1a18d9145d1aba22476e1de5b5
+      internalID: -891851897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_256
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 642
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719b95e0d4c7942b68b63b20990eb2cb
+      internalID: 309618065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_257
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 641
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0510dad6cb64d75aa28d42be89f201
+      internalID: 1414802753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_258
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 617
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dcd69971d5e4fe1807f8909ef91a93
+      internalID: 1325154271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_259
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 614
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89103f980e8fc4ee992ae4467739ac4f
+      internalID: 1064070554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_260
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 467
+        width: 240
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b8928c40d764807894013360d26dd5
+      internalID: 733492433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_261
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 542
+        width: 130
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e48000de89bb4b5eb5c1f2134e8d9de
+      internalID: -1474380660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_262
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 577
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe61bf6ce83e84bc0bec972685afedcc
+      internalID: 1729503229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_263
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 581
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f58178d48f3f456e9141ea947de03a5
+      internalID: 50195388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_264
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 580
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc1878822bba4edc83954c3eccee7ab
+      internalID: -105708185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_265
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 586
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042b9c7fbdc4046419730aa1b386fc85
+      internalID: -1980233395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_266
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 584
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f72c19799ee94bb197e71973ad7f9df
+      internalID: 8516353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_267
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 581
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d459aff4aafc5478398a1f81cf3ee6b4
+      internalID: -978418536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_268
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 549
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd67876e4be144268e1e2436a07ee95
+      internalID: 867304958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_269
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 554
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26c876b8e5cc487b9133bb28fa8bdc0
+      internalID: 623820924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_270
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 514
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba7e8443557d40099681ac010e49074
+      internalID: 1222234464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_271
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 511
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186f48edf16bc46c9b3f896e727429dd
+      internalID: -1830445168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_272
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 511
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f52ea2d6ff2d4fc98a48271541dd289
+      internalID: 1863116062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_273
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 514
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b718510af4545a7aacf1b09c2999af
+      internalID: 1462307397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_274
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 520
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02608301347a46ae9f7a61a3b068150
+      internalID: 429799915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_275
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 520
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e8f052c861047aea0b0f72d05d376b
+      internalID: -1829144052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_276
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 487
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84043fa7e79b2492d849d8bf29455d93
+      internalID: 1192463653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_277
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 487
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4881fa51317ca407193f04b91eb91cfd
+      internalID: -15929981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_278
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 390
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5e757fea7964f0b993abcfd23051e8
+      internalID: -1975262687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_279
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 387
+        width: 166
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef250089667d48aa926aab71883121b
+      internalID: -1506928527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_280
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 389
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9ca98e08c0742f586ab0322f0ae659
+      internalID: -793677086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_281
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 391
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0604926df5d8c4064a76953751ca6362
+      internalID: -2100887490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_282
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 427
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df45bb842a6e4e08921fb803ffc1f29
+      internalID: -681877054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_283
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 289
+        width: 235
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6f56b1c78bc4d749e4e1358d8f4845
+      internalID: -2050647194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_284
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 417
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcae46bbc3b247a69b69e0834e47a10
+      internalID: 821172860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_285
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 420
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90200943339994bcf93002fabc389ea5
+      internalID: -1413582570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_286
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 417
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacef207dc0094f019c691514c261076
+      internalID: -652992462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_287
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 304
+        width: 211
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a136c2938f840f0ba0927bf864c5f9
+      internalID: 1589475916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_288
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 366
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bbd4b222cb9436caa411a7a72eb806
+      internalID: -571057384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_289
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 386
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757c2f71b508b484794a713cb1855ef4
+      internalID: -1267123040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_290
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 387
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3685b491ff404b50a9db6a620b102de
+      internalID: 1686307996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_291
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 385
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b3bf03c86854c25bdecbbc7fa39753
+      internalID: 1140519063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_292
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 302
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b91c72fdae3e43a393ff9ee80b4036e
+      internalID: -1412044630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_293
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 334
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f63526be5c45421b8b38e8751a7ee09
+      internalID: 922071175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_294
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 261
+        width: 64
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ada1bca44cba4212aafea5a4060bdeb
+      internalID: -2069823538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_295
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 262
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbbae5cdfbc749c0bb1cb7a3ca83fe5
+      internalID: 1109344929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_296
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 280
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49763da38be334710ae58a856cce133f
+      internalID: -1420996742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_297
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 225
+        width: 105
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abef4b167dea24b6cbc39a04856855ce
+      internalID: -1480062623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_298
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 192
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c887392f2734b7081b635a226fd9a5
+      internalID: -1433614599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_299
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 192
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dde8a6eabd9f447b9bba695127b0338
+      internalID: -892211346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_300
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 162
+        width: 45
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b27815f176b34f34913ba91b1983f3d
+      internalID: -183827276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_301
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 162
+        width: 45
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e37daa2a05c54efdb5869582609e8f1
+      internalID: 951817446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_302
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 232
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af500a6ded2054ed5b010be2becdc27d
+      internalID: 1611875422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_303
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 234
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0383635ed2cc4ed58f3317798084a0b
+      internalID: 1645324316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_304
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 197
+        width: 58
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9efdb8fc8d9458f8651db1801315c7
+      internalID: -465593154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_305
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 160
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1828d9ba1a04ba6befe24d0cb6db93
+      internalID: -124838518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_306
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 160
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fd22ed2546c48e7b135b3664159d5f
+      internalID: 1396408730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_307
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 40
+        width: 80
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ccadacba9014bb79aac776a11fe0c9
+      internalID: 1599273679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_308
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 40
+        width: 80
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7051eb7a0c7d54dc7ad6913b76ee6749
+      internalID: 622914687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_309
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 77
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fa64d6519e849debdbfa3067fdc690
+      internalID: 789062505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_310
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 102
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62251d6da795413e94716be5a2d5617
+      internalID: 1895117649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_311
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 132
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c17e8984b5234bc2ae08373704c3e33
+      internalID: -32113501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_312
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 46
+        width: 175
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55908d7107a9b4caba09dd71930d8560
+      internalID: 1755955319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_313
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 46
+        width: 211
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2a2fa6d0792404da851fd04a01c283
+      internalID: 736476928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_314
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 51
+        width: 23
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b119d885383b4b8e82a935511d29526
+      internalID: -643985257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_315
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 104
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eac420fb379b401a9ec0288cc908a08
+      internalID: -1615540706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_316
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 67
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9a6caa26f614ae18fce78d86060645
+      internalID: 1229360014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas-Props-sheet2_317
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 66
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fae1ff45cfe48eca2f76101d8f0cfc
+      internalID: 492598071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -125,10 +6810,327 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
-  spritePackingTag: 
+    nameFileIdTable:
+      Atlas-Props-sheet2_0: -233637609
+      Atlas-Props-sheet2_1: -695801131
+      Atlas-Props-sheet2_10: -1195934737
+      Atlas-Props-sheet2_100: -842542358
+      Atlas-Props-sheet2_101: 1196316623
+      Atlas-Props-sheet2_102: -1078352748
+      Atlas-Props-sheet2_103: -782996604
+      Atlas-Props-sheet2_104: -1200106882
+      Atlas-Props-sheet2_105: 1738242884
+      Atlas-Props-sheet2_106: 2142785425
+      Atlas-Props-sheet2_107: 1785640302
+      Atlas-Props-sheet2_108: -323848665
+      Atlas-Props-sheet2_109: 728069014
+      Atlas-Props-sheet2_11: 522306801
+      Atlas-Props-sheet2_110: 1754362802
+      Atlas-Props-sheet2_111: 373999629
+      Atlas-Props-sheet2_112: 818838152
+      Atlas-Props-sheet2_113: -335974520
+      Atlas-Props-sheet2_114: -514980070
+      Atlas-Props-sheet2_115: -1376287552
+      Atlas-Props-sheet2_116: -633820004
+      Atlas-Props-sheet2_117: 253929470
+      Atlas-Props-sheet2_118: 233250350
+      Atlas-Props-sheet2_119: -1082838410
+      Atlas-Props-sheet2_12: 519506826
+      Atlas-Props-sheet2_120: -552424161
+      Atlas-Props-sheet2_121: 887083033
+      Atlas-Props-sheet2_122: 1027188071
+      Atlas-Props-sheet2_123: -9921054
+      Atlas-Props-sheet2_124: -947145200
+      Atlas-Props-sheet2_125: -354769767
+      Atlas-Props-sheet2_126: -1198250620
+      Atlas-Props-sheet2_127: -909935689
+      Atlas-Props-sheet2_128: 703543716
+      Atlas-Props-sheet2_129: 1977129735
+      Atlas-Props-sheet2_13: -1655216181
+      Atlas-Props-sheet2_130: -199736612
+      Atlas-Props-sheet2_131: -68826528
+      Atlas-Props-sheet2_132: -1743394742
+      Atlas-Props-sheet2_133: -1777947307
+      Atlas-Props-sheet2_134: -387994530
+      Atlas-Props-sheet2_135: -1509573547
+      Atlas-Props-sheet2_136: -1397388850
+      Atlas-Props-sheet2_137: -479664269
+      Atlas-Props-sheet2_138: 1539405221
+      Atlas-Props-sheet2_139: 2910221
+      Atlas-Props-sheet2_14: -1952976221
+      Atlas-Props-sheet2_140: 720482257
+      Atlas-Props-sheet2_141: 1089638595
+      Atlas-Props-sheet2_142: 612069179
+      Atlas-Props-sheet2_143: -15942219
+      Atlas-Props-sheet2_144: 1329701828
+      Atlas-Props-sheet2_145: -843448737
+      Atlas-Props-sheet2_146: 1362807695
+      Atlas-Props-sheet2_147: -1125784510
+      Atlas-Props-sheet2_148: 961771796
+      Atlas-Props-sheet2_149: 329992720
+      Atlas-Props-sheet2_15: 295864993
+      Atlas-Props-sheet2_150: 2141451697
+      Atlas-Props-sheet2_151: -191941780
+      Atlas-Props-sheet2_152: 674006041
+      Atlas-Props-sheet2_153: -1386804196
+      Atlas-Props-sheet2_154: -1067773949
+      Atlas-Props-sheet2_155: 1033345830
+      Atlas-Props-sheet2_156: -190287680
+      Atlas-Props-sheet2_157: -212192911
+      Atlas-Props-sheet2_158: 367004327
+      Atlas-Props-sheet2_159: -1185234997
+      Atlas-Props-sheet2_16: 723372962
+      Atlas-Props-sheet2_160: -1345635423
+      Atlas-Props-sheet2_161: 1142890998
+      Atlas-Props-sheet2_162: 2061742450
+      Atlas-Props-sheet2_163: -83458380
+      Atlas-Props-sheet2_164: -1057163042
+      Atlas-Props-sheet2_165: -1589137375
+      Atlas-Props-sheet2_166: -1266802176
+      Atlas-Props-sheet2_167: -1935978988
+      Atlas-Props-sheet2_168: 1855156733
+      Atlas-Props-sheet2_169: 528454583
+      Atlas-Props-sheet2_17: -960672223
+      Atlas-Props-sheet2_170: -1844064171
+      Atlas-Props-sheet2_171: -719590042
+      Atlas-Props-sheet2_172: 1016173272
+      Atlas-Props-sheet2_173: -2088727716
+      Atlas-Props-sheet2_174: -904934204
+      Atlas-Props-sheet2_175: -2131263341
+      Atlas-Props-sheet2_176: -1775569391
+      Atlas-Props-sheet2_177: 498669621
+      Atlas-Props-sheet2_178: 789566811
+      Atlas-Props-sheet2_179: -2121581199
+      Atlas-Props-sheet2_18: 32572608
+      Atlas-Props-sheet2_180: 114769887
+      Atlas-Props-sheet2_181: -92865111
+      Atlas-Props-sheet2_182: 605849473
+      Atlas-Props-sheet2_183: 751903100
+      Atlas-Props-sheet2_184: -1536301619
+      Atlas-Props-sheet2_185: 1921186930
+      Atlas-Props-sheet2_186: -885913861
+      Atlas-Props-sheet2_187: 752696382
+      Atlas-Props-sheet2_188: 178522453
+      Atlas-Props-sheet2_189: -1929721389
+      Atlas-Props-sheet2_19: -2059981818
+      Atlas-Props-sheet2_190: -114867282
+      Atlas-Props-sheet2_191: 1144808022
+      Atlas-Props-sheet2_192: -201897225
+      Atlas-Props-sheet2_193: -418582260
+      Atlas-Props-sheet2_194: -494086365
+      Atlas-Props-sheet2_195: 1558030377
+      Atlas-Props-sheet2_196: -1098953558
+      Atlas-Props-sheet2_197: -329071744
+      Atlas-Props-sheet2_198: 2008643910
+      Atlas-Props-sheet2_199: 2040851263
+      Atlas-Props-sheet2_2: 1513480197
+      Atlas-Props-sheet2_20: 57000061
+      Atlas-Props-sheet2_200: -1748289593
+      Atlas-Props-sheet2_201: -1137290576
+      Atlas-Props-sheet2_202: 1257523045
+      Atlas-Props-sheet2_203: 837148181
+      Atlas-Props-sheet2_204: 764274151
+      Atlas-Props-sheet2_205: 1807484211
+      Atlas-Props-sheet2_206: 1190250289
+      Atlas-Props-sheet2_207: -1457836190
+      Atlas-Props-sheet2_208: 1750802024
+      Atlas-Props-sheet2_209: 145947326
+      Atlas-Props-sheet2_21: -1000556790
+      Atlas-Props-sheet2_210: -1173276600
+      Atlas-Props-sheet2_211: 624627904
+      Atlas-Props-sheet2_212: 905032580
+      Atlas-Props-sheet2_213: 1165886286
+      Atlas-Props-sheet2_214: -1486037716
+      Atlas-Props-sheet2_215: 94536288
+      Atlas-Props-sheet2_216: 1529039299
+      Atlas-Props-sheet2_217: 39827758
+      Atlas-Props-sheet2_218: 1872415298
+      Atlas-Props-sheet2_219: 1007143422
+      Atlas-Props-sheet2_22: -653923793
+      Atlas-Props-sheet2_220: 1235153064
+      Atlas-Props-sheet2_221: 933594837
+      Atlas-Props-sheet2_222: 1198318460
+      Atlas-Props-sheet2_223: -71853808
+      Atlas-Props-sheet2_224: -2019013213
+      Atlas-Props-sheet2_225: -387640169
+      Atlas-Props-sheet2_226: 1446969567
+      Atlas-Props-sheet2_227: -679516677
+      Atlas-Props-sheet2_228: 50615076
+      Atlas-Props-sheet2_229: -973959668
+      Atlas-Props-sheet2_23: 1516347869
+      Atlas-Props-sheet2_230: -1748257802
+      Atlas-Props-sheet2_231: -2046414927
+      Atlas-Props-sheet2_232: 1212642659
+      Atlas-Props-sheet2_233: 48491721
+      Atlas-Props-sheet2_234: -367530609
+      Atlas-Props-sheet2_235: 1847608643
+      Atlas-Props-sheet2_236: 1691632396
+      Atlas-Props-sheet2_237: 553369393
+      Atlas-Props-sheet2_238: -576741177
+      Atlas-Props-sheet2_239: 202112406
+      Atlas-Props-sheet2_24: 977910375
+      Atlas-Props-sheet2_240: 843802742
+      Atlas-Props-sheet2_241: 894463791
+      Atlas-Props-sheet2_242: 767315105
+      Atlas-Props-sheet2_243: -1231698919
+      Atlas-Props-sheet2_244: -749200623
+      Atlas-Props-sheet2_245: 1109106614
+      Atlas-Props-sheet2_246: -1851183890
+      Atlas-Props-sheet2_247: 828637890
+      Atlas-Props-sheet2_248: 128600851
+      Atlas-Props-sheet2_249: -124428273
+      Atlas-Props-sheet2_25: -157768310
+      Atlas-Props-sheet2_250: -526480447
+      Atlas-Props-sheet2_251: -182410523
+      Atlas-Props-sheet2_252: -1933402869
+      Atlas-Props-sheet2_253: 564967267
+      Atlas-Props-sheet2_254: -548471331
+      Atlas-Props-sheet2_255: -891851897
+      Atlas-Props-sheet2_256: 309618065
+      Atlas-Props-sheet2_257: 1414802753
+      Atlas-Props-sheet2_258: 1325154271
+      Atlas-Props-sheet2_259: 1064070554
+      Atlas-Props-sheet2_26: -1471692738
+      Atlas-Props-sheet2_260: 733492433
+      Atlas-Props-sheet2_261: -1474380660
+      Atlas-Props-sheet2_262: 1729503229
+      Atlas-Props-sheet2_263: 50195388
+      Atlas-Props-sheet2_264: -105708185
+      Atlas-Props-sheet2_265: -1980233395
+      Atlas-Props-sheet2_266: 8516353
+      Atlas-Props-sheet2_267: -978418536
+      Atlas-Props-sheet2_268: 867304958
+      Atlas-Props-sheet2_269: 623820924
+      Atlas-Props-sheet2_27: -366333238
+      Atlas-Props-sheet2_270: 1222234464
+      Atlas-Props-sheet2_271: -1830445168
+      Atlas-Props-sheet2_272: 1863116062
+      Atlas-Props-sheet2_273: 1462307397
+      Atlas-Props-sheet2_274: 429799915
+      Atlas-Props-sheet2_275: -1829144052
+      Atlas-Props-sheet2_276: 1192463653
+      Atlas-Props-sheet2_277: -15929981
+      Atlas-Props-sheet2_278: -1975262687
+      Atlas-Props-sheet2_279: -1506928527
+      Atlas-Props-sheet2_28: 1086176861
+      Atlas-Props-sheet2_280: -793677086
+      Atlas-Props-sheet2_281: -2100887490
+      Atlas-Props-sheet2_282: -681877054
+      Atlas-Props-sheet2_283: -2050647194
+      Atlas-Props-sheet2_284: 821172860
+      Atlas-Props-sheet2_285: -1413582570
+      Atlas-Props-sheet2_286: -652992462
+      Atlas-Props-sheet2_287: 1589475916
+      Atlas-Props-sheet2_288: -571057384
+      Atlas-Props-sheet2_289: -1267123040
+      Atlas-Props-sheet2_29: -691910861
+      Atlas-Props-sheet2_290: 1686307996
+      Atlas-Props-sheet2_291: 1140519063
+      Atlas-Props-sheet2_292: -1412044630
+      Atlas-Props-sheet2_293: 922071175
+      Atlas-Props-sheet2_294: -2069823538
+      Atlas-Props-sheet2_295: 1109344929
+      Atlas-Props-sheet2_296: -1420996742
+      Atlas-Props-sheet2_297: -1480062623
+      Atlas-Props-sheet2_298: -1433614599
+      Atlas-Props-sheet2_299: -892211346
+      Atlas-Props-sheet2_3: 863250017
+      Atlas-Props-sheet2_30: 1518612583
+      Atlas-Props-sheet2_300: -183827276
+      Atlas-Props-sheet2_301: 951817446
+      Atlas-Props-sheet2_302: 1611875422
+      Atlas-Props-sheet2_303: 1645324316
+      Atlas-Props-sheet2_304: -465593154
+      Atlas-Props-sheet2_305: -124838518
+      Atlas-Props-sheet2_306: 1396408730
+      Atlas-Props-sheet2_307: 1599273679
+      Atlas-Props-sheet2_308: 622914687
+      Atlas-Props-sheet2_309: 789062505
+      Atlas-Props-sheet2_31: -1114735129
+      Atlas-Props-sheet2_310: 1895117649
+      Atlas-Props-sheet2_311: -32113501
+      Atlas-Props-sheet2_312: 1755955319
+      Atlas-Props-sheet2_313: 736476928
+      Atlas-Props-sheet2_314: -643985257
+      Atlas-Props-sheet2_315: -1615540706
+      Atlas-Props-sheet2_316: 1229360014
+      Atlas-Props-sheet2_317: 492598071
+      Atlas-Props-sheet2_32: 467689043
+      Atlas-Props-sheet2_33: 1618451739
+      Atlas-Props-sheet2_34: 1631509492
+      Atlas-Props-sheet2_35: 1300574218
+      Atlas-Props-sheet2_36: 711309217
+      Atlas-Props-sheet2_37: -1720413365
+      Atlas-Props-sheet2_38: -1006167962
+      Atlas-Props-sheet2_39: -1407676735
+      Atlas-Props-sheet2_4: 1216793767
+      Atlas-Props-sheet2_40: -427047476
+      Atlas-Props-sheet2_41: 229246448
+      Atlas-Props-sheet2_42: 286637405
+      Atlas-Props-sheet2_43: -994165659
+      Atlas-Props-sheet2_44: -272521
+      Atlas-Props-sheet2_45: -30432758
+      Atlas-Props-sheet2_46: 1525333461
+      Atlas-Props-sheet2_47: -1359572894
+      Atlas-Props-sheet2_48: 729181671
+      Atlas-Props-sheet2_49: 684710731
+      Atlas-Props-sheet2_5: 684659360
+      Atlas-Props-sheet2_50: 642056639
+      Atlas-Props-sheet2_51: -1452974779
+      Atlas-Props-sheet2_52: -520066195
+      Atlas-Props-sheet2_53: 1968716759
+      Atlas-Props-sheet2_54: 148754601
+      Atlas-Props-sheet2_55: -634215593
+      Atlas-Props-sheet2_56: -1893378489
+      Atlas-Props-sheet2_57: -945271464
+      Atlas-Props-sheet2_58: 170777580
+      Atlas-Props-sheet2_59: -355905926
+      Atlas-Props-sheet2_6: -1666108
+      Atlas-Props-sheet2_60: -800316105
+      Atlas-Props-sheet2_61: 1231423648
+      Atlas-Props-sheet2_62: -1325259533
+      Atlas-Props-sheet2_63: -2024736446
+      Atlas-Props-sheet2_64: -1217639577
+      Atlas-Props-sheet2_65: 1464524894
+      Atlas-Props-sheet2_66: -512006718
+      Atlas-Props-sheet2_67: 724047447
+      Atlas-Props-sheet2_68: 488645848
+      Atlas-Props-sheet2_69: 910725778
+      Atlas-Props-sheet2_7: -1885754101
+      Atlas-Props-sheet2_70: -1529192702
+      Atlas-Props-sheet2_71: -534132038
+      Atlas-Props-sheet2_72: -305607637
+      Atlas-Props-sheet2_73: -106101041
+      Atlas-Props-sheet2_74: -1462835517
+      Atlas-Props-sheet2_75: 1074308411
+      Atlas-Props-sheet2_76: 2054111591
+      Atlas-Props-sheet2_77: -61234727
+      Atlas-Props-sheet2_78: 904148541
+      Atlas-Props-sheet2_79: 771180681
+      Atlas-Props-sheet2_8: 259501303
+      Atlas-Props-sheet2_80: 1187507631
+      Atlas-Props-sheet2_81: -178186406
+      Atlas-Props-sheet2_82: 219024638
+      Atlas-Props-sheet2_83: -497535680
+      Atlas-Props-sheet2_84: 213578757
+      Atlas-Props-sheet2_85: 248289520
+      Atlas-Props-sheet2_86: 1694190949
+      Atlas-Props-sheet2_87: -897468465
+      Atlas-Props-sheet2_88: -294062255
+      Atlas-Props-sheet2_89: 142834470
+      Atlas-Props-sheet2_9: -1736607097
+      Atlas-Props-sheet2_90: 1215714191
+      Atlas-Props-sheet2_91: 865878283
+      Atlas-Props-sheet2_92: 203224246
+      Atlas-Props-sheet2_93: 1678334286
+      Atlas-Props-sheet2_94: 457118342
+      Atlas-Props-sheet2_95: 142471769
+      Atlas-Props-sheet2_96: -856079164
+      Atlas-Props-sheet2_97: -410569341
+      Atlas-Props-sheet2_98: 1697709899
+      Atlas-Props-sheet2_99: -778683426
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

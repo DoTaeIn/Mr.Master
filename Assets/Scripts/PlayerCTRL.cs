@@ -36,6 +36,7 @@ public class PlayerCTRL : MonoBehaviour
     public bool isGrabbing;
     public bool canGrab;
     public Transform parent;
+    public Transform mapParent;
     public BoxCollider2D grabArea;
     public GameObject grabbedObject;
     
@@ -53,7 +54,6 @@ public class PlayerCTRL : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         talkDatas = FindObjectOfType<TalkDatas>();
         circleTransition = FindObjectOfType<CircleTransition>();
-        
     }
 
     /**
@@ -74,15 +74,23 @@ public class PlayerCTRL : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Interactable"))
+        if (other.CompareTag("Interactable") && !isGrabbing)
         {
             canInteract = false;
             grabbedObject = null;
             canGrab = false;
             if(other.gameObject.GetComponent<TavernChair>() !=null)
                 other.gameObject.GetComponent<TavernChair>().isInteractable = canGrab;
-            else 
+            else if(other.gameObject.GetComponent<SpriteOutline>() !=null)
                 other.gameObject.GetComponent<SpriteOutline>().UpdateOutline(canGrab);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Interactable") && !isGrabbing)
+        {
+            canInteract = true;
         }
     }
 
@@ -128,6 +136,13 @@ public class PlayerCTRL : MonoBehaviour
             grabbedObject.GetComponent<TavernChair>().isInteractable = canGrab;
         else if(grabbedObject != null)
             grabbedObject.GetComponent<SpriteOutline>().UpdateOutline(canGrab);
+
+        if (isInteracting && !isGrabbing)
+        {
+            animator.SetBool("isRun", false);
+            animator.SetBool("isWalk", false);
+        }
+            
         
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -136,10 +151,9 @@ public class PlayerCTRL : MonoBehaviour
             {
                 interactables = FindObjectOfType<Interactables>();
                 //Interacting with Interactable Objs
-                ;
                 if (interactables != null)
                 {
-                    isInteracting = true;
+                    
                     if (uiManager == null)
                     {
                         uiManager = FindObjectOfType<UIManager>();
@@ -147,6 +161,7 @@ public class PlayerCTRL : MonoBehaviour
                     //TODO: interacting door.
                     if (interactables.GetInteractableType(interactObjId) == InteractableType.Door)
                     {
+                        isInteracting = true;
                         uiManager.setActivePanelWName("circle", true);
                         interactObj.GetComponent<Animator>().SetBool("isOpening", true);
                         circleTransition.StartShrink();
@@ -194,6 +209,7 @@ public class PlayerCTRL : MonoBehaviour
                 {
                     // Grabbing the object
                     Debug.Log("Grabbing object");
+                    canGrab = false;
                     grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
                     grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
                     grabbedObject.transform.SetParent(parent);
@@ -204,8 +220,11 @@ public class PlayerCTRL : MonoBehaviour
                 {
                     // Releasing the object
                     Debug.Log("Releasing object");
-                    grabbedObject.transform.SetParent(null);
+                    grabbedObject.transform.SetParent(mapParent);
+                    grabbedObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                     grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
+                    grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+                    canGrab = true;
                     isGrabbing = false;
                 }
             }
@@ -318,13 +337,13 @@ public class PlayerCTRL : MonoBehaviour
     private IEnumerator LoadSceneAfterDelay(string name, float time)
     {
         yield return new WaitForSeconds(time); // Wait for the specified delay
-        SceneManager.LoadScene(name); // Load the scene
+        LoadingSceneCTRL.LoadScene(name); // Load the scene
     }
 
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Interactable")
+        if (collision.gameObject.tag == "Interactable" && !isGrabbing)
         {
             canInteract = true;
             interactObj = collision.gameObject;
@@ -335,7 +354,7 @@ public class PlayerCTRL : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Interactable")
+        if (other.gameObject.tag == "Interactable" && !isGrabbing)
         {
             canInteract = false;
             interactObj = null;

@@ -1,0 +1,4021 @@
+fileFormatVersion: 2
+guid: 50aa26c83b6754d5aba679653188ce2e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CLT_Buildings_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1697
+        width: 897
+        height: 639
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef698ab33480749979bcb963dbed5149
+      internalID: -1573350077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_1
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2303
+        width: 65
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca3dcad6c3574c87bd81aeb8c61f358
+      internalID: 2091141225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_2
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1814
+        width: 374
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8470a4fa7b126415b9eed11e1e48c994
+      internalID: 31591177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_3
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1985
+        width: 261
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b462ec850c24ab790354fbb5bf71be
+      internalID: 420577349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2175
+        width: 65
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00177d8c1381f4aa5928897bd274717a
+      internalID: 447131749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_5
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2047
+        width: 65
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6579564a2ab9949e48eacacc4d9a3b85
+      internalID: 1900636028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_6
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1961
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e48452047ec548699cf16682a29a123
+      internalID: -1790381247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_7
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1961
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a64901678464b268b3bbbd66801571
+      internalID: -1622886239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_8
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1929
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5bcb3d5c9a24a2aaaf5ead2fe408d5
+      internalID: -2042443764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_9
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1929
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b99f8f8ef1e411aae0a03784dfad8d
+      internalID: 1684639519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_10
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1893
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bf04e7b6e0c4299bbdfac3886cae41
+      internalID: 1365018731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_11
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1896
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907556b3d4fef40d0b837d3c995972a8
+      internalID: -1017970095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_12
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1831
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd83f000051554b54b8e755c1e0784ba
+      internalID: 1036827158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_13
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1831
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9af6127a0194fdbaf3ee224a803dff
+      internalID: 722618815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1697
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e94a0e97e6449f1a478b0b70fff825
+      internalID: 1119862833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_15
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1697
+        width: 78
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51cd95d2cbf948a98704e980a603c55
+      internalID: -1865687836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1729
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c096a97ae7214c559ff68f73299432b
+      internalID: -1451452414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_17
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1599
+        width: 174
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93daab33d046473f864f3f9a93e6faf
+      internalID: 1340765312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_18
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1581
+        width: 174
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254a42b2d976f4051bb649b52f9667c1
+      internalID: -2144180032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_19
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1599
+        width: 110
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbdb516d85a142e088cf5e939b9e618
+      internalID: -897872685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_20
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1581
+        width: 110
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334c59f09fadd43ebad4b0fffa863825
+      internalID: -284160842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_21
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1599
+        width: 109
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84b27762b6ec4352b948c575cb7cebc
+      internalID: -1400378209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_22
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 1665
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968be1186174a43d7b416edacc4eadfd
+      internalID: -870310564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1599
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e32ba369ae294eb98dd3fbfd9000b37
+      internalID: 264549872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_24
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1599
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2466cd0df16324bada04c1f5c635095a
+      internalID: -1891141424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1599
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35371ea95b3b4fcea0a413fb0edc469
+      internalID: 873545778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1599
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb792551d9bd64db1ab36b5e13b3e435
+      internalID: 1701604861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1607
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd38ac1c204e8436dbec659c673cec0d
+      internalID: 972772694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_28
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1607
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114637de1f4eb4eee83a455f4a742bf1
+      internalID: 913553198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_29
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1605
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada7d3e17731c4542ab929dafcc9885e
+      internalID: 757410920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_30
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1605
+        width: 62
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b298442207e2444de908a3c252e8cadb
+      internalID: -1984793780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_31
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1617
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a983a2e240e4ffa9b01347a415cdb6
+      internalID: -190542006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_32
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1599
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b778046d32a04644a86a4f1cbd295f0
+      internalID: 1525539355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_33
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1599
+        width: 40
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295ac475cc0be4b249474de2d37a4872
+      internalID: -511829873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_34
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1599
+        width: 40
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa79eeffe8192464abc69f2654b8732e
+      internalID: 1957560715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_35
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1599
+        width: 38
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cd188e55fe74217b7a8e8fa5d2abf7
+      internalID: 1388495267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_36
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1538
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333e3af71d209460991033b5681b3901
+      internalID: -632661587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_37
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1538
+        width: 89
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144e31788b6ef48aea86e4680943cbcc
+      internalID: -533060541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_38
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1490
+        width: 82
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edab73280575471081add389fa2a05d
+      internalID: 1996522142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1471
+        width: 81
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727869d98f763482489598363129a3f0
+      internalID: 1650173140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_40
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1477
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39755153fe634b7a86fb2c744e02e6a
+      internalID: 1083319258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_41
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1477
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144970270d8a440a9bd1039fe042fccf
+      internalID: 619021390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_42
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1477
+        width: 61
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abae3c15159a94f0283939f71724e12a
+      internalID: -1539772944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_43
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1541
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d230c638f59154f1db1c698b25029dc2
+      internalID: -1647489515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_44
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1543
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dfb5dc07b614fda817b60fc520854a
+      internalID: -1317836368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_45
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1509
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e507a686d8514dd39f0f4dd1461c9d0
+      internalID: 1163211453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_46
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1503
+        width: 105
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c64ca008d27943878b5d667eb0047f3
+      internalID: 1057648571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_47
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1491
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2577f46aaa749daa1e6cb3d9c6f635
+      internalID: 9299965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_48
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1471
+        width: 24
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d7fba0617c34b41a03825525214310
+      internalID: 1929922381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_49
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1503
+        width: 40
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcabd95bb7d04766ad8c5995d5696fb
+      internalID: -656051861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_50
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1408
+        width: 77
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e643a342ad64563a8437b45fc6e0cb
+      internalID: 1972617173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_51
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1389
+        width: 77
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0f4e76119ec47d59354dbbe67c1a3a
+      internalID: 1806599128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_52
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1408
+        width: 78
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4044fa25804742d58594f6dbae0baf0
+      internalID: -210578901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_53
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1408
+        width: 121
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64b88f385c524a089254ec5b428639b
+      internalID: -1501023651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_54
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1514
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5229b4271a07b42e8ba44f6e6e4adb0b
+      internalID: 164264190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_55
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1442
+        width: 224
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f2e9a1ab14a4ff18dea03d912916e1
+      internalID: 1768870350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_56
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1477
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499e26c889d8943fd8ee5bd9a34b3784
+      internalID: -89120553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_57
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1479
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96277d0bcb14541e8b4c1e5fd2e22bd4
+      internalID: -587193820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_58
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1087
+        width: 543
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6e39103c3cc4efeb61b560bbe4702a
+      internalID: 1708462791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_59
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1442
+        width: 186
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cc2f47bef0f4792b100f852fbd89f4
+      internalID: 1403823342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 943
+        width: 399
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286f29acb6944490fabd9bd3109b1f9f
+      internalID: -1658326293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_61
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1151
+        width: 418
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c6cf4187c824e8a9c19db972d8c7aa
+      internalID: -1956064313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_62
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1360
+        width: 145
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1ad203b2d1f495198a6b8d69add5f9
+      internalID: 658696026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_63
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1089
+        width: 385
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea62f8cc82824463afb0f2e7d1d781a
+      internalID: -1044646781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_64
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1379
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb60defb85f040f4bc42f0c1f867350
+      internalID: -687632340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_65
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1263
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7b947ee05c4480097957805f77b53d
+      internalID: 771613284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_66
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1263
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9422a5f8768490a843ffd12f36f1a4
+      internalID: 168020180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_67
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1153
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9bfe7daaae24011abf7314d6aa0664
+      internalID: -1270189561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_68
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1037
+        width: 256
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134d6d2c2c1d84c0198211f88d3fd734
+      internalID: -1623063454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_69
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1057
+        width: 94
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a1f989fb4684e64941553e1924966d
+      internalID: 2067652614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_70
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1124
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4a4025342284c228a09b76b8dbe84c
+      internalID: 724286297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_71
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 997
+        width: 42
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f06ecf5d50745679f6298c584bbe0f
+      internalID: -146315103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_72
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 997
+        width: 41
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0df7a9abcbc4acf999759a574b2b72
+      internalID: -130974647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_73
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1092
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8ad3ffa9d204a9b864fb9e40b0a3fb
+      internalID: -1739866462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_74
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1093
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca881b747506a443f8b5fb1952e71025
+      internalID: -354452923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_75
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1092
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ccae2832568440385885a88985f7ed
+      internalID: -832432579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_76
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1057
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158e4dde6830a40958a0f06175cb12bc
+      internalID: 337057989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_77
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1060
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f02e8b36c8294f8a91826fcb8749637
+      internalID: -1869574625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_78
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 558
+        width: 374
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1610c2ad69f564a5b919751ed98fe102
+      internalID: -2021341495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_79
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 993
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717763cb3a2984868971c9fa397cd1b1
+      internalID: 1882615971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_80
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 993
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6626b721c76c04940a91c4893b4cdf46
+      internalID: 2133935793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_81
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 996
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d803427825914e318e4ea2b83fa135d
+      internalID: 368701153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_82
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 996
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53a80ec932f34c3c802f32bcc656c96
+      internalID: 454062288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_83
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 999
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815a988e337944b3c9ace4dad8e6fbd3
+      internalID: -1299129990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_84
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 999
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a63703b34ae461bb5995c5facd8e66
+      internalID: -1767220548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_85
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 991
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61bbf60103104a45aa93e3620beb60b
+      internalID: -1487629675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_86
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 999
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ab30e486c8344a1be4c8e5c001c5d8
+      internalID: -224981935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_87
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 997
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4667315bc4b4173bbebe0bd940de44
+      internalID: -212863673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_88
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1001
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e0029d43d82411fa104ab757e2fd64
+      internalID: 2110065711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_89
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1005
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fac79c563dc340feab88ad805f72143
+      internalID: -1356797227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_90
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 999
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c33079b6dee406aba0711c401ee899
+      internalID: -193725593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_91
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 863
+        width: 53
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7b307e9594549dc85212ade1f14071
+      internalID: -1764963377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_92
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 863
+        width: 53
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c3710fca62b4ecaae0caec0eef87fc
+      internalID: -1249040480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_93
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 863
+        width: 54
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9234bed405f4db09eac4ae2f7daf9c
+      internalID: -882240407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_94
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 871
+        width: 54
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7a96a6b31144fa383f712e2a0931ed
+      internalID: -557227384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_95
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 869
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e17d70c6390d4a2ca1501bed0fad0f7
+      internalID: -1747181241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_96
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 869
+        width: 41
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daeac4f293bd414e993efe4e8db7e9a
+      internalID: 1936041899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_97
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 871
+        width: 53
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e408dbaf1c5d440bdbba4dc011d6957a
+      internalID: 202261359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_98
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 871
+        width: 53
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dc75180e2a646ff954ca588a22c141
+      internalID: -1453364910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_99
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 871
+        width: 53
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0c7c1d49a514654aebcc887c75abcc
+      internalID: 763297847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_100
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 967
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f6b5017ccd84641a20972579768ac5
+      internalID: 2073692053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_101
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 967
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bedfcc1501d41399d6fa22ff452125
+      internalID: -2011186374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_102
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 963
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eeaf1c1f2e3b44018ade8947006af3d
+      internalID: -1980324069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_103
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 965
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17271d257ba34742b914b10b7a11cf6
+      internalID: -135047529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_104
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 965
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aac8b3db7f9a4e64942327a51ce96ef
+      internalID: 444918799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_105
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 965
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bae2204bf2eb40c4b426939aa1cdb04
+      internalID: 1159212372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_106
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 847
+        width: 97
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89022f9e7b748489a9d63f3eaf90a183
+      internalID: 599580543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_107
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 871
+        width: 130
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c868da453a4e44e459122b2b1a6cd504
+      internalID: 910528975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_108
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 927
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b548b0d7d29495cb63108dd5d02962
+      internalID: -1908576592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_109
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 927
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5fb851fa58c40389b77dcab0f39624
+      internalID: -210789585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_110
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 874
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbabf2fb95bba40b39bfa05192279436
+      internalID: -1253758690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_111
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 832
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080a2b36d79a94edca5484ef7806000f
+      internalID: -878636682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_112
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 832
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42577bd486f44399bc382d1bbb59865
+      internalID: -1247934651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_113
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 832
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcea7fecaf1b4ebe8c9f733df66d886
+      internalID: 609071212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_114
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 832
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9f56435c82a4418905c668115bfc68
+      internalID: 741664854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_115
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 832
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc804a3cce23481a881f8f78f73b801
+      internalID: -742202134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_116
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 832
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37388195f55ec4eb4889c7c1eaddb6a3
+      internalID: 668479570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_117
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 833
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db1236b440364179bf15a8d8ec90a64
+      internalID: -1650186630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_118
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 833
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb91cca6e715e44fd8d50b9d0dd434da
+      internalID: -1863357884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_119
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 833
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91eaf9fea25e54dfe85817f2781c0a1d
+      internalID: -2058580402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_120
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 839
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1b9e05a7f9f46f3970c98fd0b4e203
+      internalID: 565712524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_121
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 839
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e28d513671e4dcfba22f27fb06725b
+      internalID: -1603760423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_122
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 839
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334ca0b3f2e9d441680d585c14909358
+      internalID: 1424256391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_123
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 832
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c78e43e674564647bfadb98ce826981
+      internalID: 1445864906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_124
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 835
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59bd4c1a977245d1a6a5f6fa0f1a911
+      internalID: -187284967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_125
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 833
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beeca778665794269a0725a03a141693
+      internalID: -2121369841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_126
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 395
+        width: 389
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507134f6c5299468db7b4af8f9bda9c9
+      internalID: 935909483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_127
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 293
+        width: 546
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250fd29fe66424111a30c14b8f78985d
+      internalID: -957356887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 577
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8873f414c49a2437baa80bb795370dc5
+      internalID: 393306154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_129
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 287
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc709ebc1b97415e83b6262da9cbcf4
+      internalID: 1760510816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_130
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 257
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f537017cac99f4dffbf982aed0db63d1
+      internalID: 1078960063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_131
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 257
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a264c6694511943548403050ef02e926
+      internalID: 340882892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_132
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 257
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af5eebf5dc9b4d55bae1d8a4e3c101e
+      internalID: 31977389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_133
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 139
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6710e5159cdc54c889256daf646a2046
+      internalID: 1091201649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_134
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 139
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3ea8a048e914ebe98a6f8fa0989a5a
+      internalID: 1453337213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_135
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 139
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f53ccefb6fe4dadb43dbbcb20554b5
+      internalID: 275394993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_136
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 160
+        width: 129
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdac9939214a40cb84ebbb1b7d857f3
+      internalID: -1842497724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_137
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 160
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159912a7d798a48548bfa3548670590e
+      internalID: -2094728708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_138
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 160
+        width: 130
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bc1f0129133423abfc611550ebae4e
+      internalID: -1405165038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_139
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 165
+        width: 57
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d75540f80bfe4a28a32548f2a606434
+      internalID: -891756497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_140
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 197
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d083da90a8f1418e800f643787470f0
+      internalID: 1106107675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_141
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 194
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d69bee5a4ae4b25b2506a0a272bdf2
+      internalID: -1368400822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_142
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 194
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7af8afb91bf4597b20b3481f7a39b4
+      internalID: -205553146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_143
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 194
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851464857542a49f080ad8e149157edc
+      internalID: -1189500141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_144
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 194
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbc521b33f074306bcce57117acf855
+      internalID: 768162606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_145
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 131
+        width: 98
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb827f66a4d94c88bac84add276efad
+      internalID: -1683498276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_146
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 162
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd5fc25884f14b4e848cdaa7e2bb918
+      internalID: -463879450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_147
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 162
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21638f7c34ce54247b0959851dea6fcd
+      internalID: -1351001877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_148
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 162
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52be29bd72fe84010b8f3e1ec398d238
+      internalID: 333306394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_149
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 162
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4bdd130d0e94af3bbe698c711826b0
+      internalID: -48407401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 525
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe5e6586ce914c389dce2584a6f51e8
+      internalID: 663282078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_151
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 102
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f151471893c434f66a0965f6f5a9ec10
+      internalID: -1387633429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_152
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 129
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336a0d90a81234bf7aec6a755c587096
+      internalID: 1695166595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_153
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 33
+        width: 29
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c0eee10f79f4a9082121d7a4812a61
+      internalID: -2029399484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_154
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 129
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32882d06fe8bd40ddabcc82c739d667f
+      internalID: 1835255638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_155
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 129
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a7f05c891ea4918855d681972670e5
+      internalID: -262927226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_156
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 97
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2cc389ea3084f489d19d61cffda062
+      internalID: 1221679150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_157
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 33
+        width: 20
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd81fc0f098b245208c9e3e1248c97a2
+      internalID: 245056979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_158
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 33
+        width: 23
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5232c41527a64e05b339a318006b9f0
+      internalID: -1741999289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_159
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 33
+        width: 27
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a46ab45058b4fae822559cfb82e66c
+      internalID: -1079899037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_160
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 102
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57174458e11b49f49ca229b44191e36
+      internalID: -431965013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_161
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 99
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf0e00edbbb74f6f988a03d2370dafb
+      internalID: 1063015677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_162
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 97
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d46fde10a47c4cadb12eee7da18e374
+      internalID: 429530948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_163
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 97
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0dfd408bbd64b90a34cef88f628d5a
+      internalID: -1702000679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_164
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 97
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd51e22932fe64d5483a26bf25df15f2
+      internalID: 378899212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_165
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 65
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bf59e8c01a04818a071bf28ce532a2
+      internalID: -667429798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_166
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 70
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e81d9ac46e44a6584213f45c9d0078
+      internalID: -2117775914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_167
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 67
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c8782e7c71240ecbb170a92f7d8f2f
+      internalID: -1093280890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_168
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 65
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36e0c64bf90745fbb1bbbb67aca5d95
+      internalID: 1628057533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_169
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 65
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4203ff203e3424280941c855670e9033
+      internalID: -2029499159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_170
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 65
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6538d8f887ba540a3adb06f7f9651144
+      internalID: -1889687050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_171
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 33
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d416a645221244b43b72c94e1b255df6
+      internalID: 413229693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_172
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 38
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe71626f8d17472b864ceb6078835c0
+      internalID: 342583521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_173
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 35
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1653cbb372c348d9ab0899a92e96074
+      internalID: -548858211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_174
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 33
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f08e9519771424fa0bbf605f72a280
+      internalID: 280517210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_175
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 33
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093e38f65e57c4b628b4fcb875367858
+      internalID: 1454350400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_176
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 33
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477fb025e0b5d4a4ab47e7d60daa4980
+      internalID: 1386762664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CLT_Buildings_0: -1573350077
+      CLT_Buildings_1: 2091141225
+      CLT_Buildings_10: 1365018731
+      CLT_Buildings_100: 2073692053
+      CLT_Buildings_101: -2011186374
+      CLT_Buildings_102: -1980324069
+      CLT_Buildings_103: -135047529
+      CLT_Buildings_104: 444918799
+      CLT_Buildings_105: 1159212372
+      CLT_Buildings_106: 599580543
+      CLT_Buildings_107: 910528975
+      CLT_Buildings_108: -1908576592
+      CLT_Buildings_109: -210789585
+      CLT_Buildings_11: -1017970095
+      CLT_Buildings_110: -1253758690
+      CLT_Buildings_111: -878636682
+      CLT_Buildings_112: -1247934651
+      CLT_Buildings_113: 609071212
+      CLT_Buildings_114: 741664854
+      CLT_Buildings_115: -742202134
+      CLT_Buildings_116: 668479570
+      CLT_Buildings_117: -1650186630
+      CLT_Buildings_118: -1863357884
+      CLT_Buildings_119: -2058580402
+      CLT_Buildings_12: 1036827158
+      CLT_Buildings_120: 565712524
+      CLT_Buildings_121: -1603760423
+      CLT_Buildings_122: 1424256391
+      CLT_Buildings_123: 1445864906
+      CLT_Buildings_124: -187284967
+      CLT_Buildings_125: -2121369841
+      CLT_Buildings_126: 935909483
+      CLT_Buildings_127: -957356887
+      CLT_Buildings_128: 393306154
+      CLT_Buildings_129: 1760510816
+      CLT_Buildings_13: 722618815
+      CLT_Buildings_130: 1078960063
+      CLT_Buildings_131: 340882892
+      CLT_Buildings_132: 31977389
+      CLT_Buildings_133: 1091201649
+      CLT_Buildings_134: 1453337213
+      CLT_Buildings_135: 275394993
+      CLT_Buildings_136: -1842497724
+      CLT_Buildings_137: -2094728708
+      CLT_Buildings_138: -1405165038
+      CLT_Buildings_139: -891756497
+      CLT_Buildings_14: 1119862833
+      CLT_Buildings_140: 1106107675
+      CLT_Buildings_141: -1368400822
+      CLT_Buildings_142: -205553146
+      CLT_Buildings_143: -1189500141
+      CLT_Buildings_144: 768162606
+      CLT_Buildings_145: -1683498276
+      CLT_Buildings_146: -463879450
+      CLT_Buildings_147: -1351001877
+      CLT_Buildings_148: 333306394
+      CLT_Buildings_149: -48407401
+      CLT_Buildings_15: -1865687836
+      CLT_Buildings_150: 663282078
+      CLT_Buildings_151: -1387633429
+      CLT_Buildings_152: 1695166595
+      CLT_Buildings_153: -2029399484
+      CLT_Buildings_154: 1835255638
+      CLT_Buildings_155: -262927226
+      CLT_Buildings_156: 1221679150
+      CLT_Buildings_157: 245056979
+      CLT_Buildings_158: -1741999289
+      CLT_Buildings_159: -1079899037
+      CLT_Buildings_16: -1451452414
+      CLT_Buildings_160: -431965013
+      CLT_Buildings_161: 1063015677
+      CLT_Buildings_162: 429530948
+      CLT_Buildings_163: -1702000679
+      CLT_Buildings_164: 378899212
+      CLT_Buildings_165: -667429798
+      CLT_Buildings_166: -2117775914
+      CLT_Buildings_167: -1093280890
+      CLT_Buildings_168: 1628057533
+      CLT_Buildings_169: -2029499159
+      CLT_Buildings_17: 1340765312
+      CLT_Buildings_170: -1889687050
+      CLT_Buildings_171: 413229693
+      CLT_Buildings_172: 342583521
+      CLT_Buildings_173: -548858211
+      CLT_Buildings_174: 280517210
+      CLT_Buildings_175: 1454350400
+      CLT_Buildings_176: 1386762664
+      CLT_Buildings_18: -2144180032
+      CLT_Buildings_19: -897872685
+      CLT_Buildings_2: 31591177
+      CLT_Buildings_20: -284160842
+      CLT_Buildings_21: -1400378209
+      CLT_Buildings_22: -870310564
+      CLT_Buildings_23: 264549872
+      CLT_Buildings_24: -1891141424
+      CLT_Buildings_25: 873545778
+      CLT_Buildings_26: 1701604861
+      CLT_Buildings_27: 972772694
+      CLT_Buildings_28: 913553198
+      CLT_Buildings_29: 757410920
+      CLT_Buildings_3: 420577349
+      CLT_Buildings_30: -1984793780
+      CLT_Buildings_31: -190542006
+      CLT_Buildings_32: 1525539355
+      CLT_Buildings_33: -511829873
+      CLT_Buildings_34: 1957560715
+      CLT_Buildings_35: 1388495267
+      CLT_Buildings_36: -632661587
+      CLT_Buildings_37: -533060541
+      CLT_Buildings_38: 1996522142
+      CLT_Buildings_39: 1650173140
+      CLT_Buildings_4: 447131749
+      CLT_Buildings_40: 1083319258
+      CLT_Buildings_41: 619021390
+      CLT_Buildings_42: -1539772944
+      CLT_Buildings_43: -1647489515
+      CLT_Buildings_44: -1317836368
+      CLT_Buildings_45: 1163211453
+      CLT_Buildings_46: 1057648571
+      CLT_Buildings_47: 9299965
+      CLT_Buildings_48: 1929922381
+      CLT_Buildings_49: -656051861
+      CLT_Buildings_5: 1900636028
+      CLT_Buildings_50: 1972617173
+      CLT_Buildings_51: 1806599128
+      CLT_Buildings_52: -210578901
+      CLT_Buildings_53: -1501023651
+      CLT_Buildings_54: 164264190
+      CLT_Buildings_55: 1768870350
+      CLT_Buildings_56: -89120553
+      CLT_Buildings_57: -587193820
+      CLT_Buildings_58: 1708462791
+      CLT_Buildings_59: 1403823342
+      CLT_Buildings_6: -1790381247
+      CLT_Buildings_60: -1658326293
+      CLT_Buildings_61: -1956064313
+      CLT_Buildings_62: 658696026
+      CLT_Buildings_63: -1044646781
+      CLT_Buildings_64: -687632340
+      CLT_Buildings_65: 771613284
+      CLT_Buildings_66: 168020180
+      CLT_Buildings_67: -1270189561
+      CLT_Buildings_68: -1623063454
+      CLT_Buildings_69: 2067652614
+      CLT_Buildings_7: -1622886239
+      CLT_Buildings_70: 724286297
+      CLT_Buildings_71: -146315103
+      CLT_Buildings_72: -130974647
+      CLT_Buildings_73: -1739866462
+      CLT_Buildings_74: -354452923
+      CLT_Buildings_75: -832432579
+      CLT_Buildings_76: 337057989
+      CLT_Buildings_77: -1869574625
+      CLT_Buildings_78: -2021341495
+      CLT_Buildings_79: 1882615971
+      CLT_Buildings_8: -2042443764
+      CLT_Buildings_80: 2133935793
+      CLT_Buildings_81: 368701153
+      CLT_Buildings_82: 454062288
+      CLT_Buildings_83: -1299129990
+      CLT_Buildings_84: -1767220548
+      CLT_Buildings_85: -1487629675
+      CLT_Buildings_86: -224981935
+      CLT_Buildings_87: -212863673
+      CLT_Buildings_88: 2110065711
+      CLT_Buildings_89: -1356797227
+      CLT_Buildings_9: 1684639519
+      CLT_Buildings_90: -193725593
+      CLT_Buildings_91: -1764963377
+      CLT_Buildings_92: -1249040480
+      CLT_Buildings_93: -882240407
+      CLT_Buildings_94: -557227384
+      CLT_Buildings_95: -1747181241
+      CLT_Buildings_96: 1936041899
+      CLT_Buildings_97: 202261359
+      CLT_Buildings_98: -1453364910
+      CLT_Buildings_99: 763297847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1995 @@
+fileFormatVersion: 2
+guid: 2b03c958a051345b5ba2d1fb3807d952
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Map With Header Animated_Frame_22
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 756
+      width: 438
+      height: 368
+    spriteID: 2b4bb5c55a1464569a7576717c015a27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 756}
+  - name: Map With Header Animated_Frame_23
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 445
+      height: 368
+    spriteID: 3893ec5608b174a8d99ace333d56b3bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Map With Header Animated_Frame_24
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 450
+      y: 756
+      width: 438
+      height: 368
+    spriteID: 1b6ef63f4a81c492cba78d25f09bb3fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 450, y: 756}
+  - name: Map With Header Animated_Frame_25
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1342
+      y: 1132
+      width: 436
+      height: 368
+    spriteID: c868157f8b9d845ffa1220230e71d8fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1342, y: 1132}
+  - name: Map With Header Animated_Frame_32
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1786
+      y: 1132
+      width: 436
+      height: 368
+    spriteID: bb733ff4d2e4648ec96cf33fb4b3bbde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1786, y: 1132}
+  - name: Map With Header Animated_Frame_33
+    originalName: 
+    pivot: {x: 0.53047407, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1363
+      y: 380
+      width: 443
+      height: 368
+    spriteID: 2bb5d3c789a80424d8d672fc77c6d21d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1363, y: 380}
+  - name: Map With Header Animated_Frame_34
+    originalName: 
+    pivot: {x: 0.53047407, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1814
+      y: 380
+      width: 443
+      height: 368
+    spriteID: 91d3646edafc04206855e85ba3b825aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1814, y: 380}
+  - name: Map With Header Animated_Frame_35
+    originalName: 
+    pivot: {x: 0.53047407, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2265
+      y: 380
+      width: 443
+      height: 368
+    spriteID: dcf2a5bee9a5442b1981ab1144159fac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2265, y: 380}
+  - name: Map With Header Animated_Frame_36
+    originalName: 
+    pivot: {x: 0.53047407, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2716
+      y: 380
+      width: 443
+      height: 368
+    spriteID: 964545dce90a64036bda5bf44f1d0dd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2716, y: 380}
+  - name: Map With Header Animated_Frame_37
+    originalName: 
+    pivot: {x: 0.53047407, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3167
+      y: 380
+      width: 443
+      height: 368
+    spriteID: 0665b849825594ee3b31b928c01ca73f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3167, y: 380}
+  - name: Map With Header Animated_Frame_38
+    originalName: 
+    pivot: {x: 0.53047407, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3618
+      y: 380
+      width: 443
+      height: 368
+    spriteID: 93f086a0841964870964128d56fa2b2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3618, y: 380}
+  - name: Map With Header Animated_Frame_40
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2230
+      y: 1132
+      width: 436
+      height: 368
+    spriteID: 8d39691cea69b4bf9a7e9104cf0fd915
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2230, y: 1132}
+  - name: Map With Header Animated_Frame_46
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 896
+      y: 756
+      width: 438
+      height: 368
+    spriteID: 507dd934e71d2493594c77fb258255c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 896, y: 756}
+  - name: Map With Header Animated_Frame_47
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 457
+      y: 4
+      width: 445
+      height: 368
+    spriteID: c9b7903a43cea4a5d8738762d6c755f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 457, y: 4}
+  - name: Map With Header Animated_Frame_48
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1342
+      y: 756
+      width: 438
+      height: 368
+    spriteID: d78db6fa2ec264f0197a0607779015db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1342, y: 756}
+  - name: Map With Header Animated_Frame_26
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2674
+      y: 1132
+      width: 436
+      height: 368
+    spriteID: eb2b3bb0785694666a2fc5f1b3345070
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2674, y: 1132}
+  - name: Map With Header Animated_Frame_27
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3118
+      y: 1132
+      width: 436
+      height: 368
+    spriteID: 9a5b3ab312e114218bf05919a8974a1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3118, y: 1132}
+  - name: Map With Header Animated_Frame_28
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3562
+      y: 1132
+      width: 436
+      height: 368
+    spriteID: bad9fc8a7e8dd41b0928d4e2497959bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3562, y: 1132}
+  - name: Map With Header Animated_Frame_29
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1508
+      width: 436
+      height: 368
+    spriteID: 5e8f9d9ce495c47daa92af7c0227e00d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1508}
+  - name: Map With Header Animated_Frame_30
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 1508
+      width: 436
+      height: 368
+    spriteID: 9d11a70f4b37b40459ff07e668dc484f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 1508}
+  - name: Map With Header Animated_Frame_41
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 1508
+      width: 436
+      height: 368
+    spriteID: 63114a14f6e7e4359a61df560c1f40ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 1508}
+  - name: Map With Header Animated_Frame_42
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1336
+      y: 1508
+      width: 436
+      height: 368
+    spriteID: 7fcb162639caa4d2ba991a08a68b588b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1336, y: 1508}
+  - name: Map With Header Animated_Frame_43
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1780
+      y: 1508
+      width: 436
+      height: 368
+    spriteID: 4832ae7036e644bf69262e6faeb293db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1780, y: 1508}
+  - name: Map With Header Animated_Frame_44
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2224
+      y: 1508
+      width: 436
+      height: 368
+    spriteID: 431045f06ddf14a49b156b80ddd1de82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2224, y: 1508}
+  - name: Map With Header Animated_Frame_45
+    originalName: 
+    pivot: {x: 0.52293575, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2668
+      y: 1508
+      width: 436
+      height: 368
+    spriteID: 08c1cf804c14e4c55b4fdf25fa7f9b4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2668, y: 1508}
+  - name: Map With Header Animated_Frame_20
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1788
+      y: 756
+      width: 438
+      height: 368
+    spriteID: 4d7c0bd3f3ebd4c86a1666383d274a15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1788, y: 756}
+  - name: Map With Header Animated_Frame_21
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 910
+      y: 4
+      width: 445
+      height: 368
+    spriteID: 603f1605f8e2e4d9b8e80a720f4fde59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 910, y: 4}
+  - name: Map With Header Animated_Frame_49
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1363
+      y: 4
+      width: 445
+      height: 368
+    spriteID: 60618d1732cbd40f794d263d2f39619d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1363, y: 4}
+  - name: Map With Header Animated_Frame_50
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2234
+      y: 756
+      width: 438
+      height: 368
+    spriteID: e0ade1190f3ef47909370485f19e9151
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2234, y: 756}
+  - name: Map With Header Animated_Frame_18
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2680
+      y: 756
+      width: 438
+      height: 368
+    spriteID: fe80e0b661db247aa9bd316dbcd139c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2680, y: 756}
+  - name: Map With Header Animated_Frame_19
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1816
+      y: 4
+      width: 445
+      height: 368
+    spriteID: fa92e8bc03298437bbfd85d0b7eedd46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1816, y: 4}
+  - name: Map With Header Animated_Frame_51
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2269
+      y: 4
+      width: 445
+      height: 368
+    spriteID: 7173b2904a9e947a78db2674b80de74a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2269, y: 4}
+  - name: Map With Header Animated_Frame_52
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3126
+      y: 756
+      width: 438
+      height: 368
+    spriteID: 187f6e1b2b4e940268bfaf831821eb9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3126, y: 756}
+  - name: Map With Header Animated_Frame_16
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3572
+      y: 756
+      width: 438
+      height: 368
+    spriteID: c7422cdd2698b4d79a0bf08568784055
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3572, y: 756}
+  - name: Map With Header Animated_Frame_17
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2722
+      y: 4
+      width: 445
+      height: 368
+    spriteID: 01863b97e253647adaf954479e6c928b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2722, y: 4}
+  - name: Map With Header Animated_Frame_53
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3175
+      y: 4
+      width: 445
+      height: 368
+    spriteID: 7de7a6dd826614f0fb484fbf9e5de132
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3175, y: 4}
+  - name: Map With Header Animated_Frame_54
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1132
+      width: 438
+      height: 368
+    spriteID: 44c02079cd1634b7890489ce94a69cc1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1132}
+  - name: Map With Header Animated_Frame_14
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 450
+      y: 1132
+      width: 438
+      height: 368
+    spriteID: 3367ef8870aa34f1db90765afa261dc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 450, y: 1132}
+  - name: Map With Header Animated_Frame_15
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3628
+      y: 4
+      width: 445
+      height: 368
+    spriteID: 82a1907de1b6e45f784daac80fda1cdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3628, y: 4}
+  - name: Map With Header Animated_Frame_55
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 380
+      width: 445
+      height: 368
+    spriteID: d883ebf3bb0d344c789e337be6b18eb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 380}
+  - name: Map With Header Animated_Frame_56
+    originalName: 
+    pivot: {x: 0.5251141, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 896
+      y: 1132
+      width: 438
+      height: 368
+    spriteID: 4ec44c083b42145bc980809489374583
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 896, y: 1132}
+  - name: Map With Header Animated_Frame_12
+    originalName: 
+    pivot: {x: 0.50593823, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3112
+      y: 1508
+      width: 421
+      height: 368
+    spriteID: 94fbed68b2a7b4b668af248f35338a0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3112, y: 1508}
+  - name: Map With Header Animated_Frame_13
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 457
+      y: 380
+      width: 445
+      height: 368
+    spriteID: 2df98e414e85e4b4aa2192f5bb05cde0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 457, y: 380}
+  - name: Map With Header Animated_Frame_57
+    originalName: 
+    pivot: {x: 0.53258425, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 910
+      y: 380
+      width: 445
+      height: 368
+    spriteID: 5582a1593079e4ef0af6f877b4c8e3e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 910, y: 380}
+  - name: Map With Header Animated_Frame_58
+    originalName: 
+    pivot: {x: 0.50593823, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3541
+      y: 1508
+      width: 421
+      height: 368
+    spriteID: eb3d97d7a432047a3a2693f302626738
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3541, y: 1508}
+  - name: Map With Header Animated_Frame_0
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.25945947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3392
+      width: 64
+      height: 370
+    spriteID: f315675b8162f4320a58394b87fcdc99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3392}
+  - name: Map With Header Animated_Frame_2
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.25945947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 2636
+      width: 64
+      height: 370
+    spriteID: be6bdf54922414a3bb8786774a9347c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 2636}
+  - name: Map With Header Animated_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.26486486}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2636
+      width: 76
+      height: 370
+    spriteID: d9fa9f88881684a588118248ec21e94e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2636}
+  - name: Map With Header Animated_Frame_4
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.29005525}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1276
+      y: 2260
+      width: 302
+      height: 362
+    spriteID: e20027a787849467681a21540ace974b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1276, y: 2260}
+  - name: Map With Header Animated_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.27595627}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 428
+      y: 2260
+      width: 416
+      height: 366
+    spriteID: 0e867736e6ef04f4b9b9c742f4bcd67c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 428, y: 2260}
+  - name: Map With Header Animated_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1884
+      width: 416
+      height: 368
+    spriteID: 7fac1c4e7d1d54ee1bf34b84bf471992
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1884}
+  - name: Map With Header Animated_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 428
+      y: 1884
+      width: 416
+      height: 368
+    spriteID: 4b88a241fcb9a44a18acf65c063c1e84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 428, y: 1884}
+  - name: Map With Header Animated_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 852
+      y: 1884
+      width: 416
+      height: 368
+    spriteID: 1ac5b87c993874a7fb8822a2a0213a6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 852, y: 1884}
+  - name: Map With Header Animated_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1276
+      y: 1884
+      width: 416
+      height: 368
+    spriteID: 2974fdc23188441deab9224f053c2003
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1276, y: 1884}
+  - name: Map With Header Animated_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1700
+      y: 1884
+      width: 416
+      height: 368
+    spriteID: 8308d79982c2b4f6e9079a3951e308e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1700, y: 1884}
+  - name: Map With Header Animated_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2124
+      y: 1884
+      width: 416
+      height: 368
+    spriteID: dd4ea659a7f354511814b1b255a47346
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2124, y: 1884}
+  - name: Map With Header Animated_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2548
+      y: 1884
+      width: 416
+      height: 368
+    spriteID: 9abb8ea9e08eb4d7980fe3b61cf3b8b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2548, y: 1884}
+  - name: Map With Header Animated_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2972
+      y: 1884
+      width: 416
+      height: 368
+    spriteID: b6df4e959813e4e03954d70604252355
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2972, y: 1884}
+  - name: Map With Header Animated_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3396
+      y: 1884
+      width: 416
+      height: 368
+    spriteID: 5d0de62059df247e78cef5a543a42289
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3396, y: 1884}
+  - name: Map With Header Animated_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2260
+      width: 416
+      height: 368
+    spriteID: 4bf009f3a92194d2e9e392cfdfd001cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2260}
+  - name: Map With Header Animated_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: -0.27595627}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 852
+      y: 2260
+      width: 416
+      height: 366
+    spriteID: a0a7379d805a948e3bed9ae1a617ff35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 852, y: 2260}
+  - name: Map With Header Animated_Frame_66
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.29005525}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1586
+      y: 2260
+      width: 302
+      height: 362
+    spriteID: 9e60d76bba37145f8ba4e5021369567c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1586, y: 2260}
+  - name: Map With Header Animated_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: -0.26486486}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3014
+      width: 76
+      height: 370
+    spriteID: 97a7ed68f1760466b883ca0a82e9cf0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3014}
+  - name: Map With Header Animated_Frame_68
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.25945947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 3014
+      width: 64
+      height: 370
+    spriteID: 3eb1cb42e8eab49d1ad1d51809b67263
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 3014}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1828981010
+    name: Map With Header Animated
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Map With Header Animated_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: 2b4bb5c55a1464569a7576717c015a27
+    - name: Map With Header Animated_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: 3893ec5608b174a8d99ace333d56b3bf
+    - name: Map With Header Animated_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: 1b6ef63f4a81c492cba78d25f09bb3fd
+    - name: Map With Header Animated_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: c868157f8b9d845ffa1220230e71d8fc
+    - name: Map With Header Animated_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: bb733ff4d2e4648ec96cf33fb4b3bbde
+    - name: Map With Header Animated_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 69
+        y: 96
+        width: 443
+        height: 368
+      spriteId: 2bb5d3c789a80424d8d672fc77c6d21d
+    - name: Map With Header Animated_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 69
+        y: 96
+        width: 443
+        height: 368
+      spriteId: 91d3646edafc04206855e85ba3b825aa
+    - name: Map With Header Animated_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 69
+        y: 96
+        width: 443
+        height: 368
+      spriteId: dcf2a5bee9a5442b1981ab1144159fac
+    - name: Map With Header Animated_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 69
+        y: 96
+        width: 443
+        height: 368
+      spriteId: 964545dce90a64036bda5bf44f1d0dd2
+    - name: Map With Header Animated_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 69
+        y: 96
+        width: 443
+        height: 368
+      spriteId: 0665b849825594ee3b31b928c01ca73f
+    - name: Map With Header Animated_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 69
+        y: 96
+        width: 443
+        height: 368
+      spriteId: 93f086a0841964870964128d56fa2b2f
+    - name: Map With Header Animated_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: 8d39691cea69b4bf9a7e9104cf0fd915
+    - name: Map With Header Animated_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: 507dd934e71d2493594c77fb258255c8
+    - name: Map With Header Animated_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: c9b7903a43cea4a5d8738762d6c755f2
+    - name: Map With Header Animated_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: d78db6fa2ec264f0197a0607779015db
+    - name: Map With Header Animated_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: eb2b3bb0785694666a2fc5f1b3345070
+    - name: Map With Header Animated_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: 9a5b3ab312e114218bf05919a8974a1c
+    - name: Map With Header Animated_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: bad9fc8a7e8dd41b0928d4e2497959bd
+    - name: Map With Header Animated_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: 5e8f9d9ce495c47daa92af7c0227e00d
+    - name: Map With Header Animated_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: 9d11a70f4b37b40459ff07e668dc484f
+    - name: Map With Header Animated_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: 63114a14f6e7e4359a61df560c1f40ef
+    - name: Map With Header Animated_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: 7fcb162639caa4d2ba991a08a68b588b
+    - name: Map With Header Animated_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: 4832ae7036e644bf69262e6faeb293db
+    - name: Map With Header Animated_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: 431045f06ddf14a49b156b80ddd1de82
+    - name: Map With Header Animated_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 76
+        y: 96
+        width: 436
+        height: 368
+      spriteId: 08c1cf804c14e4c55b4fdf25fa7f9b4b
+    - name: Map With Header Animated_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: 4d7c0bd3f3ebd4c86a1666383d274a15
+    - name: Map With Header Animated_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: 603f1605f8e2e4d9b8e80a720f4fde59
+    - name: Map With Header Animated_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: 60618d1732cbd40f794d263d2f39619d
+    - name: Map With Header Animated_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: e0ade1190f3ef47909370485f19e9151
+    - name: Map With Header Animated_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: fe80e0b661db247aa9bd316dbcd139c3
+    - name: Map With Header Animated_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: fa92e8bc03298437bbfd85d0b7eedd46
+    - name: Map With Header Animated_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: 7173b2904a9e947a78db2674b80de74a
+    - name: Map With Header Animated_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: 187f6e1b2b4e940268bfaf831821eb9c
+    - name: Map With Header Animated_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: c7422cdd2698b4d79a0bf08568784055
+    - name: Map With Header Animated_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: 01863b97e253647adaf954479e6c928b
+    - name: Map With Header Animated_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: 7de7a6dd826614f0fb484fbf9e5de132
+    - name: Map With Header Animated_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: 44c02079cd1634b7890489ce94a69cc1
+    - name: Map With Header Animated_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: 3367ef8870aa34f1db90765afa261dc5
+    - name: Map With Header Animated_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: 82a1907de1b6e45f784daac80fda1cdc
+    - name: Map With Header Animated_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: d883ebf3bb0d344c789e337be6b18eb8
+    - name: Map With Header Animated_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 74
+        y: 96
+        width: 438
+        height: 368
+      spriteId: 4ec44c083b42145bc980809489374583
+    - name: Map With Header Animated_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 91
+        y: 96
+        width: 421
+        height: 368
+      spriteId: 94fbed68b2a7b4b668af248f35338a0e
+    - name: Map With Header Animated_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: 2df98e414e85e4b4aa2192f5bb05cde0
+    - name: Map With Header Animated_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 96
+        width: 445
+        height: 368
+      spriteId: 5582a1593079e4ef0af6f877b4c8e3e1
+    - name: Map With Header Animated_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 91
+        y: 96
+        width: 421
+        height: 368
+      spriteId: eb3d97d7a432047a3a2693f302626738
+    - name: Map With Header Animated_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 272
+        y: 96
+        width: 64
+        height: 370
+      spriteId: f315675b8162f4320a58394b87fcdc99
+    - name: Map With Header Animated_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 272
+        y: 96
+        width: 64
+        height: 370
+      spriteId: be6bdf54922414a3bb8786774a9347c6
+    - name: Map With Header Animated_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 266
+        y: 98
+        width: 76
+        height: 370
+      spriteId: d9fa9f88881684a588118248ec21e94e
+    - name: Map With Header Animated_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 153
+        y: 105
+        width: 302
+        height: 362
+      spriteId: e20027a787849467681a21540ace974b
+    - name: Map With Header Animated_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 101
+        width: 416
+        height: 366
+      spriteId: 0e867736e6ef04f4b9b9c742f4bcd67c
+    - name: Map With Header Animated_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: 7fac1c4e7d1d54ee1bf34b84bf471992
+    - name: Map With Header Animated_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: 4b88a241fcb9a44a18acf65c063c1e84
+    - name: Map With Header Animated_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: 1ac5b87c993874a7fb8822a2a0213a6e
+    - name: Map With Header Animated_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: 2974fdc23188441deab9224f053c2003
+    - name: Map With Header Animated_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: 8308d79982c2b4f6e9079a3951e308e0
+    - name: Map With Header Animated_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: dd4ea659a7f354511814b1b255a47346
+    - name: Map With Header Animated_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: 9abb8ea9e08eb4d7980fe3b61cf3b8b9
+    - name: Map With Header Animated_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: b6df4e959813e4e03954d70604252355
+    - name: Map With Header Animated_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: 5d0de62059df247e78cef5a543a42289
+    - name: Map With Header Animated_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 96
+        width: 416
+        height: 368
+      spriteId: 4bf009f3a92194d2e9e392cfdfd001cf
+    - name: Map With Header Animated_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 96
+        y: 101
+        width: 416
+        height: 366
+      spriteId: a0a7379d805a948e3bed9ae1a617ff35
+    - name: Map With Header Animated_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 153
+        y: 105
+        width: 302
+        height: 362
+      spriteId: 9e60d76bba37145f8ba4e5021369567c
+    - name: Map With Header Animated_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 266
+        y: 98
+        width: 76
+        height: 370
+      spriteId: 97a7ed68f1760466b883ca0a82e9cf0c
+    - name: Map With Header Animated_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 272
+        y: 96
+        width: 64
+        height: 370
+      spriteId: 3eb1cb42e8eab49d1ad1d51809b67263
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 608, y: 480}

@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tavern.unity
     guid: a3249fad6a00945deb48dcf313b67cfe
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 6c1bc674a9b284d2cbf013a977c0e98e
   m_configObjects: {}
