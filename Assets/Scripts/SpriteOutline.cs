@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,18 +12,9 @@ public class SpriteOutline : MonoBehaviour {
 
     private SpriteRenderer spriteRenderer;
 
-    void OnEnable() {
+    private void Awake()
+    {
         spriteRenderer = GetComponent<SpriteRenderer>();
-
-        UpdateOutline(true);
-    }
-
-    void OnDisable() {
-        UpdateOutline(false);
-    }
-
-    void Update() {
-        UpdateOutline(true);
     }
 
     public void UpdateOutline(bool outline) {
