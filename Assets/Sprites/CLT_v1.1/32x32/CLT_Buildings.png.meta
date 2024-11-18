@@ -113,14 +113,23 @@ TextureImporter:
       name: CLT_Buildings_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1697
-        width: 897
-        height: 639
+        x: 17
+        y: 1974
+        width: 351
+        height: 351
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 169.30391, y: 175.5}
+        - {x: -148.99416, y: 175.5}
+        - {x: -175.23378, y: 130.17967}
+        - {x: -175.23378, y: -105.9297}
+        - {x: -172.95207, y: -112.77345}
+        - {x: -112.486855, y: -175.5}
+        - {x: 146.48685, y: -175.5}
+        - {x: 175.5, y: -133.3047}
+        - {x: 175.5, y: 175.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -177,9 +186,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1375
-        y: 1985
-        width: 261
-        height: 351
+        y: 1665
+        width: 514
+        height: 671
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3826,6 +3835,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_177
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1888
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8127f8b0fea40f1b5283027b81d00e
+      internalID: 1358185688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -3924,6 +3954,7 @@ TextureImporter:
       CLT_Buildings_174: 280517210
       CLT_Buildings_175: 1454350400
       CLT_Buildings_176: 1386762664
+      CLT_Buildings_177: 1358185688
       CLT_Buildings_18: -2144180032
       CLT_Buildings_19: -897872685
       CLT_Buildings_2: 31591177
