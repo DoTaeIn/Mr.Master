@@ -13,6 +13,7 @@ public class PlayerCTRL : MonoBehaviour
     CircleTransition circleTransition;
     TalkDatas talkDatas;
     public DialogueRunner dialogueRunner;
+    BarManager barManager;
     
     
     [SerializeField] Animator animator;
@@ -40,6 +41,10 @@ public class PlayerCTRL : MonoBehaviour
     public BoxCollider2D grabArea;
     public GameObject grabbedObject;
     
+    [Header("Bar_Behind")]
+    public bool isBarBehind;
+    public bool canGoBehind;
+    
     //Limiting movement when interacting.
     public bool isInteracting;
     public bool canInteract;
@@ -64,7 +69,7 @@ public class PlayerCTRL : MonoBehaviour
     **/
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Interactable") && !isGrabbing)
+        if (other.CompareTag("Interactable") && !isGrabbing && other.GetComponent<InteractData>() == null)
         {
             canInteract = true;
             grabbedObject = other.gameObject;
@@ -74,7 +79,7 @@ public class PlayerCTRL : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Interactable") && !isGrabbing)
+        if (other.CompareTag("Interactable") && !isGrabbing && other.GetComponent<InteractData>() == null)
         {
             canInteract = false;
             grabbedObject = null;
@@ -134,7 +139,7 @@ public class PlayerCTRL : MonoBehaviour
         
         if(grabbedObject != null && grabbedObject.GetComponent<TavernChair>() !=null)
             grabbedObject.GetComponent<TavernChair>().isInteractable = canGrab;
-        else if(grabbedObject != null)
+        else if(grabbedObject != null && grabbedObject.GetComponent<InteractData>() ==null)
             grabbedObject.GetComponent<SpriteOutline>().UpdateOutline(canGrab);
 
         if (isInteracting && !isGrabbing)
@@ -147,23 +152,86 @@ public class PlayerCTRL : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (canInteract)
+            if (canInteract && !isBarBehind)
             {
+                Debug.Log("Start interacting");
                 interactables = FindObjectOfType<Interactables>();
                 //Interacting with Interactable Objs
                 if (interactables != null)
                 {
-                    
+                    Debug.Log("Found Interactables");
+                    //Find UI
                     if (uiManager == null)
                     {
                         uiManager = FindObjectOfType<UIManager>();
                     }
-                    //TODO: interacting door.
+
+                    if (barManager == null)
+                    {
+                        barManager = FindObjectOfType<BarManager>();
+                    }
+                    
+                    
+                    if (canGoBehind)
+                    {
+                        if (isBarBehind)
+                        {
+                            barManager.toFont();
+                            isInteracting = false;
+                        }
+                        else
+                        {
+                            barManager.toBehind();
+                            isInteracting = true;
+                        }
+                    }
+
+                    
+                    //Interacting with NPC
+                    if (npc != null && !isGrabbing)
+                    {
+                        isInteracting = true;
+                        if (uiManager == null)
+                        {
+                            uiManager = FindObjectOfType<UIManager>();
+                        }
+
+                        Debug.Log("Test NPC");
+
+                        uiManager.setActivePanelWName("choiceui", true);
+                        dialogueRunner = FindObjectOfType<DialogueRunner>();
+                        if (dialogueRunner != null)
+                            dialogueRunner.StartDialogue("100");
+                    }
+                    //Interacting with Obj that can grab
+                    else if (canGrab && !isGrabbing)
+                    {
+                        // Grabbing the object
+                        Debug.Log("Grabbing object");
+                        canGrab = false;
+                        grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+                        grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+                        grabbedObject.transform.SetParent(parent);
+                        grabbedObject.transform.localPosition = Vector3.zero; // Position it relative to the player
+                        isGrabbing = true;
+                    }
+                    else if (isGrabbing)
+                    {
+                        // Releasing the object
+                        Debug.Log("Releasing object");
+                        grabbedObject.transform.SetParent(mapParent);
+                        grabbedObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                        grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
+                        grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+                        canGrab = true;
+                        isGrabbing = false;
+                    }
+                    
+                    //TODO: interacting door - DONE
                     if (interactables.GetInteractableType(interactObjId) == InteractableType.Door)
                     {
                         isInteracting = true;
                         uiManager.setActivePanelWName("circle", true);
-                        interactObj.GetComponent<Animator>().SetBool("isOpening", true);
                         circleTransition.StartShrink();
                         interactObj = null;
                         isInteracting = false;
@@ -185,48 +253,11 @@ public class PlayerCTRL : MonoBehaviour
                         if(temp != null)
                             uiManager.setNameNTalk("나", temp.InteractLines, true);
                     }
-                }
-                
-                //Interacting with NPC
-                if (npc != null)
-                {
-                    isInteracting = true;
-                    if (uiManager == null)
-                    {
-                        uiManager = FindObjectOfType<UIManager>();
-                    }
-                    Debug.Log("Test NPC");
                     
-                    uiManager.setActivePanelWName("choiceui", true);
-                    dialogueRunner = FindObjectOfType<DialogueRunner>();
-                    if (dialogueRunner != null)
-                        dialogueRunner.StartDialogue("100");
                     
                 }
                 
-                //Interacting with OBJ to move
-                if (canGrab && !isGrabbing)
-                {
-                    // Grabbing the object
-                    Debug.Log("Grabbing object");
-                    canGrab = false;
-                    grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-                    grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
-                    grabbedObject.transform.SetParent(parent);
-                    grabbedObject.transform.localPosition = Vector3.zero; // Position it relative to the player
-                    isGrabbing = true;
-                }
-                else if (isGrabbing)
-                {
-                    // Releasing the object
-                    Debug.Log("Releasing object");
-                    grabbedObject.transform.SetParent(mapParent);
-                    grabbedObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-                    grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
-                    grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
-                    canGrab = true;
-                    isGrabbing = false;
-                }
+                
             }
         }
     }
@@ -350,6 +381,12 @@ public class PlayerCTRL : MonoBehaviour
             if(collision.gameObject.GetComponent<InteractData>() != null)
                 interactObjId = collision.gameObject.GetComponent<InteractData>().interactId;
         }
+
+        if (collision.gameObject.tag == "Bar_Behind")
+        {
+            canInteract = true;
+            canGoBehind = true;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D other)
@@ -361,6 +398,12 @@ public class PlayerCTRL : MonoBehaviour
             if(other.gameObject.GetComponent<InteractData>() != null)
                 interactObjId = 0;
             
+        }
+        
+        if (other.gameObject.tag == "Bar_Behind")
+        {
+            canInteract = false;
+            canGoBehind = false;
         }
     }
 }

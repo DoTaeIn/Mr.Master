@@ -100,6 +100,15 @@ public class UIManager : MonoBehaviour
                 }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            if (dialogueRunner.IsDialogueRunning)
+            {
+                LineView lineView = FindObjectOfType<LineView>();
+                lineView.OnContinueClicked();
+            }
+        }
     }
 
     

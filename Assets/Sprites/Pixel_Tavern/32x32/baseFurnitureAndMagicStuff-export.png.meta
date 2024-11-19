@@ -2125,6 +2125,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_96
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 872
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812ac95ed357543d4824633ebca5b189
+      internalID: 1746141386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baseFurnitureAndMagicStuff-export_97
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 900
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498529ece7d9d4195a4c8966fc77992a
+      internalID: 1184827748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2232,6 +2274,8 @@ TextureImporter:
       baseFurnitureAndMagicStuff-export_93: 277540013
       baseFurnitureAndMagicStuff-export_94: 24863511
       baseFurnitureAndMagicStuff-export_95: 1548449394
+      baseFurnitureAndMagicStuff-export_96: 1746141386
+      baseFurnitureAndMagicStuff-export_97: 1184827748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

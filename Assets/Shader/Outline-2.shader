@@ -1,6 +1,6 @@
 Shader "Unlit/Outline-2"
 {
-    Properties
+     Properties
     {
         [PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
         _Color ("Tint", Color) = (1,1,1,1)

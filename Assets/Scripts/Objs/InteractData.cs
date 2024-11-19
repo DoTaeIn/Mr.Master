@@ -6,4 +6,5 @@ public class InteractData : MonoBehaviour
 {
     public int interactId;
     public string interactName;
+    public InteractableType interactableType;
 }

@@ -7,6 +7,7 @@ TagManager:
   - Enemies
   - UIPanel
   - Interactable
+  - Bar_Behind
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Desk
   - Border
   - Barrel
-  - 
+  - Behind
   - 
   - 
   - 
