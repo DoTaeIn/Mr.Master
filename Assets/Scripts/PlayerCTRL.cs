@@ -178,11 +178,13 @@ public class PlayerCTRL : MonoBehaviour
                         {
                             barManager.toFont();
                             isInteracting = false;
+                            isBarBehind = false;
                         }
                         else
                         {
                             barManager.toBehind();
                             isInteracting = true;
+                            isBarBehind = true;
                         }
                     }
 

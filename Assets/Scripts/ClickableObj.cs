@@ -19,6 +19,12 @@ public class ClickableObj : MonoBehaviour
     public ClickableObjType type;
     SpriteOutline spriteOutline;
     private bool isMouseOn;
+
+    public string title;
+    [TextArea(20, 10)]
+    public string description;
+    
+    UIManager uiManager;
     
     private void Awake()
     {
@@ -42,13 +48,20 @@ public class ClickableObj : MonoBehaviour
     void OnMouseExit()
     {
         isMouseOn = false;
-        Debug.Log(gameObject.name);
+        if(uiManager == null)
+            uiManager = FindObjectOfType<UIManager>();
+
+        uiManager.startFollow = false;
     }
 
     //Show Info when mouse gets In
     void OnMouseEnter()
     {
         isMouseOn = true;
-        Debug.Log(gameObject.name);
+        if(uiManager == null)
+            uiManager = FindObjectOfType<UIManager>();
+
+        uiManager.startFollow = true; 
+        uiManager.setTitleDes(title, description);
     }
 }

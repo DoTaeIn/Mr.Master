@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -25,9 +26,18 @@ public class UIManager : MonoBehaviour
     
     [Header("Choice UI")]
     public GameObject[] dontDestory;
+    public CinemachineVirtualCamera virtualCamera;
+    private Camera mainCamera;
     
     [Header("Dialogue")]
     DialogueRunner dialogueRunner;
+    
+    [Header("Bar UI")]
+    public GameObject infoPanel;
+    public TMP_Text title_Txt;
+    public TMP_Text description_Txt;
+    public bool startFollow;
+    
     
     //Current name of the talk
     private string name;
@@ -109,6 +119,26 @@ public class UIManager : MonoBehaviour
                 lineView.OnContinueClicked();
             }
         }
+
+        if (startFollow)
+        {
+            infoPanel.SetActive(true);
+            Vector2 mousePos = Input.mousePosition;
+
+            // Adjust position based on whether it's out of view
+            Vector2 newPos = IsPartiallyVisible(infoPanel.GetComponent<RectTransform>())
+                ? new Vector2(mousePos.x - 200, mousePos.y - 130)
+                : new Vector2(mousePos.x + 300, mousePos.y - 130);
+
+            // Clamp position within screen bounds
+            newPos.x = Mathf.Clamp(newPos.x, 0, Screen.width - infoPanel.GetComponent<RectTransform>().sizeDelta.x);
+            newPos.y = Mathf.Clamp(newPos.y, 0, Screen.height - infoPanel.GetComponent<RectTransform>().sizeDelta.y);
+
+            infoPanel.GetComponent<RectTransform>().position = newPos;
+        }
+        else
+            infoPanel.SetActive(false);
+        
     }
 
     
@@ -131,10 +161,11 @@ public class UIManager : MonoBehaviour
     }
 
 
-    
+    //[OUTDATED]
     //Void for button on talk panel. It will show next line if available, 
     //Will show next page if overflows,
     //and next Will end Talk when end of conversation.
+    /**
     public void nextLine()
     {
         // If text is still printing, skip to the full text immediately
@@ -170,7 +201,7 @@ public class UIManager : MonoBehaviour
             }
         }
     }
-    
+    **/
     private void EndTalk()
     {
         currentTalk = 0; // Reset current talk
@@ -179,6 +210,12 @@ public class UIManager : MonoBehaviour
         Debug.Log("Talk ended."); // Optional debug log
         player = FindObjectOfType<PlayerCTRL>();
         player.isInteracting = false;
+    }
+
+    public void setTitleDes(string title, string description)
+    {
+        title_Txt.text = title;
+        description_Txt.text = description;
     }
     
     //Void that prints word one by one.
@@ -245,6 +282,10 @@ public class UIManager : MonoBehaviour
         {
             StartCoroutine(TriggerTransitionAfterSceneVisible());
         }
+        
+        setActivePanelWName("barui", true);
+        mainCamera = Camera.main;
+        virtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
     }
 
     private IEnumerator TriggerTransitionAfterSceneVisible()
@@ -255,5 +296,29 @@ public class UIManager : MonoBehaviour
         // Start the transition
         transition.StartExpand();
     }
+    
+    private bool IsPartiallyVisible(RectTransform rectTransform)
+    {
+        if (mainCamera == null) return false;
+
+        Vector3[] worldCorners = new Vector3[4];
+        rectTransform.GetWorldCorners(worldCorners);
+
+        foreach (var corner in worldCorners)
+        {
+            Vector3 viewportPoint = mainCamera.WorldToViewportPoint(corner);
+
+            // If any corner is inside the viewport, the object is partially visible
+            if (viewportPoint.x >= 0 && viewportPoint.x <= 1 &&
+                viewportPoint.y >= 0 && viewportPoint.y <= 1)
+            {
+                return true;
+            }
+        }
+
+        // None of the corners are in the viewport
+        return false;
+    }
+
     
 }
