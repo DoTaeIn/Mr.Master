@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using NavMeshPlus.Components;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Yarn.Unity;
@@ -14,6 +15,7 @@ public class PlayerCTRL : MonoBehaviour
     TalkDatas talkDatas;
     public DialogueRunner dialogueRunner;
     BarManager barManager;
+    NavMeshSurface navMeshSurface;
     
     
     [SerializeField] Animator animator;
@@ -227,6 +229,10 @@ public class PlayerCTRL : MonoBehaviour
                         grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
                         canGrab = true;
                         isGrabbing = false;
+                        if(navMeshSurface == null)
+                            navMeshSurface = FindObjectOfType<NavMeshSurface>();
+                        
+                        navMeshSurface.BuildNavMesh();
                     }
                     
                     //TODO: interacting door - DONE

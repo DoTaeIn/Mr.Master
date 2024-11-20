@@ -26,11 +26,12 @@ public class ChairRadius : MonoBehaviour
     {
         if (other.gameObject.tag == "Interactable")
         {
+            Debug.Log("Exit Chair");
             if (other.gameObject.GetComponent<InteractData>() != null)
             {
                 
             }
-            else if (other.GetComponent<TavernChair>() != null)
+            else if (other.GetComponent<TavernChair>() != null && !other.gameObject.GetComponent<TavernChair>().isSelected)
             {
                 other.gameObject.GetComponent<TavernChair>().isInRadius = false;
             }

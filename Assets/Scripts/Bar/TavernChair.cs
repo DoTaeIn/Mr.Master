@@ -6,10 +6,12 @@ using UnityEngine;
 public class TavernChair : MonoBehaviour
 {
     public int id;
-    bool isOccupied = false;
+    public bool isOccupied = false;
     public bool isInteractable = false;
     public NPC currentNPC = null;
     public bool isInRadius = true;
+    public Transform sittingPos;
+    public bool isSelected;
     
     BoxCollider2D boxCollider;
     SpriteOutline spriteOutline;
