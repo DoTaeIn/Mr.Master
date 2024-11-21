@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 using Yarn.Unity;
@@ -37,6 +38,12 @@ public class NPC : MonoBehaviour
     private Vector2 currPos;
     private Transform sttingPos;
     
+    [Header("NPC Emotion")]
+    [SerializeField] GameObject[] bubbles;
+    [SerializeField] SpriteRenderer sr;
+    [SerializeField] TMP_Text npc_short_Line;
+    [SerializeField] List<Sprite> emotionSprites; //0: Thinking, 1: Happy, 2: Sad, 3: Question, 4: Surprise
+    
     NavMeshAgent navMeshAgent;
     Animator animator;
     Rigidbody2D rb;
@@ -53,11 +60,6 @@ public class NPC : MonoBehaviour
         navMeshAgent.updateUpAxis = false;
     }
 
-    private void Start()
-    {
-        
-    }
-
     private void Update()
     {
         //Debug.Log(navMeshAgent.velocity.magnitude);
@@ -66,12 +68,23 @@ public class NPC : MonoBehaviour
         {
             //Debug.Log("Walking");
             animator.SetBool("isWalk", true);
+            if (navMeshAgent.velocity.x < 0)
+            {
+                // Moving left: flip horizontally
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            else if (navMeshAgent.velocity.x > 0)
+            {
+                // Moving right: reset to normal scale
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
         }
         else
         {
             //Debug.Log("Stoped");
             animator.SetBool("isWalk", false);
         }
+        
         
         
         //Show emotion
@@ -151,6 +164,37 @@ public class NPC : MonoBehaviour
             {
                 emotions[j].SetActive(true);
             }
+        }
+    }
+
+    
+    /**
+     * <summary>
+     * i is for what sprite to active. (Emotion Sprites)
+     * j is for what panel to active. (Speach or Think)
+     * </summary>
+     */
+    public void activeSmallInteraction(int i, int j, string line)
+    {
+        for (int k = 0; k < bubbles.Length; k++)
+        {
+            if (k != j)
+            {
+                bubbles[k].SetActive(false);
+            }
+            else
+            {
+                bubbles[k].SetActive(true);
+            }
+        }
+
+        if (j == 0)
+        {
+            npc_short_Line.text = line;
+        }
+        else
+        {
+            sr.sprite = emotionSprites[j];
         }
     }
 

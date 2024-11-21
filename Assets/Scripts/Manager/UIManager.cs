@@ -37,6 +37,11 @@ public class UIManager : MonoBehaviour
     public TMP_Text title_Txt;
     public TMP_Text description_Txt;
     public bool startFollow;
+    public GameObject drinksPanel;
+    public bool showDrinksPanel;
+    public List<DrinkSO> drinks;
+    public GameObject panelPrefab;
+    public GameObject parent;
     
     
     //Current name of the talk
@@ -88,7 +93,18 @@ public class UIManager : MonoBehaviour
     {
         transition = FindObjectOfType<CircleTransition>();
         dialogueRunner = FindObjectOfType<DialogueRunner>();
+        
+        foreach (DrinkSO drink in drinks)
+        {
+            GameObject gm = Instantiate(panelPrefab);
+            gm.transform.SetParent(parent.transform);
+            
+            gm.GetComponent<drinkSelect>().setTxt(drink.name, drink.price, drink.tastes, drink.price, drink.amount);
+            
+        }
     }
+    
+    
 
     private void Update()
     {
@@ -139,9 +155,29 @@ public class UIManager : MonoBehaviour
         else
             infoPanel.SetActive(false);
 
+        if (showDrinksPanel)
+        {
+            drinksPanel.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                showDrinksPanel = false;
+            }
+            
+            
+        }
+        else
+        {
+            drinksPanel.SetActive(false);
+        }
+
 
         //debugMouse();
 
+    }
+
+    public void SetShowDrinkPanel(bool show)
+    {
+        showDrinksPanel = show;
     }
 
     
@@ -163,7 +199,7 @@ public class UIManager : MonoBehaviour
         }
     }
     
-    public void debugMouse()
+    public string mouseHitString()
     {
         Camera cam = Camera.main;
         Vector2 mouseWorldPos = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -173,11 +209,11 @@ public class UIManager : MonoBehaviour
 
         if (hit.collider != null)
         {
-            Debug.Log($"Mouse is blocked by: {hit.collider.gameObject.name}");
+            return hit.collider.gameObject.name;
         }
         else
         {
-            Debug.Log("Mouse is not blocked by any object.");
+            return "";
         }
     }
 

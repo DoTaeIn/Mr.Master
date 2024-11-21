@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac162d4ea39d43098c0c9a6485e624b, type: 3}
+  m_Name: "\uADF8\uB808\uB098\uB518 \uC2DC\uB7FD"
+  m_EditorClassIdentifier: 
+  id: 38
+  name: "\uADF8\uB808\uB098\uB518 \uC2DC\uB7FD"
+  price: 1500
+  proof: 0
+  amount: 300
+  color: {r: 0.78431374, g: 0.0627451, b: 0.18039216, a: 1}
+  tastes:
+  - Sweet
+  - Cherry

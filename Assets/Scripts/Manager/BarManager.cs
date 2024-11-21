@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class BarManager : MonoBehaviour
 {
+    [Header("Toggle bar")]
     [SerializeField] private PolygonCollider2D barbehind;
     [SerializeField] private PolygonCollider2D barfont;
     [SerializeField] private CinemachineConfiner2D confiner;
@@ -13,20 +14,17 @@ public class BarManager : MonoBehaviour
     [SerializeField] private GameObject player2;
     [SerializeField] private Vector2 mixVec;
     [SerializeField] private Vector2 maxVec;
-    
-    [Header("Obj requirements")]
-    public GameObject map2;
-    public GameObject cocktail_cup;
-    public GameObject deer_cup;
-    
-    
     public float scrollSpeed = 5f; // Speed of camera movement
     public float edgeBoundary = 40f; // Width of the edge boundary to trigger movement (in pixels)
     private Vector3 targetPosition;
     
+    
+    [Header("Obj requirements")]
+    public GameObject map2;
+    public GameObject cocktail_cup;
+    public GameObject beer_cup;
 
-
-
+    
     public void toBehind()
     {
         player.Follow = player2.transform;
