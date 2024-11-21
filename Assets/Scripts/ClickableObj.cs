@@ -24,7 +24,6 @@ public class ClickableObj : MonoBehaviour
     private GameObject dump;
     bool isGrabbing = false;
     
-    private int originalLayer;
     
 
     [Header("Obj Reference")]
@@ -87,9 +86,7 @@ public class ClickableObj : MonoBehaviour
         worldPos.z = 0f;
         if(obj == null)
             obj = Instantiate(spawnObj);
-        originalLayer = obj.layer;
         obj.transform.SetParent(barManager.map2.transform);
-        obj.layer = LayerMask.NameToLayer("Ignore Raycast");
         obj.transform.position = new Vector3(worldPos.x, worldPos.y, 0f); 
     }
 
@@ -144,7 +141,9 @@ public class ClickableObj : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if(obj != null)
-            obj.layer = originalLayer;
+        if (obj != null)
+        {
+            obj = null;
+        }
     }
 }

@@ -140,7 +140,7 @@ public class UIManager : MonoBehaviour
             infoPanel.SetActive(false);
 
 
-        debugMouse();
+        //debugMouse();
 
     }
 

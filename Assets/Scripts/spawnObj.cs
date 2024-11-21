@@ -9,12 +9,10 @@ public class spawnObj : MonoBehaviour
     public bool isDumpable;
     public bool isMouseOn;
     SpriteOutline outline;
-    private int originalLayer;
 
     private void Awake()
     {
         outline = GetComponent<SpriteOutline>();
-        originalLayer = gameObject.layer;
     }
 
     private void Update()
@@ -34,7 +32,6 @@ public class spawnObj : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
         Camera mainCamera = Camera.main;
         
         if (mainCamera == null)
@@ -51,7 +48,6 @@ public class spawnObj : MonoBehaviour
 
     private void OnMouseUp()
     {
-        gameObject.layer = originalLayer;
         if (isOnDump)
             Destroy(gameObject);
         

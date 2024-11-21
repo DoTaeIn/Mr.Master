@@ -27,9 +27,10 @@ public class TavernChair : MonoBehaviour
 
     private void Update()
     {
-        spriteOutline.UpdateOutline(isInteractable);
         isOccupied = (currentNPC != null);
+        spriteOutline.UpdateOutline(isInteractable);
         boxCollider.gameObject.SetActive(isInRadius);
+        boxCollider.gameObject.SetActive(isOccupied);
     }
 
     void OnTriggerEnter2D(Collider2D other)
