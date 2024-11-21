@@ -14,6 +14,11 @@ public class BarManager : MonoBehaviour
     [SerializeField] private Vector2 mixVec;
     [SerializeField] private Vector2 maxVec;
     
+    [Header("Obj requirements")]
+    public GameObject map2;
+    public GameObject cocktail_cup;
+    public GameObject deer_cup;
+    
     
     public float scrollSpeed = 5f; // Speed of camera movement
     public float edgeBoundary = 40f; // Width of the edge boundary to trigger movement (in pixels)

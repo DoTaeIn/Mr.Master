@@ -45,7 +45,7 @@ public class NPC : MonoBehaviour
     private void Awake()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         
         //Navmesh default setting
@@ -55,21 +55,21 @@ public class NPC : MonoBehaviour
 
     private void Start()
     {
-        moveToRandomChair();
+        
     }
 
     private void Update()
     {
-        
+        //Debug.Log(navMeshAgent.velocity.magnitude);
         //Animation
-        if(!navMeshAgent.isStopped)
+        if(navMeshAgent.velocity.magnitude > 0.1f)
         {
-            Debug.Log("Walking");
+            //Debug.Log("Walking");
             animator.SetBool("isWalk", true);
         }
         else
         {
-            Debug.Log("Stoped");
+            //Debug.Log("Stoped");
             animator.SetBool("isWalk", false);
         }
         

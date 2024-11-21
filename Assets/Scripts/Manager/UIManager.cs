@@ -138,7 +138,10 @@ public class UIManager : MonoBehaviour
         }
         else
             infoPanel.SetActive(false);
-        
+
+
+        debugMouse();
+
     }
 
     
@@ -157,6 +160,24 @@ public class UIManager : MonoBehaviour
         else
         {
             
+        }
+    }
+    
+    public void debugMouse()
+    {
+        Camera cam = Camera.main;
+        Vector2 mouseWorldPos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        // Cast a ray at the mouse position
+        RaycastHit2D hit = Physics2D.Raycast(mouseWorldPos, Vector2.zero);
+
+        if (hit.collider != null)
+        {
+            Debug.Log($"Mouse is blocked by: {hit.collider.gameObject.name}");
+        }
+        else
+        {
+            Debug.Log("Mouse is not blocked by any object.");
         }
     }
 
