@@ -33,15 +33,38 @@ public class UIManager : MonoBehaviour
     DialogueRunner dialogueRunner;
     
     [Header("Bar UI")]
+    DrinkManager drinkManager;
+    [Space]
+    //Info Panel
     public GameObject infoPanel;
     public TMP_Text title_Txt;
     public TMP_Text description_Txt;
     public bool startFollow;
+    [Space]
+    //Drink Panel
     public GameObject drinksPanel;
     public bool showDrinksPanel;
     public List<DrinkSO> drinks;
     public GameObject panelPrefab;
     public GameObject parent;
+    [Space]
+    //Child Dirnk Panel
+    public bool isMeasureOpen;
+    public GameObject measurePanel;
+    public TMP_Text drinkName;
+    public TMP_Text drinkAmount;
+    public Slider drinkAmountSlider;
+    private Cocktail newCocktail;
+    [HideInInspector]public DrinkSO selectedDrink;
+
+    [Space]
+    //Shaker Panel
+    public GameObject drinkListPanel;
+    public GameObject drinksListPrefab;
+    public Transform drinksListParent;
+    public bool showDrinksList;
+    
+    
     
     
     //Current name of the talk
@@ -54,6 +77,7 @@ public class UIManager : MonoBehaviour
     private int currentPage = 0;
     private List<string> talks = new List<string>();
     private bool isDone;
+    public bool isDraging = false;
 
     private PlayerCTRL player;
 
@@ -62,6 +86,7 @@ public class UIManager : MonoBehaviour
     public string Name { get => name; set => name = value; }
     public int MaxTalk { get => maxTalk; set => maxTalk = value; }
     private List<string> Talks { get => talks; set => talks = value; }
+    public bool setIsMeasureOpen { set => isMeasureOpen = value; }
 
     private void Start()
     {
@@ -98,8 +123,8 @@ public class UIManager : MonoBehaviour
         {
             GameObject gm = Instantiate(panelPrefab);
             gm.transform.SetParent(parent.transform);
-            
-            gm.GetComponent<drinkSelect>().setTxt(drink.name, drink.price, drink.tastes, drink.price, drink.amount);
+            gm.GetComponent<drinkSelect>().currDrink = drink;
+            gm.GetComponent<drinkSelect>().setTxt(drink.name, drink.proof, drink.tastes, drink.price, drink.amount);
             
         }
     }
@@ -162,18 +187,60 @@ public class UIManager : MonoBehaviour
             {
                 showDrinksPanel = false;
             }
-            
-            
         }
         else
         {
             drinksPanel.SetActive(false);
         }
-
-
+        
+        measurePanel.SetActive(isMeasureOpen);
         //debugMouse();
+        
+        if(showDrinksPanel)
+            drinkAmount.text = drinkAmountSlider.value.ToString() + "ml";
+        
 
+        if (isDraging)
+        {
+            drinkListPanel.SetActive(true);
+            Vector2 mousePos = Input.mousePosition;
+            drinkListPanel.transform.position = new Vector2(mousePos.x + 250, mousePos.y);
+        }
     }
+    
+    public void HideDrinkList()
+    {
+        drinkListPanel.SetActive(false);
+    }
+
+    public void showListPanel()
+    {
+        drinkListPanel.SetActive(true);
+        Vector2 mousePos = Input.mousePosition;
+        drinkListPanel.transform.position = new Vector2(mousePos.x + 250, mousePos.y);
+    }
+
+    public void setMeausrePanel(string title, string amount)
+    {
+        drinkName.text = title;
+        drinkAmountSlider.maxValue = float.Parse(amount);
+    }
+
+    public void putDrink()
+    {
+        Drink temp = new Drink(selectedDrink.id, selectedDrink.name, selectedDrink.price, selectedDrink.proof, selectedDrink.amount, selectedDrink.color, selectedDrink.tastes);
+        if(player == null)
+            player = FindObjectOfType<PlayerCTRL>();
+        player.AddDrinkToCocktail(drinkAmountSlider.value, temp);
+        GameObject gm = Instantiate(drinksListPrefab);
+        gm.transform.SetParent(drinksListParent);
+        gm.GetComponent<drinkList>().drink = selectedDrink;
+        gm.GetComponent<drinkList>().amount_fl = int.Parse(drinkAmountSlider.value.ToString());
+        gm.GetComponent<drinkList>().Initiate();
+        Debug.Log(drinkAmountSlider.value + "ml");
+    }
+    
+    
 
     public void SetShowDrinkPanel(bool show)
     {

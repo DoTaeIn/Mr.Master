@@ -10,6 +10,13 @@ public class drinkSelect: MonoBehaviour
     public TMP_Text tasteTxt;
     public TMP_Text priceTxt;
     public TMP_Text leftTxt;
+    
+    public DrinkSO currDrink;
+    private string drinkName;
+    private float proof;
+    private List<string> taste;
+    private float price;
+    private float left;
 
     UIManager uIManager;
 
@@ -21,8 +28,15 @@ public class drinkSelect: MonoBehaviour
 
     public void setTxt(string name, float proof, List<string> taste, float price, float left)
     {
+        this.name = name;
+        this.proof = proof;
+        this.taste = taste;
+        this.price = price;
+        this.left = left;
+        
+        
         drinkNameTxt.text = name;
-        proofTxt.text = proof.ToString() + "%";
+        proofTxt.text = proof + "%";
         
         string temp = "";
         for (int i = 0; i < taste.Count; i++)
@@ -40,6 +54,8 @@ public class drinkSelect: MonoBehaviour
 
     public void onClick()
     {
-        uIManager.showDrinksPanel = false;
+        uIManager.isMeasureOpen = true;
+        uIManager.selectedDrink = currDrink;
+        uIManager.setMeausrePanel(name, left.ToString());
     }
 }

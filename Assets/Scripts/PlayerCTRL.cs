@@ -310,9 +310,9 @@ public class PlayerCTRL : MonoBehaviour
             float amount = kvp.Key;
             Drink drink = kvp.Value;
 
-            r += drink.getColor().r * (amount / totalAmount);
-            g += drink.getColor().g * (amount / totalAmount);
-            b += drink.getColor().b * (amount / totalAmount);   
+            r += drink.Color.r * (amount / totalAmount);
+            g += drink.Color.g * (amount / totalAmount);
+            b += drink.Color.b * (amount / totalAmount);   
         }
 
         return new Color(r, g, b);
@@ -328,7 +328,7 @@ public class PlayerCTRL : MonoBehaviour
             float amount = kvp.Key;
             Drink drink = kvp.Value;
 
-            weightedProof += drink.getProof() * (amount / totalAmount);
+            weightedProof += drink.Proof * (amount / totalAmount);
         }
 
         return weightedProof;
@@ -354,7 +354,7 @@ public class PlayerCTRL : MonoBehaviour
         {
             Drink drink = kvp.Value;
 
-            foreach (var taste in drink.getTastes())
+            foreach (var taste in drink.Tastes)
             {
                 uniqueTastes.Add(taste); // Add unique tastes
             }

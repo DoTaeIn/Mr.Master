@@ -43,6 +43,10 @@ public class NPC : MonoBehaviour
     [SerializeField] SpriteRenderer sr;
     [SerializeField] TMP_Text npc_short_Line;
     [SerializeField] List<Sprite> emotionSprites; //0: Thinking, 1: Happy, 2: Sad, 3: Question, 4: Surprise
+
+    [Header("Love Point")] 
+    public Dictionary<int, int> lovePoints; //NPCID, How much they like them
+
     
     NavMeshAgent navMeshAgent;
     Animator animator;

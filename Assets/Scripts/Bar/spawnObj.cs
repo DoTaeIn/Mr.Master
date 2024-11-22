@@ -3,17 +3,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum SpawnType
+{
+    Cup,
+    Shaker
+}
+
 public class spawnObj : MonoBehaviour
 {
     public bool isOnDump;
     public bool isDumpable;
     public bool isMouseOn;
+    public SpawnType spawnType;
+    UIManager uIManager;
     SpriteOutline outline;
     ClickableObj dumpObj;
 
     private void Awake()
     {
         outline = GetComponent<SpriteOutline>();
+        uIManager = FindObjectOfType<UIManager>();
     }
 
     private void Update()
@@ -24,6 +33,7 @@ public class spawnObj : MonoBehaviour
     private void OnMouseEnter()
     {
         isMouseOn = true;
+        
     }
 
     private void OnMouseExit()
@@ -34,7 +44,8 @@ public class spawnObj : MonoBehaviour
     private void OnMouseDrag()
     {
         Camera mainCamera = Camera.main;
-        
+        uIManager.isDraging = true;
+        uIManager.showDrinksPanel = true;
         if (mainCamera == null)
         {
             Debug.LogError("No main camera found! Ensure your Cinemachine camera is tagged as MainCamera.");
@@ -61,9 +72,22 @@ public class spawnObj : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (isOnDump)
-            Destroy(gameObject);
-        isOnDump = false;
+        if (spawnType == SpawnType.Cup)
+        {
+            if (isOnDump)
+                Destroy(gameObject);
+            isOnDump = false;
+        }
         
+        uIManager.isDraging = false;
+    }
+
+    private void OnMouseDown()
+    {
+        if(spawnType == SpawnType.Shaker)
+        {
+            uIManager.showListPanel();
+            uIManager.showDrinksPanel = true;
+        }
     }
 }

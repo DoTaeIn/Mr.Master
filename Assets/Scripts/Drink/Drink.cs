@@ -31,13 +31,21 @@ public class Drink
         this.tastes = tastes;
     }
 
-    public int getId() { return id; }
-    public string getName() { return name; }
-    public float getPrice() { return price; }
-    public float getProof() { return proof; }
-    public float getAmount() { return amount; }
-    public Color getColor() { return color; }
-    public List<string> getTastes() { return tastes; }
+    public int Id
+    {
+        get => id;
+        set => id = value;
+    }
+    public string Name { get => name; set => name = value; }
+    public float Price { get => price; set => price = value; }
+    public float Proof { get => proof; set => proof = value; }
+
+    public float Amount
+    {
+        get => amount; set => amount = value;
+    }
+    public Color Color { get => color; set => color = value; }
+    public List<string> Tastes { get => tastes; set => tastes = value; }
     
     
     
