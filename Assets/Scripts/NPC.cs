@@ -64,6 +64,11 @@ public class NPC : MonoBehaviour
         navMeshAgent.updateUpAxis = false;
     }
 
+    private void Start()
+    {
+        moveToRandomChair();
+    }
+
     private void Update()
     {
         //Debug.Log(navMeshAgent.velocity.magnitude);

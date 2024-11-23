@@ -55,7 +55,7 @@ public class UIManager : MonoBehaviour
     public TMP_Text drinkAmount;
     public Slider drinkAmountSlider;
     private Cocktail newCocktail;
-    [HideInInspector]public DrinkSO selectedDrink;
+    [HideInInspector] public DrinkSO selectedDrink;
 
     [Space]
     //Shaker Panel
@@ -210,6 +210,8 @@ public class UIManager : MonoBehaviour
     
     public void HideDrinkList()
     {
+        Debug.Log("Test");
+        showDrinksList = false;
         drinkListPanel.SetActive(false);
     }
 
@@ -231,6 +233,7 @@ public class UIManager : MonoBehaviour
         Drink temp = new Drink(selectedDrink.id, selectedDrink.name, selectedDrink.price, selectedDrink.proof, selectedDrink.amount, selectedDrink.color, selectedDrink.tastes);
         if(player == null)
             player = FindObjectOfType<PlayerCTRL>();
+        
         player.AddDrinkToCocktail(drinkAmountSlider.value, temp);
         GameObject gm = Instantiate(drinksListPrefab);
         gm.transform.SetParent(drinksListParent);

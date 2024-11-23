@@ -2,11 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public enum SpawnType
 {
     Cup,
-    Shaker
+    Shaker,
+    Ice
 }
 
 public class spawnObj : MonoBehaviour
@@ -14,6 +16,7 @@ public class spawnObj : MonoBehaviour
     public bool isOnDump;
     public bool isDumpable;
     public bool isMouseOn;
+    public bool isDragging;
     public SpawnType spawnType;
     UIManager uIManager;
     SpriteOutline outline;
@@ -28,6 +31,11 @@ public class spawnObj : MonoBehaviour
     private void Update()
     {
         outline.UpdateOutline(isMouseOn);
+
+        if (isDragging)
+        {
+            Debug.Log(hitCollider().gameObject.name);
+        }
     }
 
     private void OnMouseEnter()
@@ -43,35 +51,49 @@ public class spawnObj : MonoBehaviour
 
     private void OnMouseDrag()
     {
+        isDragging = true;
         Camera mainCamera = Camera.main;
-        uIManager.isDraging = true;
-        uIManager.showDrinksPanel = true;
+        if (spawnType == SpawnType.Shaker)
+        {
+            uIManager.isDraging = true;
+            uIManager.showDrinksList = true;
+        }
         if (mainCamera == null)
         {
             Debug.LogError("No main camera found! Ensure your Cinemachine camera is tagged as MainCamera.");
             return;
         }
+        
         Vector3 mousePos = Input.mousePosition;
         Vector3 worldPos = mainCamera.ScreenToWorldPoint(mousePos);
-        worldPos.z = 0f;
         transform.position = new Vector3(worldPos.x, worldPos.y, 0f); 
         
-        Collider2D hit = Physics2D.OverlapPoint(worldPos);
-        if (hit != null && hit.GetComponent<ClickableObj>() != null) // Adjust tag as needed
+        /**
+        Collider2D hitObj = hitCollider();
+        Debug.Log(hitObj);
+        
+        if (hitObj != null && hitObj.GetComponent<ClickableObj>() != null) // Adjust tag as needed
         {
-            if (hit.GetComponent<ClickableObj>().type == ClickableObjType.Dump)
+            if (hitObj.GetComponent<ClickableObj>().type == ClickableObjType.Dump)
             {
-                Debug.Log($"Overlapping with: {hit.name}");
-                dumpObj = hit.GetComponent<ClickableObj>();
+                Debug.Log($"Overlapping with: {hitObj.name}");
+                dumpObj = hitObj.GetComponent<ClickableObj>();
                 isOnDump = true;
             }
             else
+            {
                 isOnDump = false;
+                Debug.Log($"Overlapping with: {hitObj.name}");
+            }
+            
+                
         }
+        */
     }
 
     private void OnMouseUp()
     {
+        Debug.Log("TestTest");
         if (spawnType == SpawnType.Cup)
         {
             if (isOnDump)
@@ -87,7 +109,21 @@ public class spawnObj : MonoBehaviour
         if(spawnType == SpawnType.Shaker)
         {
             uIManager.showListPanel();
-            uIManager.showDrinksPanel = true;
+            uIManager.showDrinksList = true;
         }
+        
+        isDragging = false;
+    }
+
+    Collider2D hitCollider()
+    {
+        Camera mainCamera = Camera.main;
+        
+        Vector3 mousePos = Input.mousePosition;
+        Vector3 worldPos = mainCamera.ScreenToWorldPoint(mousePos);
+        
+        Collider2D hit = Physics2D.OverlapPoint(worldPos);
+        
+        return hit;
     }
 }

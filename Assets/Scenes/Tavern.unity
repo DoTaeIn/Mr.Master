@@ -1005,6 +1005,7 @@ MonoBehaviour:
   isOnDump: 0
   isDumpable: 0
   isMouseOn: 0
+  isDragging: 0
   spawnType: 1
 --- !u!212 &105923448
 SpriteRenderer:
@@ -1047,7 +1048,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -1882341933, guid: ec6ae1806ad5a42a595c2f0801410072, type: 3}
+  m_Sprite: {fileID: -177472434, guid: 957fbaf7e89a2409b917f12b6b049ba5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1068,7 +1069,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.7880135, y: 1.161, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1170461539}
@@ -1109,14 +1110,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.296875, y: 0.7109375}
+    oldSize: {x: 0.4375, y: 1}
     newSize: {x: 0.296875, y: 0.7109375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.296875, y: 0.7109375}
+  m_Size: {x: 0.45, y: 1.04}
   m_EdgeRadius: 0
 --- !u!1 &113403101
 GameObject:
@@ -11140,6 +11141,7 @@ MonoBehaviour:
   edgeBoundary: 50
   map2: {fileID: 1170461538}
   cocktail_cup: {fileID: 4728337830294825823, guid: 8905b18a9267d47d6b20a6d9157fc3b6, type: 3}
+  ice: {fileID: 5034783098019908093, guid: a39a4b4efcef14d04a486f75233181db, type: 3}
   beer_cup: {fileID: 0}
 --- !u!4 &1133225979
 Transform:

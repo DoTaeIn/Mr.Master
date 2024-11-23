@@ -22,6 +22,7 @@ public class BarManager : MonoBehaviour
     [Header("Obj requirements")]
     public GameObject map2;
     public GameObject cocktail_cup;
+    public GameObject ice;
     public GameObject beer_cup;
 
     

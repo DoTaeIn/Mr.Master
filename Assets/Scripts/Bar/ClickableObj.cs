@@ -53,7 +53,7 @@ public class ClickableObj : MonoBehaviour
         switch (type)
         {
             case ClickableObjType.Shelf:
-                SpawnObj(barManager.cocktail_cup);
+                SpawnObj(barManager.cocktail_cup, false, new Quaternion());
                 break;
             case ClickableObjType.Dump:
                 break;
@@ -62,13 +62,16 @@ public class ClickableObj : MonoBehaviour
             case ClickableObjType.Book:
                 break;
             case ClickableObjType.Ice:
+                int temp = UnityEngine.Random.Range(0, 180);
+                Quaternion tempQ = Quaternion.Euler(0, 0, temp);
+                SpawnObj(barManager.ice, true, tempQ);
                 break;
             default:
                 break;
         }
     }
 
-    void SpawnObj(GameObject spawnObj)
+    void SpawnObj(GameObject spawnObj, bool needTurn, Quaternion rotation)
     {
         Camera mainCamera = Camera.main;
 
@@ -84,6 +87,9 @@ public class ClickableObj : MonoBehaviour
             obj = Instantiate(spawnObj);
         obj.transform.SetParent(barManager.map2.transform);
         obj.transform.position = new Vector3(worldPos.x, worldPos.y, 0f); 
+        
+        if(needTurn)
+            obj.transform.rotation = rotation;
     }
 
 
