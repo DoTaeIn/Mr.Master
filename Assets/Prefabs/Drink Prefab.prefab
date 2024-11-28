@@ -128,7 +128,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6.455139, y: 0, z: 4.937622, w: 0}
+  m_margin: {x: 6.455139, y: 0, z: 11.668137, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -168,8 +168,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -122.5006, y: 30.3378}
-  m_SizeDelta: {x: 114.5948, y: 39.3243}
+  m_AnchoredPosition: {x: 0.00022125, y: 30.3378}
+  m_SizeDelta: {x: 359.6, y: 39.3243}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5092712844701740560
 CanvasRenderer:
@@ -226,15 +226,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.6
+  m_fontSize: 22.7
   m_fontSizeBase: 21.6
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 5.7986755, y: 6.480896, z: 18.419312, w: 9.209595}
+  m_margin: {x: 9.885849, y: 6.480896, z: 39.05951, w: 10.107}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6.455139, y: 0, z: 4.937622, w: 0}
+  m_margin: {x: 6.455139, y: 0, z: 9.424637, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6.455139, y: 0, z: 0, w: 0}
+  m_margin: {x: 10.493439, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -950872714, guid: 89ebadf9d26a842df96658c98d2aaa0c, type: 3}
+  m_Sprite: {fileID: 1102971883, guid: 89ebadf9d26a842df96658c98d2aaa0c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -691,6 +691,7 @@ MonoBehaviour:
   tasteTxt: {fileID: 5218293793191119199}
   priceTxt: {fileID: 7108864798922648535}
   leftTxt: {fileID: 7457135089169015287}
+  currDrink: {fileID: 0}
 --- !u!1 &8762640255318942931
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +820,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6.455139, y: 0, z: 0, w: 6.7788086}
+  m_margin: {x: 10.942139, y: 0, z: 0, w: 6.7788086}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

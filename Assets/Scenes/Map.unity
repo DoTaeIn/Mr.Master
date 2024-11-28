@@ -2237,10 +2237,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.47
+  m_fontSize: 30.6
   m_fontSizeBase: 29.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -22658,7 +22658,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2138332616}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: set_setIsMeasureOpen
+        m_MethodName: setIsMeasureOpen
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -21,11 +21,13 @@ public class spawnObj : MonoBehaviour
     UIManager uIManager;
     SpriteOutline outline;
     ClickableObj dumpObj;
+    SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
         outline = GetComponent<SpriteOutline>();
         uIManager = FindObjectOfType<UIManager>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -34,7 +36,10 @@ public class spawnObj : MonoBehaviour
 
         if (isDragging)
         {
-            Debug.Log(hitCollider().gameObject.name);
+            foreach (Collider2D col in hitCollider())
+            {
+               Debug.Log(col.gameObject.name);
+            }
         }
     }
 
@@ -115,15 +120,37 @@ public class spawnObj : MonoBehaviour
         isDragging = false;
     }
 
-    Collider2D hitCollider()
+    
+    Collider2D[] hitCollider()
     {
-        Camera mainCamera = Camera.main;
+        // 현재 오브젝트의 sortingOrder 값
+        int currentSortingOrder = spriteRenderer.sortingOrder;
+
+        // 현재 위치와 겹치는 오브젝트를 찾기 위해 OverlapCircle 사용
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 0.1f); // 겹치는 오브젝트 탐지
+
+        return colliders;
         
-        Vector3 mousePos = Input.mousePosition;
-        Vector3 worldPos = mainCamera.ScreenToWorldPoint(mousePos);
-        
-        Collider2D hit = Physics2D.OverlapPoint(worldPos);
-        
-        return hit;
+        /**
+        foreach (Collider2D col in colliders)
+        {
+            // 자신은 무시
+            if (col.gameObject == this.gameObject) continue;
+
+            SpriteRenderer otherSpriteRenderer = col.GetComponent<SpriteRenderer>();
+
+            if (otherSpriteRenderer != null)
+            {
+                // 다른 오브젝트의 sortingOrder 확인
+                int otherSortingOrder = otherSpriteRenderer.sortingOrder;
+
+                if (otherSortingOrder < currentSortingOrder) // 뒤에 렌더되는 경우
+                {
+                    Debug.Log("뒤에 있는 오브젝트 감지: " + col.gameObject.name);
+                }
+            }
+            
+        }
+        */
     }
 }

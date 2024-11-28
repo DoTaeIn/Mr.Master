@@ -62,9 +62,15 @@ public class ClickableObj : MonoBehaviour
             case ClickableObjType.Book:
                 break;
             case ClickableObjType.Ice:
-                int temp = UnityEngine.Random.Range(0, 180);
+                bool once = false;
+                int temp = 0;
+                if (!once)
+                {
+                    temp = UnityEngine.Random.Range(0, 180);
+                }
                 Quaternion tempQ = Quaternion.Euler(0, 0, temp);
                 SpawnObj(barManager.ice, true, tempQ);
+                once = true;
                 break;
             default:
                 break;

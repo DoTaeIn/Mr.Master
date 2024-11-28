@@ -86,8 +86,14 @@ public class UIManager : MonoBehaviour
     public string Name { get => name; set => name = value; }
     public int MaxTalk { get => maxTalk; set => maxTalk = value; }
     private List<string> Talks { get => talks; set => talks = value; }
-    public bool setIsMeasureOpen { set => isMeasureOpen = value; }
+    
 
+    public void setIsMeasureOpen(bool value)
+    {
+        isMeasureOpen = value;
+        drinkAmountSlider.value = 0;
+    }
+    
     private void Start()
     {
         DontDestroyOnLoad(this.gameObject);
@@ -152,6 +158,8 @@ public class UIManager : MonoBehaviour
             }
         }
 
+        
+        //Next Dialouge
         if (Input.GetKeyDown(KeyCode.Z))
         {
             if (dialogueRunner.IsDialogueRunning)
@@ -160,7 +168,9 @@ public class UIManager : MonoBehaviour
                 lineView.OnContinueClicked();
             }
         }
-
+        
+        
+        //InfoPanel follow
         if (startFollow)
         {
             infoPanel.SetActive(true);
@@ -179,6 +189,7 @@ public class UIManager : MonoBehaviour
         }
         else
             infoPanel.SetActive(false);
+        
 
         if (showDrinksPanel)
         {
@@ -197,7 +208,7 @@ public class UIManager : MonoBehaviour
         //debugMouse();
         
         if(showDrinksPanel)
-            drinkAmount.text = drinkAmountSlider.value.ToString() + "ml";
+            drinkAmount.text = drinkAmountSlider.value.ToString() + "ml / " ;
         
 
         if (isDraging)
@@ -205,6 +216,11 @@ public class UIManager : MonoBehaviour
             drinkListPanel.SetActive(true);
             Vector2 mousePos = Input.mousePosition;
             drinkListPanel.transform.position = new Vector2(mousePos.x + 250, mousePos.y);
+        }
+
+        if (!drinkAmountSlider.IsActive())
+        {
+            drinkAmountSlider.value = drinkAmountSlider.minValue;
         }
     }
     

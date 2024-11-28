@@ -8,6 +8,7 @@ TagManager:
   - UIPanel
   - Interactable
   - Bar_Behind
+  - Bar_Obj
   layers:
   - Default
   - TransparentFX
