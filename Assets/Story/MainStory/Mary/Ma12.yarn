@@ -1,0 +1,19 @@
+﻿title: Ma12
+tags:
+---
+<<declare $playerName to "Mr.Master">>
+
+Mary: 휴우...
+{$playerName}: (뭔가 고민이 있어 보이는데...)
+-> {$playerName}: (고민이라도 있냐고 물어보자.)
+    {$playerName}: 무슨 고민이라도 있으신가요?
+    Mary: 네?
+    {$playerName}: 한숨을 쉬시길래..
+    Mary: 아... 아무것도 아니에요! 그냥 직장인의 푸념같은거죠, 하하...
+-> {$playerName}: (가만히 있자.)
+    {$playerName}: (물어보는게 실례일 수도 있으니... 굳이 물어볼 필요는 없겠지.)
+
+{$playerName}: (대화를 더 나누어 본다면 얘기해줄지도 몰라.)
+
+<<l>>
+===

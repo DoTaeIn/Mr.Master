@@ -45,7 +45,7 @@ public class NPC : MonoBehaviour
     [SerializeField] List<Sprite> emotionSprites; //0: Thinking, 1: Happy, 2: Sad, 3: Question, 4: Surprise
 
     [Header("Love Point")] 
-    public Dictionary<int, int> lovePoints; //NPCID, How much they like them
+    public Dictionary<int, int> lovePoints; //NPCID, How much they like them 0: player
 
     
     NavMeshAgent navMeshAgent;
@@ -63,11 +63,7 @@ public class NPC : MonoBehaviour
         navMeshAgent.updateRotation = false;
         navMeshAgent.updateUpAxis = false;
     }
-
-    private void Start()
-    {
-        moveToRandomChair();
-    }
+    
 
     private void Update()
     {
@@ -247,6 +243,7 @@ public class NPC : MonoBehaviour
     
     
     //Uses navmesh to move to random pos of chair
+    [YarnCommand("MoveToChair")]
     public void moveToRandomChair()
     {
         isPlanning2Sit = true;
@@ -263,9 +260,11 @@ public class NPC : MonoBehaviour
         isPlanning2Sit = false;
     }
 
-    public void moveToPos()
+    [YarnCommand("MoveToPos")]
+    public void moveToPos(int x, int y)
     {
         isPlanning2Sit = true;
+        navMeshAgent.SetDestination(new Vector3(x, y, 0));
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -279,5 +278,12 @@ public class NPC : MonoBehaviour
                 sit(randomPos.transform.position);
             }
         }    
+    }
+
+
+    [YarnCommand("addLovePoint")]
+    public void addLovePoint(int x, int y)
+    {
+        lovePoints[x] += y;
     }
 }

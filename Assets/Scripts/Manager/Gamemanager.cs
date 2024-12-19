@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using Yarn.Unity;
 
 public class Gamemanager : MonoBehaviour
 {
@@ -17,23 +18,35 @@ public class Gamemanager : MonoBehaviour
     private void Update()
     {
         #region Time Control
-        if (currentTime <= halfTime && !isAfternoon)
+
+        if (sun != null)
         {
-            currentTime += Time.deltaTime * timesensitivity;
-            sun.intensity = currentTime / halfTime;
-            if(currentTime >= halfTime) 
-                isAfternoon = true;
+            if (currentTime <= halfTime && !isAfternoon)
+            {
+                currentTime += Time.deltaTime * timesensitivity;
+                sun.intensity = currentTime / halfTime;
+                if(currentTime >= halfTime) 
+                    isAfternoon = true;
+            }
+            else if(isAfternoon)
+            {
+                currentTime -= Time.deltaTime * timesensitivity;
+                sun.intensity = currentTime / halfTime;
+                if(currentTime <= 1.2f)     
+                    isAfternoon = false;
+            }
+            
+            Math.Clamp(currentTime, 1.2f, halfTime);
         }
-        else if(isAfternoon)
-        {
-            currentTime -= Time.deltaTime * timesensitivity;
-            sun.intensity = currentTime / halfTime;
-            if(currentTime <= 1.2f)     
-                isAfternoon = false;
-        }
-        
-        Math.Clamp(currentTime, 1.2f, halfTime);
         #endregion
     }
+
+    
+    [YarnCommand("setQuest")]
+    public void setQuest(string questName, string questDescription)
+    {
+        
+    }
+    
     
 }

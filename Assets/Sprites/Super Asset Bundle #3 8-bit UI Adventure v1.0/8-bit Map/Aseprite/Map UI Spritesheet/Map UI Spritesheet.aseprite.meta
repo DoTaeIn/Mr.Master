@@ -105,6 +105,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +127,7 @@ ScriptedImporter:
     pivot: {x: 0.51630837, y: -0.02802412}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -146,6 +148,7 @@ ScriptedImporter:
     pivot: {x: 0.51486987, y: -0.02802412}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2710
@@ -166,6 +169,7 @@ ScriptedImporter:
     pivot: {x: 0.6207665, y: -0.048907388}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 5091
@@ -186,6 +190,7 @@ ScriptedImporter:
     pivot: {x: 0.51543206, y: -0.24411508}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 5408
@@ -206,6 +211,7 @@ ScriptedImporter:
     pivot: {x: 0.5156495, y: -0.25252968}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -226,6 +232,7 @@ ScriptedImporter:
     pivot: {x: 0.5419483, y: -0.28510433}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2568
@@ -246,6 +253,7 @@ ScriptedImporter:
     pivot: {x: 0.55834013, y: -0.44132468}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -266,6 +274,7 @@ ScriptedImporter:
     pivot: {x: 0.5362969, y: -2.1361504}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2446
@@ -290,7 +299,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Map UI Spritesheet_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +308,7 @@ ScriptedImporter:
         width: 2698
         height: 2819
       spriteId: 321c003684fca4065a5cb52b00a24dc4
-    - name: Map UI Spritesheet_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +317,7 @@ ScriptedImporter:
         width: 2690
         height: 2819
       spriteId: 10e9c3658fd90477e807b38deefbb3ec
-    - name: Map UI Spritesheet_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +326,7 @@ ScriptedImporter:
         width: 2244
         height: 1922
       spriteId: 9b8e3871caf6348daa48c2291473d327
-    - name: Map UI Spritesheet_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +335,7 @@ ScriptedImporter:
         width: 2592
         height: 2294
       spriteId: 6f28d6e79d3f1481eab70f72d85d9a51
-    - name: Map UI Spritesheet_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +344,7 @@ ScriptedImporter:
         width: 2556
         height: 2273
       spriteId: 19a562f048d8d4935ad61217cf14cec6
-    - name: Map UI Spritesheet_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +353,7 @@ ScriptedImporter:
         width: 2515
         height: 2108
       spriteId: 3170d8a7f7f5442c6b3da21ed2ce1a74
-    - name: Map UI Spritesheet_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +362,7 @@ ScriptedImporter:
         width: 2434
         height: 1389
       spriteId: f951b02fd90f748a8b716f92e31aaa1e
-    - name: Map UI Spritesheet_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

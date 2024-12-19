@@ -16,6 +16,9 @@ public class objTemp : MonoBehaviour
     public tempCTRLType tempType;
     public bool isStart;
 
+    public float minTemp = 0;
+    public float maxTemp = 78;
+
 
     private void Update()
     {
@@ -27,6 +30,8 @@ public class objTemp : MonoBehaviour
                 temp -= Time.deltaTime * ratio;
         }
         
+        
+        Math.Clamp(temp, minTemp, maxTemp);
             
     }
 }

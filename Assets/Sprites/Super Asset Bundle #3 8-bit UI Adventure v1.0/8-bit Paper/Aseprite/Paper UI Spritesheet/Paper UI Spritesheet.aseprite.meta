@@ -105,6 +105,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +127,7 @@ ScriptedImporter:
     pivot: {x: 0.5094862, y: -0.024913276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -146,6 +148,7 @@ ScriptedImporter:
     pivot: {x: 0.5094862, y: -0.024913276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2542
@@ -166,6 +169,7 @@ ScriptedImporter:
     pivot: {x: 0.68980473, y: -0.04355885}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 5080
@@ -186,6 +190,7 @@ ScriptedImporter:
     pivot: {x: 0.5088223, y: -0.99999994}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -206,6 +211,7 @@ ScriptedImporter:
     pivot: {x: 0.5110768, y: -3.2189586}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -226,6 +232,7 @@ ScriptedImporter:
     pivot: {x: 0.5088296, y: -1.3974261}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2449
@@ -246,6 +253,7 @@ ScriptedImporter:
     pivot: {x: 0.5242036, y: -3.614706}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4892
@@ -266,6 +274,7 @@ ScriptedImporter:
     pivot: {x: 0.5269311, y: -3.5604074}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4892
@@ -286,6 +295,7 @@ ScriptedImporter:
     pivot: {x: 0.50953794, y: -3.4617562}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 5080
@@ -310,7 +320,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Paper UI Spritesheet_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -319,7 +329,7 @@ ScriptedImporter:
         width: 2530
         height: 3171
       spriteId: c7aa262e72d57486cb171c26a39495f0
-    - name: Paper UI Spritesheet_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -328,7 +338,7 @@ ScriptedImporter:
         width: 2530
         height: 3171
       spriteId: f585be0c3b1b3463daea8a3c5ab347f6
-    - name: Paper UI Spritesheet_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -337,7 +347,7 @@ ScriptedImporter:
         width: 1844
         height: 2158
       spriteId: 59142cc68657c4f94a3dfbbbb1cdbdcd
-    - name: Paper UI Spritesheet_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -346,7 +356,7 @@ ScriptedImporter:
         width: 2437
         height: 1584
       spriteId: 730180b7358de43daa517b76eb4aea88
-    - name: Paper UI Spritesheet_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -355,7 +365,7 @@ ScriptedImporter:
         width: 1941
         height: 749
       spriteId: d1e8e845eeeee4759a3a467be365a0a1
-    - name: Paper UI Spritesheet_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -364,7 +374,7 @@ ScriptedImporter:
         width: 2435
         height: 1321
       spriteId: be3951c7c65424747a8336b41eb0804a
-    - name: Paper UI Spritesheet_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -373,7 +383,7 @@ ScriptedImporter:
         width: 2417
         height: 680
       spriteId: e99fd30696332444e9273af4d9ea0c67
-    - name: Paper UI Spritesheet_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -382,7 +392,7 @@ ScriptedImporter:
         width: 2395
         height: 687
       spriteId: 6a7a2b10079ef46dc82c0768f74432ee
-    - name: Paper UI Spritesheet_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:

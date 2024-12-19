@@ -18,6 +18,7 @@ public class spawnObj : MonoBehaviour
     public bool isMouseOn;
     public bool isDragging;
     public SpawnType spawnType;
+    
     UIManager uIManager;
     SpriteOutline outline;
     ClickableObj dumpObj;
@@ -61,7 +62,7 @@ public class spawnObj : MonoBehaviour
         if (spawnType == SpawnType.Shaker)
         {
             uIManager.isDraging = true;
-            uIManager.showDrinksList = true;
+            uIManager.showDrinksList = false;
         }
         if (mainCamera == null)
         {
@@ -129,6 +130,7 @@ public class spawnObj : MonoBehaviour
         // 현재 위치와 겹치는 오브젝트를 찾기 위해 OverlapCircle 사용
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 0.1f); // 겹치는 오브젝트 탐지
 
+        
         return colliders;
         
         /**

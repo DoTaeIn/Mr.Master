@@ -6,7 +6,11 @@ using Yarn.Unity;
 
 public class StoryManager : MonoBehaviour
 {
+    public Dictionary<string, YarnProject> mainStory;
+    List<string> mainStoryNode;
     public Dictionary<int, YarnProject> subStory;
+    public string selectedChar;
+    public int currNode;
     DialogueRunner dialogueRunner;
 
     private void Awake()
@@ -14,21 +18,34 @@ public class StoryManager : MonoBehaviour
         dialogueRunner = FindObjectOfType<DialogueRunner>();
     }
 
-    public YarnProject getProjWNPCId(int npcId)
+    private YarnProject getSubprojWNPCId(int npcId)
     {
         return subStory[npcId];
     }
 
-    public void Test()
+    private YarnProject getMainprojWNPCName(string npcName)
     {
-        YarnProject projWNPCId = getProjWNPCId(0);
-        if(dialogueRunner.IsDialogueRunning)
-            dialogueRunner.Stop();
-        
-        dialogueRunner.StartDialogue(projWNPCId.NodeNames[0]);
-        
-            
+        return mainStory[npcName];
     }
+
+    public void initYarnProject()
+    {
+        YarnProject mainproj = getMainprojWNPCName(selectedChar);
+        
+        foreach (string node in mainproj.NodeNames)
+        {
+            if (!node.Contains("-"))
+            {
+                mainStoryNode.Add(node);
+            }
+        }
+
+    }
+    
+
+    
+    
+    
     
     
 }

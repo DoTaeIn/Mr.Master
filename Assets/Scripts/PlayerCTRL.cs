@@ -19,11 +19,13 @@ public class PlayerCTRL : MonoBehaviour
     
     
     [SerializeField] Animator animator;
-    public NPC npc;
+    [HideInInspector] public NPC npc;
     UIManager uiManager;
     
     //Temporary Dictionary for making Cocktail & Drink
     Dictionary<float, Drink> currentDrink = new Dictionary<float, Drink>();
+    //Currently holding cocktail. 
+    Cocktail currCotail;
     
     //Movement
     [Header("Movement")]
@@ -122,9 +124,9 @@ public class PlayerCTRL : MonoBehaviour
 
             // Shift 키를 누르고 있는 동안 runSpeed를 적용
             if (Input.GetKey(KeyCode.LeftShift))
-                rb.velocity = movement * runSpeed;
+                rb.linearVelocity = movement * runSpeed;
             else
-                rb.velocity = movement * walkSpeed;
+                rb.linearVelocity = movement * walkSpeed;
         }
     }
 
@@ -224,7 +226,7 @@ public class PlayerCTRL : MonoBehaviour
                         // Releasing the object
                         Debug.Log("Releasing object");
                         grabbedObject.transform.SetParent(mapParent);
-                        grabbedObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                        grabbedObject.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
                         grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
                         grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
                         canGrab = true;
@@ -285,7 +287,7 @@ public class PlayerCTRL : MonoBehaviour
         List<string> tastes = CalculateTastes();
 
         // Create the cocktail and add it to the DrinkManager
-        drinkManager.cocktails.Add(new Cocktail(
+        Cocktail temp = new Cocktail(
             drinkManager.cocktails.Count,
             name,
             price,
@@ -294,7 +296,10 @@ public class PlayerCTRL : MonoBehaviour
             tastes,
             color,
             currentDrink
-        ));
+        );
+        
+        currCotail = temp;
+        drinkManager.cocktails.Add(temp);
 
         // Clear currentDrink after creating the cocktail
         currentDrink.Clear();
@@ -356,7 +361,8 @@ public class PlayerCTRL : MonoBehaviour
 
             foreach (var taste in drink.Tastes)
             {
-                uniqueTastes.Add(taste); // Add unique tastes
+                if(!uniqueTastes.Contains(taste))
+                    uniqueTastes.Add(taste); // Add unique tastes
             }
         }
 
@@ -382,7 +388,7 @@ public class PlayerCTRL : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Interactable" && !isGrabbing)
+        if (collision.gameObject.CompareTag("Interactable") && !isGrabbing)
         {
             canInteract = true;
             interactObj = collision.gameObject;
@@ -390,7 +396,7 @@ public class PlayerCTRL : MonoBehaviour
                 interactObjId = collision.gameObject.GetComponent<InteractData>().interactId;
         }
 
-        if (collision.gameObject.tag == "Bar_Behind")
+        if (collision.gameObject.CompareTag("Bar_Behind"))
         {
             canInteract = true;
             canGoBehind = true;
@@ -399,7 +405,7 @@ public class PlayerCTRL : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Interactable" && !isGrabbing)
+        if (other.gameObject.CompareTag("Interactable") && !isGrabbing)
         {
             canInteract = false;
             interactObj = null;
@@ -408,7 +414,7 @@ public class PlayerCTRL : MonoBehaviour
             
         }
         
-        if (other.gameObject.tag == "Bar_Behind")
+        if (other.gameObject.CompareTag("Bar_Behind"))
         {
             canInteract = false;
             canGoBehind = false;

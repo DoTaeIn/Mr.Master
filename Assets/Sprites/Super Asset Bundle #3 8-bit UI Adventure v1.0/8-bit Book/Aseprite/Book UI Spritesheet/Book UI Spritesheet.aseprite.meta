@@ -105,6 +105,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +127,7 @@ ScriptedImporter:
     pivot: {x: 0.5066198, y: -0.024891349}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -146,6 +148,7 @@ ScriptedImporter:
     pivot: {x: 0.5066198, y: -0.024891349}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -166,6 +169,7 @@ ScriptedImporter:
     pivot: {x: 0.50921273, y: -0.03313509}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -186,6 +190,7 @@ ScriptedImporter:
     pivot: {x: 0.5059121, y: -0.29050282}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -206,6 +211,7 @@ ScriptedImporter:
     pivot: {x: 0.5059372, y: -0.32004368}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -226,6 +232,7 @@ ScriptedImporter:
     pivot: {x: 1.0413402, y: -0.7539267}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4728
@@ -246,6 +253,7 @@ ScriptedImporter:
     pivot: {x: 1.0565956, y: -0.9182482}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4748
@@ -266,6 +274,7 @@ ScriptedImporter:
     pivot: {x: 1.0646154, y: -0.8916185}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4748
@@ -286,6 +295,7 @@ ScriptedImporter:
     pivot: {x: 1.0548618, y: -0.8529819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4728
@@ -310,7 +320,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Book UI Spritesheet_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -319,7 +329,7 @@ ScriptedImporter:
         width: 4834
         height: 2531
       spriteId: 1b2a7a296dc9943e996e05d86675bee7
-    - name: Book UI Spritesheet_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -328,7 +338,7 @@ ScriptedImporter:
         width: 4834
         height: 2531
       spriteId: 2002072827e1d4d2f8db9d53b4ec8fac
-    - name: Book UI Spritesheet_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -337,7 +347,7 @@ ScriptedImporter:
         width: 4776
         height: 2354
       spriteId: 0844371dfeeda44cba99f40c6c9e4d1b
-    - name: Book UI Spritesheet_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -346,7 +356,7 @@ ScriptedImporter:
         width: 4736
         height: 1969
       spriteId: f5401ceb3ddbe4edb916618761acf69f
-    - name: Book UI Spritesheet_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -355,7 +365,7 @@ ScriptedImporter:
         width: 4716
         height: 1831
       spriteId: 262bcd7f04f914fe78a6602eb2fd09f5
-    - name: Book UI Spritesheet_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -364,7 +374,7 @@ ScriptedImporter:
         width: 2298
         height: 764
       spriteId: 29d8e399e5ac94c33968668840fcf8f3
-    - name: Book UI Spritesheet_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -373,7 +383,7 @@ ScriptedImporter:
         width: 2297
         height: 685
       spriteId: befa520fb42b446728d2b275ed4c9ae7
-    - name: Book UI Spritesheet_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -382,7 +392,7 @@ ScriptedImporter:
         width: 2275
         height: 692
       spriteId: e1b1353d626704979b5ec88a577acc06
-    - name: Book UI Spritesheet_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:

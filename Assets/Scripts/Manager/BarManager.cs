@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class BarManager : MonoBehaviour
@@ -29,14 +29,14 @@ public class BarManager : MonoBehaviour
     public void toBehind()
     {
         player.Follow = player2.transform;
-        confiner.m_BoundingShape2D = barbehind;
+        confiner.BoundingShape2D = barbehind;
         
     }
 
     public void toFont()
     {
         player.Follow = FindObjectOfType<PlayerCTRL>().gameObject.transform;
-        confiner.m_BoundingShape2D = barfont;
+        confiner.BoundingShape2D = barfont;
     }
 
     private void Update()
