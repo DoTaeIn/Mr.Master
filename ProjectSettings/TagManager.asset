@@ -9,6 +9,7 @@ TagManager:
   - Interactable
   - Bar_Behind
   - Bar_Obj
+  - Cup
   layers:
   - Default
   - TransparentFX

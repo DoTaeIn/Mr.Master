@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using NavMeshPlus.Components;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -23,9 +24,10 @@ public class PlayerCTRL : MonoBehaviour
     UIManager uiManager;
     
     //Temporary Dictionary for making Cocktail & Drink
-    Dictionary<float, Drink> currentDrink = new Dictionary<float, Drink>();
+    [HideInInspector] public Dictionary<float, Drink> currentDrink = new Dictionary<float, Drink>();
     //Currently holding cocktail. 
     Cocktail currCotail;
+    private int shakeAMT;
     
     //Movement
     [Header("Movement")]
@@ -38,6 +40,7 @@ public class PlayerCTRL : MonoBehaviour
     [SerializeField] InMemoryVariableStorage variableStorage;
 
     [Header("Grab")] 
+    public List<GameObject> inArea;
     public bool isGrabbing;
     public bool canGrab;
     public Transform parent;
@@ -76,8 +79,13 @@ public class PlayerCTRL : MonoBehaviour
         if (other.CompareTag("Interactable") && !isGrabbing && other.GetComponent<InteractData>() == null)
         {
             canInteract = true;
-            grabbedObject = other.gameObject;
-            canGrab = true;
+
+            // Add object to the list if it's not already present
+            if (!inArea.Contains(other.gameObject))
+                inArea.Add(other.gameObject);
+
+            // Update the grabbed object (select the closest or any prioritized object)
+            UpdateGrabbedObject();
         }
     }
 
@@ -86,12 +94,39 @@ public class PlayerCTRL : MonoBehaviour
         if (other.CompareTag("Interactable") && !isGrabbing && other.GetComponent<InteractData>() == null)
         {
             canInteract = false;
-            grabbedObject = null;
-            canGrab = false;
-            if(other.gameObject.GetComponent<TavernChair>() !=null)
-                other.gameObject.GetComponent<TavernChair>().isInteractable = canGrab;
-            else if(other.gameObject.GetComponent<SpriteOutline>() !=null)
-                other.gameObject.GetComponent<SpriteOutline>().UpdateOutline(canGrab);
+
+            // Remove the object from the list
+            if (inArea.Contains(other.gameObject))
+                inArea.Remove(other.gameObject);
+
+            // Update the grabbed object (in case the removed object was the grabbed one)
+            UpdateGrabbedObject();
+
+            // Handle object-specific logic
+            if (other.gameObject.GetComponent<TavernChair>() != null)
+                other.gameObject.GetComponent<TavernChair>().isInteractable = false;
+            else if (other.gameObject.GetComponent<SpriteOutline>() != null)
+                other.gameObject.GetComponent<SpriteOutline>().UpdateOutline(false);
+        }
+    }
+
+    private void UpdateGrabbedObject()
+    {
+        // Find the prioritized object (e.g., closest object) dynamically
+        grabbedObject = inArea
+            .OrderBy(obj => Vector2.Distance(this.transform.position, obj.transform.position)) // Closest object
+            .FirstOrDefault();
+
+        // Update grab status
+        canGrab = grabbedObject != null;
+
+        // Optional: Handle object-specific logic for the new grabbed object
+        if (grabbedObject != null)
+        {
+            if (grabbedObject.GetComponent<TavernChair>() != null)
+                grabbedObject.GetComponent<TavernChair>().isInteractable = canGrab;
+            else if (grabbedObject.GetComponent<SpriteOutline>() != null)
+                grabbedObject.GetComponent<SpriteOutline>().UpdateOutline(canGrab);
         }
     }
 
@@ -278,7 +313,7 @@ public class PlayerCTRL : MonoBehaviour
         currentDrink.Add(drinkAmount, drink);
     }
 
-    public void CreateCocktailRecipe(string name, float price)
+    public Cocktail CreateCocktailRecipe(string name, float price)
     {
         // Calculate properties of the cocktail
         Color color = CalculateColor();
@@ -295,14 +330,17 @@ public class PlayerCTRL : MonoBehaviour
             amount,
             tastes,
             color,
-            currentDrink
+            currentDrink,
+            1
         );
         
         currCotail = temp;
         drinkManager.cocktails.Add(temp);
+        
 
         // Clear currentDrink after creating the cocktail
         currentDrink.Clear();
+        return temp;
     }
 
     private Color CalculateColor()

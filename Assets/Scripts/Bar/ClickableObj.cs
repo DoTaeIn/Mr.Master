@@ -64,13 +64,9 @@ public class ClickableObj : MonoBehaviour
             case ClickableObjType.Ice:
                 bool once = false;
                 int temp = 0;
-                if (!once)
-                {
-                    temp = UnityEngine.Random.Range(0, 180);
-                }
+                temp = UnityEngine.Random.Range(0, 180);
                 Quaternion tempQ = Quaternion.Euler(0, 0, temp);
                 SpawnObj(barManager.ice, true, tempQ);
-                once = true;
                 break;
             default:
                 break;
@@ -95,7 +91,11 @@ public class ClickableObj : MonoBehaviour
         obj.transform.position = new Vector3(worldPos.x, worldPos.y, 0f); 
         
         if(needTurn)
+        {
             obj.transform.rotation = rotation;
+            needTurn = false;
+        }
+            
     }
 
 

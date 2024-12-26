@@ -63,14 +63,17 @@ public class UIManager : MonoBehaviour
     public GameObject drinksListPrefab;
     public Transform drinksListParent;
     public bool showDrinksList;
+    [SerializeField] private List<Image> amtImg;
     
-    
-    
+    [Header("Date UI")]
+    public TMP_Text dateText;
+    private Gamemanager gm;
     
     //Current name of the talk
     private string name;
     
     //Text line of talk
+    [Header("Talk")]
     private int maxTalk = 0;
     private int currentTalk = 0;
     private int maxPage = 0;
@@ -80,7 +83,7 @@ public class UIManager : MonoBehaviour
     public bool isDraging = false;
 
     private PlayerCTRL player;
-
+    
     
     //Get&Set
     public string Name { get => name; set => name = value; }
@@ -124,7 +127,7 @@ public class UIManager : MonoBehaviour
     {
         transition = FindObjectOfType<CircleTransition>();
         dialogueRunner = FindObjectOfType<DialogueRunner>();
-        
+        gm = FindObjectOfType<Gamemanager>();
         foreach (DrinkSO drink in drinks)
         {
             GameObject gm = Instantiate(panelPrefab);
@@ -139,6 +142,11 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
+        //DATE CONTROL
+        string dateFormat = gm.month.ToString("00") + " / " + gm.day.ToString("00") + "\n" + gm.getDayOfWeek();
+        dateText.text = dateFormat;
+        
+        
         //Deactivate All Panels except last one called.
         int temp = 0;
         foreach (GameObject obj in talkUIDictionary.Values)
@@ -222,6 +230,7 @@ public class UIManager : MonoBehaviour
         {
             drinkAmountSlider.value = drinkAmountSlider.minValue;
         }
+        
     }
     
     public void HideDrinkList()
@@ -251,6 +260,10 @@ public class UIManager : MonoBehaviour
             player = FindObjectOfType<PlayerCTRL>();
         
         player.AddDrinkToCocktail(drinkAmountSlider.value, temp);
+
+        CocktailShaker cs = FindFirstObjectByType<CocktailShaker>();
+        cs.isEmpty = false;
+        
         GameObject gm = Instantiate(drinksListPrefab);
         gm.transform.SetParent(drinksListParent);
         gm.GetComponent<drinkList>().drink = selectedDrink;
@@ -279,10 +292,6 @@ public class UIManager : MonoBehaviour
         nameTxt.text = name; // Display the name
         if(!isChoice)
             StartCoroutine(PrintTextOneByOne(talks[currentTalk]));
-        else
-        {
-            
-        }
     }
     
     public string mouseHitString()
@@ -406,38 +415,48 @@ public class UIManager : MonoBehaviour
     {
         // Subscribe to the sceneLoaded event
         SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.activeSceneChanged += OnActiveSceneChanged;
     }
     
     void OnDisable()
     {
         // Unsubscribe to avoid memory leaks
         SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.activeSceneChanged -= OnActiveSceneChanged;
     }
 
     // Callback method triggered when a new scene is loaded
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log($"Scene changed to: {scene.name}");
-
-        // Reinitialize transition
-        transition = FindObjectOfType<CircleTransition>();
-        if (transition != null)
-        {
-            StartCoroutine(TriggerTransitionAfterSceneVisible());
-        }
         
+    }
+    
+    private void OnActiveSceneChanged(Scene previousScene, Scene currentScene)
+    {
+        // Check if this is the scene you want to handle
+        if (currentScene.name == "Tavern")
+        {
+            player = FindObjectOfType<PlayerCTRL>();
+            player.isInteracting = true;
+            Debug.Log("Test");
+            setActivePanelWName("circle", true);
+            transition.StartExpand();
+
+            StartCoroutine(ActivateBarUIWithDelay());
+        }
+    }
+    
+    private IEnumerator ActivateBarUIWithDelay()
+    {
+        // Wait for 1 second
+        yield return new WaitForSeconds(1f);
+
+        // Activate the second panel and assign cameras
         setActivePanelWName("barui", true);
         mainCamera = Camera.main;
         virtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
-    }
-
-    private IEnumerator TriggerTransitionAfterSceneVisible()
-    {
-        // Wait one frame to ensure the scene is fully visible
-        yield return null;
-
-        // Start the transition
-        transition.StartExpand();
+        player = FindObjectOfType<PlayerCTRL>();
+        player.isInteracting = false;
     }
     
     private bool IsPartiallyVisible(RectTransform rectTransform)
@@ -463,5 +482,18 @@ public class UIManager : MonoBehaviour
         return false;
     }
 
+
+    public void showIntensity(int intensity)
+    {
+        for (int i = 0; i < intensity / 10; i++)
+        {
+            amtImg[i].color = Color.blue;
+        }
+
+        for (int i = intensity / 10; i < 5; i++)
+        {
+            amtImg[i].color = Color.white;
+        }
+    }
     
 }

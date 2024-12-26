@@ -7,13 +7,27 @@ using Yarn.Unity;
 
 public class Gamemanager : MonoBehaviour
 {
-    
+    public static string[] dayofWeek = {"MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"};
+    private static int[] dateCounts = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    public int dayofWeekIndex = 0;
+    public int month;
+    public int day;
     private int halfTime = 12;
     private float currentTime = 1.2f;
     private bool isAfternoon;
     [Range(0.001f, 1f)] [SerializeField] private float timesensitivity = 1f;
 
     [SerializeField] private Light2D sun;
+
+    public string getDayOfWeek()
+    {
+        return dayofWeek[dayofWeekIndex];
+    }
+
+    private void Awake()
+    {
+        
+    }
 
     private void Update()
     {
@@ -39,6 +53,15 @@ public class Gamemanager : MonoBehaviour
             Math.Clamp(currentTime, 1.2f, halfTime);
         }
         #endregion
+
+        if (day > dateCounts[month])
+        {
+            month++;
+            day = 1;
+        }
+
+        if (month > 12)
+            month = 1;
     }
 
     

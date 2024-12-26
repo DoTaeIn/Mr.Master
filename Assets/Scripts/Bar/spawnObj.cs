@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
@@ -36,12 +37,8 @@ public class spawnObj : MonoBehaviour
         outline.UpdateOutline(isMouseOn);
 
         if (isDragging)
-        {
-            foreach (Collider2D col in hitCollider())
-            {
-               Debug.Log(col.gameObject.name);
-            }
-        }
+            foreach (Collider2D c in hitCollider())
+                isOnDump = (c.gameObject.name.ToLower() == "dump");
     }
 
     private void OnMouseEnter()
@@ -99,15 +96,22 @@ public class spawnObj : MonoBehaviour
 
     private void OnMouseUp()
     {
-        Debug.Log("TestTest");
+        //Debug.Log("TestTest");
         if (spawnType == SpawnType.Cup)
         {
             if (isOnDump)
+            {
+                CocktailShaker cd = FindFirstObjectByType<CocktailShaker>();
+                cd.isEmpty = true;
                 Destroy(gameObject);
+                PlayerCTRL playerCtrl = FindFirstObjectByType<PlayerCTRL>();
+                playerCtrl.currentDrink.Clear();    
+            }
             isOnDump = false;
         }
         
         uIManager.isDraging = false;
+        isDragging = false;
     }
 
     private void OnMouseDown()
@@ -118,17 +122,17 @@ public class spawnObj : MonoBehaviour
             uIManager.showDrinksList = true;
         }
         
-        isDragging = false;
+        isDragging = true;
     }
 
     
-    Collider2D[] hitCollider()
+    List<Collider2D> hitCollider()
     {
         // 현재 오브젝트의 sortingOrder 값
         int currentSortingOrder = spriteRenderer.sortingOrder;
 
         // 현재 위치와 겹치는 오브젝트를 찾기 위해 OverlapCircle 사용
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 0.1f); // 겹치는 오브젝트 탐지
+        List<Collider2D> colliders = Physics2D.OverlapCircleAll(transform.position, 0.1f).ToList(); // 겹치는 오브젝트 탐지
 
         
         return colliders;
