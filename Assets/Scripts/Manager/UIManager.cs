@@ -62,6 +62,7 @@ public class UIManager : MonoBehaviour
     public GameObject drinkListPanel;
     public GameObject drinksListPrefab;
     public Transform drinksListParent;
+    public InputField drinkNameInput;
     public bool showDrinksList;
     public List<GameObject> drinkList;
     [SerializeField] private List<Image> amtImg;

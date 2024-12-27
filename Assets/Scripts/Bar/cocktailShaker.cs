@@ -15,6 +15,7 @@ public class CocktailShaker : MonoBehaviour
     [SerializeField] private float intensity = 1;
     [SerializeField] private int distance = 5;
     public bool isEmpty;
+    public bool isClosed;
     
 
     private Rigidbody2D rb;
@@ -66,13 +67,14 @@ public class CocktailShaker : MonoBehaviour
         {
             if (c.gameObject.CompareTag("Cup"))
             {
-                if (!isEmpty)
+                if (!isEmpty && isClosed)
                 {
                     Cup cup = c.GetComponent<Cup>();
                     if(ctrl == null)
                         ctrl = FindFirstObjectByType<PlayerCTRL>();
-                    cup.currCocktail = ctrl.CreateCocktailRecipe("test", 10f, count / 10);
-                    Debug.Log(cup.currCocktail.Drinks.Count);
+                    DrinkManager dmg = FindFirstObjectByType<DrinkManager>();
+                    cup.currCocktail = ctrl.CreateCocktailRecipe(_uiManager.drinkNameInput.text ?? $"New Cocktail ({dmg.cocktails.Count})", 10f, count / 10);
+                    //Debug.Log(cup.currCocktail.Drinks.Count);
                     isEmpty = true;
                     for (int i = _uiManager.drinkList.Count - 1; i >= 0; i--)
                     {
