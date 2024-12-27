@@ -224,9 +224,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eabe4aa06c4e84eb7855891ea24a539c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drinkManager: {fileID: 0}
   dialogueRunner: {fileID: 0}
   animator: {fileID: 221982057}
   npc: {fileID: 0}
+  testDrinks: []
   walkSpeed: 1.5
   runSpeed: 2.5
   playerUnitBody: {fileID: 221982055}
@@ -1159,6 +1161,8 @@ MonoBehaviour:
   time: 0
   intensity: 0.5
   distance: 2
+  isEmpty: 0
+  ctrl: {fileID: 0}
 --- !u!50 &105923452
 Rigidbody2D:
   serializedVersion: 5
@@ -15715,6 +15719,50 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.91, y: 1.03}
   m_EdgeRadius: 0
+--- !u!1 &1534417004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1534417006}
+  - component: {fileID: 1534417005}
+  m_Layer: 0
+  m_Name: DrinkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1534417005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534417004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1ca2625943ff4c0ca6581aaeeda1b28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1534417006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534417004}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.140614, y: 3.6070669, z: -0.06417245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1544486931
 GameObject:
   m_ObjectHideFlags: 0
@@ -26033,3 +26081,4 @@ SceneRoots:
   - {fileID: 761053594}
   - {fileID: 1729633105}
   - {fileID: 4942578304360190013}
+  - {fileID: 1534417006}

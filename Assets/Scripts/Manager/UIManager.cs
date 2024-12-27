@@ -63,6 +63,7 @@ public class UIManager : MonoBehaviour
     public GameObject drinksListPrefab;
     public Transform drinksListParent;
     public bool showDrinksList;
+    public List<GameObject> drinkList;
     [SerializeField] private List<Image> amtImg;
     
     [Header("Date UI")]
@@ -82,7 +83,7 @@ public class UIManager : MonoBehaviour
     private bool isDone;
     public bool isDraging = false;
 
-    private PlayerCTRL player;
+    public PlayerCTRL player;
     
     
     //Get&Set
@@ -257,7 +258,7 @@ public class UIManager : MonoBehaviour
     {
         Drink temp = new Drink(selectedDrink.id, selectedDrink.name, selectedDrink.price, selectedDrink.proof, selectedDrink.amount, selectedDrink.color, selectedDrink.tastes);
         if(player == null)
-            player = FindObjectOfType<PlayerCTRL>();
+            player = FindFirstObjectByType<PlayerCTRL>();
         
         player.AddDrinkToCocktail(drinkAmountSlider.value, temp);
 
@@ -265,11 +266,12 @@ public class UIManager : MonoBehaviour
         cs.isEmpty = false;
         
         GameObject gm = Instantiate(drinksListPrefab);
+        drinkList.Add(gm);
         gm.transform.SetParent(drinksListParent);
         gm.GetComponent<drinkList>().drink = selectedDrink;
         gm.GetComponent<drinkList>().amount_fl = int.Parse(drinkAmountSlider.value.ToString());
         gm.GetComponent<drinkList>().Initiate();
-        Debug.Log(drinkAmountSlider.value + "ml");
+        //Debug.Log(drinkAmountSlider.value + "ml");
     }
     
     

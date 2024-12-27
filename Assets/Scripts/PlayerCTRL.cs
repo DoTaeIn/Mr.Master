@@ -9,7 +9,7 @@ using Yarn.Unity;
 
 public class PlayerCTRL : MonoBehaviour
 {
-    DrinkManager drinkManager;
+    public DrinkManager drinkManager;
     Rigidbody2D rb;
     Interactables interactables;
     CircleTransition circleTransition;
@@ -24,7 +24,8 @@ public class PlayerCTRL : MonoBehaviour
     UIManager uiManager;
     
     //Temporary Dictionary for making Cocktail & Drink
-    [HideInInspector] public Dictionary<float, Drink> currentDrink = new Dictionary<float, Drink>();
+    public Dictionary<float, Drink> currentDrink = new Dictionary<float, Drink>();
+    public List<string> testDrinks = new List<string>();
     //Currently holding cocktail. 
     Cocktail currCotail;
     private int shakeAMT;
@@ -62,10 +63,10 @@ public class PlayerCTRL : MonoBehaviour
     
     private void Awake()
     {
-        drinkManager = FindObjectOfType<DrinkManager>();
+        drinkManager = FindFirstObjectByType<DrinkManager>();
         rb = GetComponent<Rigidbody2D>();
-        talkDatas = FindObjectOfType<TalkDatas>();
-        circleTransition = FindObjectOfType<CircleTransition>();
+        talkDatas = FindFirstObjectByType<TalkDatas>();
+        circleTransition = FindFirstObjectByType<CircleTransition>();
     }
 
     /**
@@ -311,35 +312,56 @@ public class PlayerCTRL : MonoBehaviour
     public void AddDrinkToCocktail(float drinkAmount, Drink drink)
     {
         currentDrink.Add(drinkAmount, drink);
+        Debug.Log(currentDrink.Count);
     }
 
-    public Cocktail CreateCocktailRecipe(string name, float price)
+    public Cocktail CreateCocktailRecipe(string name, float price, int shakeAmt)
     {
         // Calculate properties of the cocktail
         Color color = CalculateColor();
         float proof = CalculateProof();
         float amount = CalculateAmount();
         List<string> tastes = CalculateTastes();
+        
+        if (drinkManager == null)
+            drinkManager = FindFirstObjectByType<DrinkManager>();
+        
+
+        if (drinkManager.cocktails == null)
+        {
+            Debug.LogError("drinkManager.cocktails is null.");
+        }
+        if (tastes == null || color == null || currentDrink == null)
+        {
+            Debug.LogError("One or more calculated properties are null.");
+        }
+
+        if (currentDrink.Count == 0)
+        {
+            Debug.LogError("No Drink available.");
+        }
 
         // Create the cocktail and add it to the DrinkManager
+        Dictionary<float, Drink> drinks = new Dictionary<float, Drink>(currentDrink);
+        
         Cocktail temp = new Cocktail(
             drinkManager.cocktails.Count,
-            name,
+            name ,
             price,
             proof,
             amount,
             tastes,
             color,
-            currentDrink,
-            1
+            drinks ,
+            shakeAmt
         );
         
         currCotail = temp;
         drinkManager.cocktails.Add(temp);
         
-
         // Clear currentDrink after creating the cocktail
         currentDrink.Clear();
+        
         return temp;
     }
 

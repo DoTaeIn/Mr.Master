@@ -19,7 +19,7 @@ public class CocktailShaker : MonoBehaviour
 
     private Rigidbody2D rb;
     private UIManager _uiManager;
-    PlayerCTRL ctrl;
+    public PlayerCTRL ctrl;
 
     private void Awake()
     {
@@ -71,9 +71,14 @@ public class CocktailShaker : MonoBehaviour
                     Cup cup = c.GetComponent<Cup>();
                     if(ctrl == null)
                         ctrl = FindFirstObjectByType<PlayerCTRL>();
-                    Cocktail ctemp = ctrl.CreateCocktailRecipe("test", 10f);
-                    cup.currCocktail = ctemp;
+                    cup.currCocktail = ctrl.CreateCocktailRecipe("test", 10f, count / 10);
+                    Debug.Log(cup.currCocktail.Drinks.Count);
                     isEmpty = true;
+                    for (int i = _uiManager.drinkList.Count - 1; i >= 0; i--)
+                    {
+                        Destroy(_uiManager.drinkList[i]);
+                        _uiManager.drinkList.RemoveAt(i);
+                    }
                 }
             }
         }
