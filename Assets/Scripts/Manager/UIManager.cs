@@ -44,9 +44,12 @@ public class UIManager : MonoBehaviour
     //Drink Panel
     public GameObject drinksPanel;
     public bool showDrinksPanel;
-    public List<DrinkSO> drinks;
+    public List<DrinkSO> Alcohols;
+    public List<DrinkSO> NonAlcohols;
+    public List<GarnishSO> Garnishs;
     public GameObject panelPrefab;
-    public GameObject parent;
+    public GameObject AlcoholsParent;
+    public GameObject NonAlcoholsParent;
     [Space]
     //Child Dirnk Panel
     public bool isMeasureOpen;
@@ -62,7 +65,7 @@ public class UIManager : MonoBehaviour
     public GameObject drinkListPanel;
     public GameObject drinksListPrefab;
     public Transform drinksListParent;
-    public InputField drinkNameInput;
+    public TMP_InputField drinkNameInput;
     public bool showDrinksList;
     public List<GameObject> drinkList;
     [SerializeField] private List<Image> amtImg;
@@ -130,13 +133,18 @@ public class UIManager : MonoBehaviour
         transition = FindObjectOfType<CircleTransition>();
         dialogueRunner = FindObjectOfType<DialogueRunner>();
         gm = FindObjectOfType<Gamemanager>();
-        foreach (DrinkSO drink in drinks)
+        foreach (DrinkSO drink in Alcohols)
         {
-            GameObject gm = Instantiate(panelPrefab);
-            gm.transform.SetParent(parent.transform);
+            GameObject gm = Instantiate(panelPrefab, AlcoholsParent.transform);
             gm.GetComponent<drinkSelect>().currDrink = drink;
-            gm.GetComponent<drinkSelect>().setTxt(drink.name, drink.proof, drink.tastes, drink.price, drink.amount);
-            
+            gm.GetComponent<drinkSelect>().setTxt(drink.name, drink.proof, drink.tastes, drink.price, drink.amount, drink.MAXamount);
+        }
+
+        foreach (DrinkSO syrup in NonAlcohols)
+        {
+            GameObject gm = Instantiate(panelPrefab, NonAlcoholsParent.transform);
+            gm.GetComponent<drinkSelect>().currDrink = syrup;
+            gm.GetComponent<drinkSelect>().setTxt(syrup.name, syrup.proof, syrup.tastes, syrup.price, syrup.amount, syrup.MAXamount);
         }
     }
     

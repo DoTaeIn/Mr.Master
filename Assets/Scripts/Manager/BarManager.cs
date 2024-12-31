@@ -10,7 +10,7 @@ public class BarManager : MonoBehaviour
     [SerializeField] private PolygonCollider2D barbehind;
     [SerializeField] private PolygonCollider2D barfont;
     [SerializeField] private CinemachineConfiner2D confiner;
-    [SerializeField] private CinemachineVirtualCamera player;
+    [SerializeField] private CinemachineCamera player;
     [SerializeField] private GameObject player2;
     [SerializeField] private Vector2 mixVec;
     [SerializeField] private Vector2 maxVec;
@@ -24,24 +24,35 @@ public class BarManager : MonoBehaviour
     public GameObject cocktail_cup;
     public GameObject ice;
     public GameObject beer_cup;
+    
+    [Header("Current Cup")]
+    public GameObject currentCup;
+    
+    PlayerCTRL playerCTRL;
+
+    void Awake()
+    {
+        playerCTRL = FindFirstObjectByType<PlayerCTRL>();
+    }
 
     
     public void toBehind()
     {
         player.Follow = player2.transform;
+        player.Lens.OrthographicSize = 2.56f;
         confiner.BoundingShape2D = barbehind;
-        
     }
 
     public void toFont()
     {
-        player.Follow = FindObjectOfType<PlayerCTRL>().gameObject.transform;
+        player.Follow = FindFirstObjectByType<PlayerCTRL>().gameObject.transform;
+        player.Lens.OrthographicSize = 3.79f;
         confiner.BoundingShape2D = barfont;
     }
 
     private void Update()
     {
-        if (FindObjectOfType<PlayerCTRL>().isBarBehind)
+        if (FindFirstObjectByType<PlayerCTRL>().isBarBehind)
         {
             if (player2 == null) return;
 
@@ -77,6 +88,29 @@ public class BarManager : MonoBehaviour
             // Smoothly update the follow target's position
             player2.transform.position = Vector3.Lerp(player2.transform.position, targetPosition, Time.deltaTime * scrollSpeed);
         }
+
+        if (currentCup != null)
+        {
+            if (!FindFirstObjectByType<PlayerCTRL>().isBarBehind)
+            {
+                
+            }
+        }
+    }
+
+    public void initItemHolderPos()
+    {
+        Destroy(currentCup.GetComponent<ClickableObj>());
+        Destroy(currentCup.GetComponent<SpriteOutline>());
+        Destroy(currentCup.GetComponent<spawnObj>());
+        currentCup.transform.parent = playerCTRL.ItemHolder.transform;
+        Vector3 newPosition = currentCup.transform.position;
+        newPosition.x = 0;
+        newPosition.y = 0;
+// Optionally set newPosition.z if needed
+        currentCup.transform.localPosition = newPosition;
+
+        
     }
 }
 

@@ -35,7 +35,6 @@ public class PlayerCTRL : MonoBehaviour
     Vector2 movement;
     [SerializeField] private float walkSpeed = 2.0f;
     [SerializeField] private float runSpeed = 3.0f;
-    [SerializeField] private Transform playerUnitBody;
     
     [Header("Yarn Spinner")]
     [SerializeField] InMemoryVariableStorage variableStorage;
@@ -58,15 +57,18 @@ public class PlayerCTRL : MonoBehaviour
     public bool canInteract;
     public int interactObjId = 0;
     
-    
+    public GameObject ItemHolder;
     public GameObject interactObj;
     
+    
+    SpriteRenderer spriteRenderer;
     private void Awake()
     {
         drinkManager = FindFirstObjectByType<DrinkManager>();
         rb = GetComponent<Rigidbody2D>();
         talkDatas = FindFirstObjectByType<TalkDatas>();
         circleTransition = FindFirstObjectByType<CircleTransition>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     /**
@@ -147,9 +149,9 @@ public class PlayerCTRL : MonoBehaviour
             movement.y = Input.GetAxisRaw("Vertical");
 
             if (movement.x > 0)
-                playerUnitBody.rotation = Quaternion.Euler(0, 180, 0);
+                spriteRenderer.flipX = true;
             else if (movement.x < 0)
-                playerUnitBody.rotation = Quaternion.Euler(0, 0, 0);
+                spriteRenderer.flipX = false;
 
             if (movement != Vector2.zero)
                 animator.SetBool("isWalk", true);
@@ -192,6 +194,7 @@ public class PlayerCTRL : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
+            
             if (canInteract && !isBarBehind)
             {
                 Debug.Log("Start interacting");
@@ -214,18 +217,11 @@ public class PlayerCTRL : MonoBehaviour
                     
                     if (canGoBehind)
                     {
-                        if (isBarBehind)
-                        {
-                            barManager.toFont();
-                            isInteracting = false;
-                            isBarBehind = false;
-                        }
-                        else
-                        {
-                            barManager.toBehind();
-                            isInteracting = true;
-                            isBarBehind = true;
-                        }
+                        if(barManager == null)
+                            barManager = FindFirstObjectByType<BarManager>();
+                        barManager.toBehind();
+                        isInteracting = true;
+                        isBarBehind = true;
                     }
 
                     
@@ -304,6 +300,16 @@ public class PlayerCTRL : MonoBehaviour
                 }
                 
                 
+            }
+            else if (canInteract && isBarBehind)
+            {
+                if(barManager == null)
+                    barManager = FindFirstObjectByType<BarManager>();
+                barManager.toFont();
+                isInteracting = false;
+                isBarBehind = false;
+                if(currCotail != null)
+                    barManager.initItemHolderPos();
             }
         }
     }

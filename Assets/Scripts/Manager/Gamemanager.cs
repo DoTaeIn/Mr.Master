@@ -24,9 +24,10 @@ public class Gamemanager : MonoBehaviour
         return dayofWeek[dayofWeekIndex];
     }
 
-    private void Awake()
+    public void nextDay()
     {
-        
+        day++;
+        dayofWeekIndex = (dayofWeekIndex + 1) % dayofWeek.Length;
     }
 
     private void Update()

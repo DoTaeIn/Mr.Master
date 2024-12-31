@@ -26,7 +26,7 @@ public class drinkSelect: MonoBehaviour
         uIManager = FindObjectOfType<UIManager>();
     }
 
-    public void setTxt(string name, float proof, List<string> taste, float price, float left)
+    public void setTxt(string name, float proof, List<string> taste, float price, float left, float max)
     {
         this.name = name;
         this.proof = proof;
@@ -36,7 +36,10 @@ public class drinkSelect: MonoBehaviour
         
         
         drinkNameTxt.text = name;
-        proofTxt.text = proof + "%";
+        if(proof == 0)
+            proofTxt.SetText("NOT ALCOHOL");
+        else
+            proofTxt.text = proof + "%";
         
         string temp = "";
         for (int i = 0; i < taste.Count; i++)
@@ -49,7 +52,7 @@ public class drinkSelect: MonoBehaviour
         tasteTxt.text = temp;
         
         priceTxt.text = "$" + price.ToString();
-        leftTxt.text = left.ToString() + "/ 1000mL";
+        leftTxt.text = left.ToString() + " / " + max.ToString() + "ml";
     }
 
     public void onClick()

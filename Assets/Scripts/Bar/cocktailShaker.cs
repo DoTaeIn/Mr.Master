@@ -73,6 +73,18 @@ public class CocktailShaker : MonoBehaviour
                     if(ctrl == null)
                         ctrl = FindFirstObjectByType<PlayerCTRL>();
                     DrinkManager dmg = FindFirstObjectByType<DrinkManager>();
+                    
+                    /**
+                    if (cup != null && dmg != null && ctrl != null)
+                    {
+                        Debug.Log(cup == null);
+                        Debug.Log(dmg == null);
+                        Debug.Log(ctrl == null);
+                    }
+                    */
+                    
+                    if(_uiManager == null)
+                        _uiManager = FindFirstObjectByType<UIManager>();
                     cup.currCocktail = ctrl.CreateCocktailRecipe(_uiManager.drinkNameInput.text ?? $"New Cocktail ({dmg.cocktails.Count})", 10f, count / 10);
                     //Debug.Log(cup.currCocktail.Drinks.Count);
                     isEmpty = true;

@@ -11,7 +11,8 @@ public enum ClickableObjType
     Dump,
     Pad,
     Book,
-    Ice
+    Ice,
+    returnBlock
 }
 
 public class ClickableObj : MonoBehaviour
@@ -68,6 +69,8 @@ public class ClickableObj : MonoBehaviour
                 Quaternion tempQ = Quaternion.Euler(0, 0, temp);
                 SpawnObj(barManager.ice, true, tempQ);
                 break;
+            case ClickableObjType.returnBlock:
+                
             default:
                 break;
         }
