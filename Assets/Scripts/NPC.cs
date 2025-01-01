@@ -46,7 +46,9 @@ public class NPC : MonoBehaviour
 
     [Header("Love Point")] 
     public Dictionary<int, int> lovePoints; //NPCID, How much they like them 0: player
-
+    
+    [Header("NPC Dialogue")]
+    public string currDialogueIndex;
     
     NavMeshAgent navMeshAgent;
     Animator animator;
@@ -63,7 +65,17 @@ public class NPC : MonoBehaviour
         navMeshAgent.updateRotation = false;
         navMeshAgent.updateUpAxis = false;
     }
-    
+
+    private void Start()
+    {
+        moveToRandomChair();
+
+        foreach (string name in yarnLine.NodeNames)
+        {
+            Debug.Log(name);
+        }
+    }
+
 
     private void Update()
     {
@@ -286,4 +298,11 @@ public class NPC : MonoBehaviour
     {
         lovePoints[x] += y;
     }
+
+    [YarnCommand("updateDialogueIndex")]
+    public void updateDialogueIndex(int x)
+    {
+        
+    }
+    
 }

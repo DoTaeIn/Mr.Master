@@ -1,7 +1,6 @@
 ﻿title: Ma11
 tags:
 ---
-<<declare $playerName to "Mr.Master">>
 
 Mary: 이런 곳에도 칵테일 바가 있을줄은 몰랐어요. 꽤 새롭네요...
 -> {$playerName}: 이곳이 정말 *평범한* 칵테일 바 처럼 보이세요?

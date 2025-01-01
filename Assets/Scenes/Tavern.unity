@@ -14730,7 +14730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1729633105
 Transform:
   m_ObjectHideFlags: 0
@@ -21963,9 +21963,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcId: 1
-  npcName: Marco
+  npcName: Mary
   npcStatus: 0
-  yarnLine: {fileID: 0}
+  yarnLine: {fileID: 7545569452688597077, guid: 689c37f95dbf14a58a861ebb7c4b57bb, type: 3}
   emotions: []
   chairs: []
   isPlanning2Sit: 1
@@ -21980,6 +21980,7 @@ MonoBehaviour:
   - {fileID: -663023283, guid: e03bf6b7ea1bb4563b7f0b4ee8fdc58c, type: 3}
   - {fileID: -468925870, guid: e03bf6b7ea1bb4563b7f0b4ee8fdc58c, type: 3}
   - {fileID: 1085585977, guid: e03bf6b7ea1bb4563b7f0b4ee8fdc58c, type: 3}
+  currDialogueIndex: Ma11
 --- !u!4 &8066099585630037916
 Transform:
   m_ObjectHideFlags: 0

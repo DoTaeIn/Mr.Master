@@ -6,17 +6,32 @@ using Yarn.Unity;
 
 public class StoryManager : MonoBehaviour
 {
-    public Dictionary<string, YarnProject> mainStory;
-    List<string> mainStoryNode;
-    public Dictionary<int, YarnProject> subStory;
+    [SerializeField] private List<YarnProject> MainStories;
+    [SerializeField] private List<YarnProject> SubStories;
+    
+    private Dictionary<string, YarnProject> mainStory;
+    private Dictionary<int, YarnProject> subStory;
+    [SerializeField] List<string> mainStoryNode;
     public string selectedChar;
-    public int currNode;
+    public string currNode;
     DialogueRunner dialogueRunner;
 
     private void Awake()
     {
-        dialogueRunner = FindObjectOfType<DialogueRunner>();
+        dialogueRunner = FindAnyObjectByType<DialogueRunner>();
+        foreach (YarnProject proj in MainStories)
+        {
+            mainStory.Add("Mary", proj);
+        }
+
+        foreach (YarnProject proj in SubStories)
+        {
+            subStory.Add(1, proj);
+        }
+        
+        updateYarnProject();
     }
+    
 
     private YarnProject getSubprojWNPCId(int npcId)
     {
@@ -28,24 +43,16 @@ public class StoryManager : MonoBehaviour
         return mainStory[npcName];
     }
 
-    public void initYarnProject()
+    public void updateYarnProject()
     {
         YarnProject mainproj = getMainprojWNPCName(selectedChar);
-        
         foreach (string node in mainproj.NodeNames)
         {
-            if (!node.Contains("-"))
+            if (!node.Contains("-") && !mainStoryNode.Contains(node))
             {
                 mainStoryNode.Add(node);
             }
         }
-
     }
-    
-
-    
-    
-    
-    
     
 }

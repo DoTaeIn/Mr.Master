@@ -47,6 +47,5 @@ public class Interactables : MonoBehaviour
     public InteractableType GetInteractableType(int id)
     {
         return GetInteractable(id).Type;
-        
     }
 }

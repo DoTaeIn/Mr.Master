@@ -52,7 +52,8 @@ public class TalkDatas : MonoBehaviour
         **/
 
         
-        //Test
+        //Test DEPRICATED
+        /**
         #region [Marco | 1 | 10000]
         
         talkDatas.Add(10000, new TalkData(10000, 1, new List<string>()
@@ -78,7 +79,9 @@ public class TalkDatas : MonoBehaviour
 
 
         #endregion
+        */
     }
+    
 
 
     public TalkData getTalkDataById(int talkId)

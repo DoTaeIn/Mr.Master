@@ -1,7 +1,6 @@
 ﻿title: Ma12
 tags:
 ---
-<<declare $playerName to "Mr.Master">>
 
 Mary: 휴우...
 {$playerName}: (뭔가 고민이 있어 보이는데...)
@@ -15,5 +14,5 @@ Mary: 휴우...
 
 {$playerName}: (대화를 더 나누어 본다면 얘기해줄지도 몰라.)
 
-<<l>>
+
 ===

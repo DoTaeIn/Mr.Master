@@ -242,16 +242,19 @@ public class PlayerCTRL : MonoBehaviour
                     {
                         isInteracting = true;
                         if (uiManager == null)
-                        {
                             uiManager = FindObjectOfType<UIManager>();
-                        }
-
-                        Debug.Log("Test NPC");
+                        
+                        //Debug.Log("Test NPC");
 
                         uiManager.setActivePanelWName("choiceui", true);
-                        dialogueRunner = FindObjectOfType<DialogueRunner>();
+                        dialogueRunner = FindFirstObjectByType<DialogueRunner>();
                         if (dialogueRunner != null)
-                            dialogueRunner.StartDialogue("100");
+                        {
+                            dialogueRunner.yarnProject = npc.yarnLine;
+                            Debug.Log(dialogueRunner.yarnProject.NodeNames[1]);
+                            dialogueRunner.StartDialogue(dialogueRunner.yarnProject.NodeNames[1]);
+                            Debug.Log(dialogueRunner.yarnProject.NodeNames[1]);
+                        }
                     }
                     //Interacting with Obj that can grab
                     else if (canGrab && !isGrabbing)
