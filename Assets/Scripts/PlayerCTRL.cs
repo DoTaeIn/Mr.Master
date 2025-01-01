@@ -44,6 +44,7 @@ public class PlayerCTRL : MonoBehaviour
     public bool isGrabbing;
     public bool canGrab;
     public Transform parent;
+    public Transform grabPoint;
     public Transform mapParent;
     public BoxCollider2D grabArea;
     public GameObject grabbedObject;
@@ -148,12 +149,22 @@ public class PlayerCTRL : MonoBehaviour
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
 
-            if (movement.x > 0)
-                spriteRenderer.flipX = true;
-            else if (movement.x < 0)
-                spriteRenderer.flipX = false;
 
-            if (movement != Vector2.zero)
+
+            if (movement.x > 0)
+            {
+                parent.gameObject.GetComponent<BoxCollider2D>().offset = new Vector2(0.12f, -0.06f);
+                grabPoint.localPosition = new Vector2(0.318f, 0.203f);
+                spriteRenderer.flipX = true;
+            }
+            else if (movement.x < 0)
+            {
+                parent.gameObject.GetComponent<BoxCollider2D>().offset = new Vector2(-0.12f, -0.06f);
+                grabPoint.localPosition = new Vector2(-0.318f, 0.203f);
+                spriteRenderer.flipX = false;
+            }
+
+            if (movement != Vector2.zero && rb.linearVelocity != Vector2.zero)
                 animator.SetBool("isWalk", true);
             else
                 animator.SetBool("isWalk", false);
@@ -171,7 +182,7 @@ public class PlayerCTRL : MonoBehaviour
     void Update()
     {
         // Shift 키를 누르고 있는 동안 Run 애니메이션 활성화
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) && rb.linearVelocity.magnitude > walkSpeed)
             animator.SetBool("isRun", true);
         else
             animator.SetBool("isRun", false);
@@ -188,6 +199,7 @@ public class PlayerCTRL : MonoBehaviour
         {
             animator.SetBool("isRun", false);
             animator.SetBool("isWalk", false);
+            rb.linearVelocity = Vector2.zero;
         }
             
         
@@ -249,7 +261,7 @@ public class PlayerCTRL : MonoBehaviour
                         canGrab = false;
                         grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
                         grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
-                        grabbedObject.transform.SetParent(parent);
+                        grabbedObject.transform.SetParent(grabPoint);
                         grabbedObject.transform.localPosition = Vector3.zero; // Position it relative to the player
                         isGrabbing = true;
                     }
