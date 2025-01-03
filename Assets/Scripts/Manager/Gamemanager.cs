@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using Yarn.Unity;
@@ -16,8 +17,17 @@ public class Gamemanager : MonoBehaviour
     private float currentTime = 1.2f;
     private bool isAfternoon;
     [Range(0.001f, 1f)] [SerializeField] private float timesensitivity = 1f;
-
     [SerializeField] private Light2D sun;
+
+
+    private List<NPC> npcs;
+    UIManager uiManager;
+
+    private void Awake()
+    {
+        uiManager = FindFirstObjectByType<UIManager>();
+        npcs = FindObjectsByType<NPC>(FindObjectsInactive.Exclude, FindObjectsSortMode.None).ToList();
+    }
 
     public string getDayOfWeek()
     {
@@ -28,6 +38,10 @@ public class Gamemanager : MonoBehaviour
     {
         day++;
         dayofWeekIndex = (dayofWeekIndex + 1) % dayofWeek.Length;
+        foreach (NPC npc in npcs)
+        {
+            npc.updateDesireTaste();
+        }
     }
 
     private void Update()
@@ -69,7 +83,9 @@ public class Gamemanager : MonoBehaviour
     [YarnCommand("setQuest")]
     public void setQuest(string questName, string questDescription)
     {
-        
+        if(uiManager == null)
+            uiManager = FindFirstObjectByType<UIManager>();
+        uiManager.setQuestText(questName, questDescription);
     }
     
     

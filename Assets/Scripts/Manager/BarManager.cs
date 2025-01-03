@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
+using Yarn.Unity;
 
 public class BarManager : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class BarManager : MonoBehaviour
     [SerializeField] private PolygonCollider2D barbehind;
     [SerializeField] private PolygonCollider2D barfont;
     [SerializeField] private CinemachineConfiner2D confiner;
-    [SerializeField] private CinemachineCamera player;
+    public CinemachineCamera player;
     [SerializeField] private GameObject player2;
     [SerializeField] private Vector2 mixVec;
     [SerializeField] private Vector2 maxVec;
@@ -29,13 +30,24 @@ public class BarManager : MonoBehaviour
     public GameObject currentCup;
     
     PlayerCTRL playerCTRL;
+    UIManager uIManager;
 
     void Awake()
     {
         playerCTRL = FindFirstObjectByType<PlayerCTRL>();
+        uIManager = FindFirstObjectByType<UIManager>();
     }
 
-    
+    private void Start()
+    {
+        foreach (DialogueRunner dia in uIManager.dialogueRunners)
+        {
+            dia.onNodeStart.AddListener(FocusOnPlayer);
+            dia.onNodeComplete.AddListener(UnFocusOnPlayer);
+        }
+    }
+
+
     public void toBehind()
     {
         player.Follow = player2.transform;
@@ -48,6 +60,16 @@ public class BarManager : MonoBehaviour
         player.Follow = FindFirstObjectByType<PlayerCTRL>().gameObject.transform;
         player.Lens.OrthographicSize = 3.79f;
         confiner.BoundingShape2D = barfont;
+    }
+
+    public void FocusOnPlayer(string nodeName)
+    {
+        player.Lens.OrthographicSize = 2;
+    }
+
+    public void UnFocusOnPlayer(string nodeName)
+    {
+        player.Lens.OrthographicSize = 3.79f;
     }
 
     private void Update()

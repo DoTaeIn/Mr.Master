@@ -19,6 +19,8 @@ namespace Yarn.Unity
         [SerializeField] CanvasGroup canvasGroup;
 
         [SerializeField] OptionView optionViewPrefab;
+        
+        [SerializeField] private Transform parent;
 
         [SerializeField] MarkupPalette palette;
 
@@ -158,7 +160,7 @@ namespace Yarn.Unity
             OptionView CreateNewOptionView()
             {
                 var optionView = Instantiate(optionViewPrefab);
-                optionView.transform.SetParent(transform, false);
+                optionView.transform.SetParent(parent, false);
                 optionView.transform.SetAsLastSibling();
 
                 optionView.OnOptionSelected = OptionViewWasSelected;

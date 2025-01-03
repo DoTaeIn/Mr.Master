@@ -8,4 +8,6 @@ Mary: 음, 이거 정말 맛있는데요.. 딱 제가 원하던 맛이에요.
 <<addLovePoint 0 15>>
 {$playerName}: 마음에 드셨다니 다행이네요.
 
+<<updateYarnOrder>>
+
 ===

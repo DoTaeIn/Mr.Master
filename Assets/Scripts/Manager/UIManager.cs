@@ -30,7 +30,8 @@ public class UIManager : MonoBehaviour
     private Camera mainCamera;
     
     [Header("Dialogue")]
-    DialogueRunner dialogueRunner;
+    public List<DialogueRunner> dialogueRunners;
+    public DialogueRunner currDialogueRunner;
     
     [Header("Bar UI")]
     DrinkManager drinkManager;
@@ -86,6 +87,10 @@ public class UIManager : MonoBehaviour
     private List<string> talks = new List<string>();
     private bool isDone;
     public bool isDraging = false;
+    
+    [Header("Quest")]
+    [SerializeField] private TMP_Text questText;
+    [SerializeField] private TMP_Text descriptionText;
 
     public PlayerCTRL player;
     
@@ -118,7 +123,7 @@ public class UIManager : MonoBehaviour
             DontDestroyOnLoad(dontDestory[i]);
         }
         
-        dialogueRunner.onDialogueComplete.AddListener(playerFinishInteract);
+        currDialogueRunner.onDialogueComplete.AddListener(playerFinishInteract);
             
     }
 
@@ -131,7 +136,6 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         transition = FindObjectOfType<CircleTransition>();
-        dialogueRunner = FindObjectOfType<DialogueRunner>();
         gm = FindObjectOfType<Gamemanager>();
         foreach (DrinkSO drink in Alcohols)
         {
@@ -180,9 +184,9 @@ public class UIManager : MonoBehaviour
         //Next Dialouge
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            if (dialogueRunner.IsDialogueRunning)
+            if (currDialogueRunner.IsDialogueRunning)
             {
-                LineView lineView = FindObjectOfType<LineView>();
+                LineView lineView = FindFirstObjectByType<LineView>();
                 lineView.OnContinueClicked();
             }
         }
@@ -239,6 +243,15 @@ public class UIManager : MonoBehaviour
         if (!drinkAmountSlider.IsActive())
         {
             drinkAmountSlider.value = drinkAmountSlider.minValue;
+        }
+
+        foreach (DialogueRunner dia in dialogueRunners)
+        {
+            if(dia != currDialogueRunner)
+                dia.gameObject.SetActive(false);
+            else
+                dia.gameObject.SetActive(true);
+            
         }
         
     }
@@ -505,6 +518,27 @@ public class UIManager : MonoBehaviour
         {
             amtImg[i].color = Color.white;
         }
+    }
+
+    public DialogueRunner setDialogueRunnderBName(string name)
+    {
+        foreach (DialogueRunner obj in dialogueRunners)
+        {
+            if (obj.name == name)
+            {
+                currDialogueRunner = obj;
+                //Debug.Log("Dialogue runner: " + obj.name);
+                return obj;
+            }
+            
+        }
+        return null;
+    }
+
+    public void setQuestText(string title, string description)
+    {
+        questText.text = title;
+        descriptionText.text = description;
     }
     
 }

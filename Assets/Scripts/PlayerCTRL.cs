@@ -11,7 +11,7 @@ public class PlayerCTRL : MonoBehaviour
 {
     public DrinkManager drinkManager;
     Rigidbody2D rb;
-    Interactables interactables;
+    [SerializeField] Interactables interactables;
     CircleTransition circleTransition;
     TalkDatas talkDatas;
     public DialogueRunner dialogueRunner;
@@ -20,7 +20,7 @@ public class PlayerCTRL : MonoBehaviour
     
     
     [SerializeField] Animator animator;
-    [HideInInspector] public NPC npc;
+    public NPC npc;
     UIManager uiManager;
     
     //Temporary Dictionary for making Cocktail & Drink
@@ -206,116 +206,142 @@ public class PlayerCTRL : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            
+            //Interacting Algorithm
+            //In Bar - In front of the bar
             if (canInteract && !isBarBehind)
             {
+                interactables = FindFirstObjectByType<Interactables>();
                 Debug.Log("Start interacting");
-                interactables = FindObjectOfType<Interactables>();
+                if (inArea.Count != 0)
+                {
+                    for (int i = 0; i < inArea.Count; i++)
+                    {
+                        Debug.Log(inArea[i].name);
+                    }
+                    interactObjId =
+                        inArea.OrderBy(obj => Vector2.Distance(transform.position, obj.transform.position)).ToList()[0]
+                            .GetComponent<InteractData>().interactId;
+                }
+                
                 //Interacting with Interactable Objs
-                if (interactables != null)
+                if (interactables != null && npc == null)
                 {
                     Debug.Log("Found Interactables");
                     //Find UI
                     if (uiManager == null)
-                    {
-                        uiManager = FindObjectOfType<UIManager>();
-                    }
+                        uiManager = FindFirstObjectByType<UIManager>();
 
                     if (barManager == null)
-                    {
-                        barManager = FindObjectOfType<BarManager>();
-                    }
+                        barManager = FindFirstObjectByType<BarManager>();
                     
-                    
-                    if (canGoBehind)
-                    {
-                        if(barManager == null)
-                            barManager = FindFirstObjectByType<BarManager>();
-                        barManager.toBehind();
-                        isInteracting = true;
-                        isBarBehind = true;
-                    }
-
-                    
-                    //Interacting with NPC
-                    if (npc != null && !isGrabbing)
-                    {
-                        isInteracting = true;
-                        if (uiManager == null)
-                            uiManager = FindObjectOfType<UIManager>();
-                        
-                        //Debug.Log("Test NPC");
-
-                        uiManager.setActivePanelWName("choiceui", true);
-                        dialogueRunner = FindFirstObjectByType<DialogueRunner>();
-                        if (dialogueRunner != null)
-                        {
-                            dialogueRunner.yarnProject = npc.yarnLine;
-                            Debug.Log(dialogueRunner.yarnProject.NodeNames[1]);
-                            dialogueRunner.StartDialogue(dialogueRunner.yarnProject.NodeNames[1]);
-                            Debug.Log(dialogueRunner.yarnProject.NodeNames[1]);
-                        }
-                    }
-                    //Interacting with Obj that can grab
-                    else if (canGrab && !isGrabbing)
-                    {
-                        // Grabbing the object
-                        Debug.Log("Grabbing object");
-                        canGrab = false;
-                        grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-                        grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
-                        grabbedObject.transform.SetParent(grabPoint);
-                        grabbedObject.transform.localPosition = Vector3.zero; // Position it relative to the player
-                        isGrabbing = true;
-                    }
-                    else if (isGrabbing)
-                    {
-                        // Releasing the object
-                        Debug.Log("Releasing object");
-                        grabbedObject.transform.SetParent(mapParent);
-                        grabbedObject.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-                        grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
-                        grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
-                        canGrab = true;
-                        isGrabbing = false;
-                        if(navMeshSurface == null)
-                            navMeshSurface = FindObjectOfType<NavMeshSurface>();
-                        
-                        navMeshSurface.BuildNavMesh();
-                    }
                     
                     //TODO: interacting door - DONE
-                    if (interactables.GetInteractableType(interactObjId) == InteractableType.Door)
+                    if (interactables.GetInteractable(interactObjId) != null)
                     {
-                        isInteracting = true;
-                        uiManager.setActivePanelWName("circle", true);
-                        circleTransition.StartShrink();
-                        interactObj = null;
-                        isInteracting = false;
-                        LoadSceneWithDelay("Tavern", 1f);
-                        
-                    }
-
-                    if (interactables.GetInteractableType(interactObjId) == InteractableType.Sign)
-                    {
-                        //uiManager.setActivePanelWName("talkui", true);
-                        Interactable temp = null;
-                        foreach (Interactable interobj in interactables.interactables)
+                        if (interactables.GetInteractableType(interactObjId) == InteractableType.Door)
                         {
-                            if (interobj.Id == interactObjId)
-                            {
-                                temp = interobj;
-                            }
+                            isInteracting = true;
+                            uiManager.setActivePanelWName("circle", true);
+                            circleTransition.StartShrink();
+                            interactObj = null;
+                            isInteracting = false;
+                            LoadSceneWithDelay("Tavern", 1f);
                         }
-                        if(temp != null)
-                            uiManager.setNameNTalk("나", temp.InteractLines, true);
+                        if (interactables.GetInteractableType(interactObjId) == InteractableType.Sign)
+                        {
+                            //uiManager.setActivePanelWName("talkui", true);
+                            Interactable temp = null;
+                            foreach (Interactable interobj in interactables.interactables)
+                            {
+                                if (interobj.Id == interactObjId)
+                                {
+                                    temp = interobj;
+                                }
+                            }
+                            if(temp != null)
+                                uiManager.setNameNTalk("나", temp.InteractLines, true);
+                        }
                     }
-                    
                     
                 }
                 
+                //If Player can go behind, go for it
+                if (canGoBehind)
+                {
+                    if(barManager == null)
+                        barManager = FindFirstObjectByType<BarManager>();
+                    barManager.toBehind();
+                    isInteracting = true;
+                    isBarBehind = true;
+                }
+                
+                //Interacting with NPC
+                if (npc != null && !isGrabbing)
+                {
+                    isInteracting = true;
+                    if (uiManager == null)
+                        uiManager = FindFirstObjectByType<UIManager>();
+                    
+                    Debug.Log("Test NPC");
+
+                    uiManager.setActivePanelWName("choiceui", true);
+                    dialogueRunner = uiManager.setDialogueRunnderBName($"{npc.npcName} Dialogue Runner");
+
+                    if (currCotail != null)
+                    {
+                        if (npc.checkLoveHate(currCotail.Tastes) > 0)
+                        {
+                            npc.currDialogueIndex += "-0";
+                            dialogueRunner.StartDialogue(npc.currDialogueIndex);
+                        }
+                        else
+                        {
+                            npc.currDialogueIndex += "-1";
+                            dialogueRunner.StartDialogue(npc.currDialogueIndex);
+                        }
+                    }
+                    
+                    if (dialogueRunner != null && !npc.hasTalked)
+                    {
+                        dialogueRunner.StartDialogue(npc.currDialogueIndex);
+                        npc.hasTalked = true;
+                    }
+                    else if(npc.hasTalked)
+                        isInteracting = false;
+                }
+                
+                //Interacting with Obj that can grab
+                else if (canGrab && !isGrabbing)
+                {
+                    // Grabbing the object
+                    Debug.Log("Grabbing object");
+                    canGrab = false;
+                    grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+                    grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+                    grabbedObject.transform.SetParent(grabPoint);
+                    grabbedObject.transform.localPosition = Vector3.zero; // Position it relative to the player
+                    isGrabbing = true;
+                }
+                // Releasing the object
+                else if (isGrabbing)
+                {
+                    
+                    Debug.Log("Releasing object");
+                    grabbedObject.transform.SetParent(mapParent);
+                    grabbedObject.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+                    grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
+                    grabbedObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+                    canGrab = true;
+                    isGrabbing = false;
+                    if(navMeshSurface == null)
+                        navMeshSurface = FindObjectOfType<NavMeshSurface>();
+                    
+                    navMeshSurface.BuildNavMesh();
+                }
                 
             }
+            
+            //In Bar - Behind of the bar
             else if (canInteract && isBarBehind)
             {
                 if(barManager == null)
@@ -471,6 +497,8 @@ public class PlayerCTRL : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Interactable") && !isGrabbing)
         {
+            if (!inArea.Contains(collision.gameObject))
+                inArea.Add(collision.gameObject);
             canInteract = true;
             interactObj = collision.gameObject;
             if(collision.gameObject.GetComponent<InteractData>() != null)
@@ -488,6 +516,9 @@ public class PlayerCTRL : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Interactable") && !isGrabbing)
         {
+            if (inArea.Contains(other.gameObject))
+                inArea.Remove(other.gameObject);
+            
             canInteract = false;
             interactObj = null;
             if(other.gameObject.GetComponent<InteractData>() != null)

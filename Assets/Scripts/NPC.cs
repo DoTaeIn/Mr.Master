@@ -29,6 +29,9 @@ public class NPC : MonoBehaviour
     public NPCStatusType npcStatus;
     public YarnProject yarnLine;
     public GameObject[] emotions;
+    public List<string> like_favor;
+    public List<string> desire_favor;
+    public List<string> hate_favor;
     
     [Header("NPC Motion")]
     public List<TavernChair> chairs;
@@ -45,10 +48,12 @@ public class NPC : MonoBehaviour
     [SerializeField] List<Sprite> emotionSprites; //0: Thinking, 1: Happy, 2: Sad, 3: Question, 4: Surprise
 
     [Header("Love Point")] 
-    public Dictionary<int, int> lovePoints; //NPCID, How much they like them 0: player
-    
-    [Header("NPC Dialogue")]
+    public Dictionary<int, int> lovePoints = new Dictionary<int, int>(); //NPCID, How much they like them 0: player
+
+    [Header("NPC Dialogue")] 
+    public bool hasTalked;
     public string currDialogueIndex;
+    public int index = 11;
     
     NavMeshAgent navMeshAgent;
     Animator animator;
@@ -65,6 +70,7 @@ public class NPC : MonoBehaviour
         navMeshAgent.updateRotation = false;
         navMeshAgent.updateUpAxis = false;
     }
+    
 
     private void Start()
     {
@@ -74,6 +80,7 @@ public class NPC : MonoBehaviour
         {
             Debug.Log(name);
         }
+        lovePoints.Add(0, 0);
     }
 
 
@@ -303,6 +310,45 @@ public class NPC : MonoBehaviour
     public void updateDialogueIndex(int x)
     {
         
+    }
+
+
+    public int checkLoveHate(List<string> list)
+    {
+        int temp = 0;
+        foreach (string favor in list)
+        {
+            if (desire_favor.Contains(favor))
+                temp++;
+            else if (hate_favor.Contains(favor))
+                temp--;
+            else if(like_favor.Contains(favor))
+            {
+                temp += 2;
+            }
+
+        }
+        
+        return temp;
+    }
+
+    public void updateDesireTaste()
+    {
+        desire_favor.Clear();
+
+        for (int i = 0; i < 2; i++)
+        {
+            int temp = Random.Range(0, like_favor.Count + 1);
+            desire_favor.Add(like_favor[temp]);
+        }
+    }
+
+
+    [YarnCommand("updateYarnOrder")]
+    public void updateYarnOrder()
+    {
+        index++;
+        currDialogueIndex = "Ma" + index ;
     }
     
 }
