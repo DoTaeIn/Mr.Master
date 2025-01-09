@@ -39,7 +39,7 @@ public class TalkDatas : MonoBehaviour
     {
         talkDatas = new Dictionary<int, TalkData>();
         
-        
+        //DEPRICATED
         //This is just a format.
         //Talk Data for specific NPC.
         //Needs to have unique ID of talkid with over 10000.

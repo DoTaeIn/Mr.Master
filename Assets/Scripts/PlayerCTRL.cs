@@ -61,6 +61,8 @@ public class PlayerCTRL : MonoBehaviour
     public GameObject ItemHolder;
     public GameObject interactObj;
     
+    [Header("Money")]
+    public float money;
     
     SpriteRenderer spriteRenderer;
     private void Awake()
@@ -70,6 +72,7 @@ public class PlayerCTRL : MonoBehaviour
         talkDatas = FindFirstObjectByType<TalkDatas>();
         circleTransition = FindFirstObjectByType<CircleTransition>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        
     }
 
     /**
@@ -218,9 +221,14 @@ public class PlayerCTRL : MonoBehaviour
                     {
                         Debug.Log(inArea[i].name);
                     }
-                    interactObjId =
+
+                    InteractData temp =
                         inArea.OrderBy(obj => Vector2.Distance(transform.position, obj.transform.position)).ToList()[0]
-                            .GetComponent<InteractData>().interactId;
+                            .GetComponent<InteractData>();
+                    
+                    if(temp != null)
+                        interactObjId = 
+                            temp.interactId;
                 }
                 
                 //Interacting with Interactable Objs
@@ -282,7 +290,7 @@ public class PlayerCTRL : MonoBehaviour
                     if (uiManager == null)
                         uiManager = FindFirstObjectByType<UIManager>();
                     
-                    Debug.Log("Test NPC");
+                    //Debug.Log("Test NPC");
 
                     uiManager.setActivePanelWName("choiceui", true);
                     dialogueRunner = uiManager.setDialogueRunnderBName($"{npc.npcName} Dialogue Runner");
@@ -303,6 +311,10 @@ public class PlayerCTRL : MonoBehaviour
                     
                     if (dialogueRunner != null && !npc.hasTalked)
                     {
+                        //dialogueRunner.VariableStorage.SetValue("$playerName", "Mr.Master");
+                        //dialogueRunner.VariableStorage.SetValue("$npcName", "Mary");
+
+
                         dialogueRunner.StartDialogue(npc.currDialogueIndex);
                         npc.hasTalked = true;
                     }
@@ -334,7 +346,7 @@ public class PlayerCTRL : MonoBehaviour
                     canGrab = true;
                     isGrabbing = false;
                     if(navMeshSurface == null)
-                        navMeshSurface = FindObjectOfType<NavMeshSurface>();
+                        navMeshSurface = FindFirstObjectByType<NavMeshSurface>();
                     
                     navMeshSurface.BuildNavMesh();
                 }

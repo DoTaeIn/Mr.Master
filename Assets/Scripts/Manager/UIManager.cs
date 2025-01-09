@@ -32,6 +32,10 @@ public class UIManager : MonoBehaviour
     [Header("Dialogue")]
     public List<DialogueRunner> dialogueRunners;
     public DialogueRunner currDialogueRunner;
+    public bool isDiaStart;
+    public TMP_Text dialogueText;
+    public TMP_Text nameText;
+    public string currSpeaker;
     
     [Header("Bar UI")]
     DrinkManager drinkManager;
@@ -45,8 +49,8 @@ public class UIManager : MonoBehaviour
     //Drink Panel
     public GameObject drinksPanel;
     public bool showDrinksPanel;
-    public List<DrinkSO> Alcohols;
-    public List<DrinkSO> NonAlcohols;
+    public List<DrinkSO> TotalLiquid;
+        //public List<DrinkSO> NonAlcohols;
     public List<GarnishSO> Garnishs;
     public GameObject panelPrefab;
     public GameObject AlcoholsParent;
@@ -60,6 +64,7 @@ public class UIManager : MonoBehaviour
     public Slider drinkAmountSlider;
     private Cocktail newCocktail;
     [HideInInspector] public DrinkSO selectedDrink;
+    StorageManager storageManager;
 
     [Space]
     //Shaker Panel
@@ -135,20 +140,23 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
-        transition = FindObjectOfType<CircleTransition>();
-        gm = FindObjectOfType<Gamemanager>();
-        foreach (DrinkSO drink in Alcohols)
+        transition = FindFirstObjectByType<CircleTransition>();
+        gm = FindFirstObjectByType<Gamemanager>();
+        
+        foreach (DrinkSO drink in TotalLiquid)
         {
-            GameObject gm = Instantiate(panelPrefab, AlcoholsParent.transform);
-            gm.GetComponent<drinkSelect>().currDrink = drink;
-            gm.GetComponent<drinkSelect>().setTxt(drink.name, drink.proof, drink.tastes, drink.price, drink.amount, drink.MAXamount);
-        }
-
-        foreach (DrinkSO syrup in NonAlcohols)
-        {
-            GameObject gm = Instantiate(panelPrefab, NonAlcoholsParent.transform);
-            gm.GetComponent<drinkSelect>().currDrink = syrup;
-            gm.GetComponent<drinkSelect>().setTxt(syrup.name, syrup.proof, syrup.tastes, syrup.price, syrup.amount, syrup.MAXamount);
+            if (drink.proof != 0)
+            {
+                GameObject gm = Instantiate(panelPrefab, AlcoholsParent.transform);
+                gm.GetComponent<drinkSelect>().currDrink = drink;
+                gm.GetComponent<drinkSelect>().setTxt(drink);
+            }
+            else
+            {
+                GameObject gm = Instantiate(panelPrefab, NonAlcoholsParent.transform);
+                gm.GetComponent<drinkSelect>().currDrink = drink;
+                gm.GetComponent<drinkSelect>().setTxt(drink);
+            }
         }
     }
     
@@ -159,6 +167,12 @@ public class UIManager : MonoBehaviour
         //DATE CONTROL
         string dateFormat = gm.month.ToString("00") + " / " + gm.day.ToString("00") + "\n" + gm.getDayOfWeek();
         dateText.text = dateFormat;
+
+        if (isDiaStart && currDialogueRunner.IsDialogueRunning)
+        {
+            //nameText.text = pharseLineName(dialogueText.text);
+            currSpeaker = pharseLineName(dialogueText.text);
+        }
         
         
         //Deactivate All Panels except last one called.
@@ -186,7 +200,7 @@ public class UIManager : MonoBehaviour
         {
             if (currDialogueRunner.IsDialogueRunning)
             {
-                LineView lineView = FindFirstObjectByType<LineView>();
+                CustomLineView lineView = FindFirstObjectByType<CustomLineView>();
                 lineView.OnContinueClicked();
             }
         }
@@ -279,8 +293,13 @@ public class UIManager : MonoBehaviour
     public void putDrink()
     {
         Drink temp = new Drink(selectedDrink.id, selectedDrink.name, selectedDrink.price, selectedDrink.proof, selectedDrink.amount, selectedDrink.color, selectedDrink.tastes);
-        if(player == null)
+        if (player == null)
             player = FindFirstObjectByType<PlayerCTRL>();
+        
+        if(storageManager == null)
+            storageManager = FindFirstObjectByType<StorageManager>();
+        
+        storageManager.disturbIntegrity(selectedDrink, 0, 0.1f);
         
         player.AddDrinkToCocktail(drinkAmountSlider.value, temp);
 
@@ -540,5 +559,26 @@ public class UIManager : MonoBehaviour
         questText.text = title;
         descriptionText.text = description;
     }
+
+
+    public string pharseLineName(string line)
+    {
+        if (string.IsNullOrEmpty(line))
+        {
+            return ""; // Return an empty string if the line is null or empty
+        }
+
+        // Split the line by ": " to separate the character name and dialogue
+        string[] parts = line.Split(new[] { ": " }, StringSplitOptions.None);
+
+        // Check if the line contains a name and dialogue
+        if (parts.Length > 1)
+        {
+            return parts[0]; // Return the character name (first part before ": ")
+        }
+    
+        return ""; // Return an empty string if no character name is found
+    }
+
     
 }

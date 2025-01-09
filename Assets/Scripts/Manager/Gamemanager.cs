@@ -8,6 +8,8 @@ using Yarn.Unity;
 
 public class Gamemanager : MonoBehaviour
 {
+    
+    [Header("Time control")]
     public static string[] dayofWeek = {"MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"};
     private static int[] dateCounts = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     public int dayofWeekIndex = 0;
@@ -18,15 +20,31 @@ public class Gamemanager : MonoBehaviour
     private bool isAfternoon;
     [Range(0.001f, 1f)] [SerializeField] private float timesensitivity = 1f;
     [SerializeField] private Light2D sun;
+    
+    
+    //Bank System - Partially used.
+    [Header("Bank")]
+    [SerializeField] private float rentFee;
+    [SerializeField] private float elecBill;
+    [SerializeField] private float waterBill;
+    //-- Not ready --
+    [SerializeField] private int bankScore = 750;
+    [SerializeField] private int interest;
 
 
-    private List<NPC> npcs;
+    [Header("Tavern Open N Close")] 
+    public bool isOpen;
+    
+    
+    List<NPC> npcs;
     UIManager uiManager;
+    StorageManager storageManager;
 
     private void Awake()
     {
         uiManager = FindFirstObjectByType<UIManager>();
         npcs = FindObjectsByType<NPC>(FindObjectsInactive.Exclude, FindObjectsSortMode.None).ToList();
+        storageManager = FindFirstObjectByType<StorageManager>();
     }
 
     public string getDayOfWeek()
@@ -41,6 +59,24 @@ public class Gamemanager : MonoBehaviour
         foreach (NPC npc in npcs)
         {
             npc.updateDesireTaste();
+        }
+
+        if (storageManager == null)
+            storageManager = FindFirstObjectByType<StorageManager>();
+        
+        storageManager.distrubAllIntegrity(0.5f);
+
+        if (storageManager.checkSpoiled().Count > 0)
+        {
+            string temp = "";
+            foreach (DrinkSO name in storageManager.checkSpoiled())
+                temp += name.name;
+            
+            Debug.Log(temp + " has been spoiled.");
+        }
+        else
+        {
+            Debug.Log("Nothing to be spoiled.");
         }
     }
 

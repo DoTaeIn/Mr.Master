@@ -289,6 +289,8 @@ namespace Yarn.Unity
 
             if (characterNameText == null)
             {
+                Debug.Log(dialogueLine.CharacterName);
+                Debug.Log(dialogueLine.Text.Text);
                 if (showCharacterNameInLineView)
                 {
                     lineText.text = dialogueLine.Text.Text;
@@ -303,6 +305,7 @@ namespace Yarn.Unity
             else
             {
                 characterNameText.text = dialogueLine.CharacterName;
+                Debug.Log(dialogueLine.CharacterName);
                 lineText.text = dialogueLine.TextWithoutCharacterName.Text;
                 length = dialogueLine.TextWithoutCharacterName.Text.Length;
             }

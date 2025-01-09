@@ -23,10 +23,18 @@ public class DrinkSO : ScriptableObject
     public float proof;
     //DRINK AMOUNT LEFT
     public float amount;
-    //DRUNK's MAX AMOUNT
+    //DRINK's MAX AMOUNT (ml)
     public float MAXamount;
+    //DRINK Integrity
+    public float integrity = 100;
     //DRINK COLOR
     public Color color;
     //DRINK TASTES
     public List<string> tastes;
+
+
+    public void UseAmt(int amount)
+    {
+        this.amount -= amount;
+    }
 }

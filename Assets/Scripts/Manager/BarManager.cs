@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Events;
+using Yarn;
 using Yarn.Unity;
 
 public class BarManager : MonoBehaviour
@@ -42,6 +44,8 @@ public class BarManager : MonoBehaviour
     {
         foreach (DialogueRunner dia in uIManager.dialogueRunners)
         {
+            dia.onNodeStart.RemoveAllListeners();
+            dia.onNodeComplete.RemoveAllListeners();
             dia.onNodeStart.AddListener(FocusOnPlayer);
             dia.onNodeComplete.AddListener(UnFocusOnPlayer);
         }
@@ -65,11 +69,13 @@ public class BarManager : MonoBehaviour
     public void FocusOnPlayer(string nodeName)
     {
         player.Lens.OrthographicSize = 2;
+        uIManager.isDiaStart = true;
     }
 
     public void UnFocusOnPlayer(string nodeName)
     {
         player.Lens.OrthographicSize = 3.79f;
+        uIManager.isDiaStart = false;
     }
 
     private void Update()
@@ -134,5 +140,24 @@ public class BarManager : MonoBehaviour
 
         
     }
+    
+    public void OnDialogueLine(LocalizedLine line)
+    {
+        // Access the character name
+        string characterName = line.CharacterName;
+
+        if (!string.IsNullOrEmpty(characterName))
+        {
+            Debug.Log($"Character speaking: {characterName}");
+        }
+        else
+        {
+            Debug.Log("No character name specified for this line.");
+        }
+
+        // Access the dialogue text
+        Debug.Log($"Line text: {line.Text}");
+    }
+
 }
 

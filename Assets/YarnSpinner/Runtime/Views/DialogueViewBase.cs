@@ -202,7 +202,8 @@ namespace Yarn.Unity
 
         /// <summary>
         /// Called by the <see cref="DialogueRunner"/> to signal that the view
-        /// should dismiss its current line from display, and clean up.
+        /// should dis
+        /// miss its current line from display, and clean up.
         /// </summary>
         /// <remarks>
         /// <para>
