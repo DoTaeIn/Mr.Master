@@ -1,23 +1,25 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public class Drink 
 {
     //DRINK ID
-    private int id; 
+    [SerializeField] private int id; 
     //DRINK NAMAE
-    private string name;
+    [SerializeField] private string name;
     //DRINK PRICE PER GLASS
-    private float price;
+    [SerializeField] private float price;
     //DRINK ALCOHOL PERCENTAGE
-    private float proof;
+    [SerializeField] private float proof;
     //DRINK AMOUNT LEFT
-    private float amount;
+    [SerializeField] private float amount;
     //DRINK COLOR
-    private Color color;
+    [SerializeField] private Color color;
     //DRINK TASTES
-    private List<string> tastes;
+    [SerializeField] private List<string> tastes;
 
     // Constructor
     public Drink(int id, string name, float price, float proof, float amount, Color color, List<string> tastes)

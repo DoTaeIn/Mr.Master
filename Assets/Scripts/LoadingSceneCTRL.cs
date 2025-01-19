@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,6 +10,7 @@ public class LoadingSceneCTRL : MonoBehaviour
     private static string nextScene; // The name of the next scene to load
     [SerializeField] private Image loadingBar; // The loading bar UI
     [SerializeField] private TMP_Text tipText; // Tip text during loading
+    [SerializeField] private List<string> loadingTips = new List<string>();
 
     // Call this static method to start loading a scene
     public static void LoadScene(string sceneName)

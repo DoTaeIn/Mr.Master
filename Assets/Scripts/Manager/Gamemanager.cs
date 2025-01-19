@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 public class Gamemanager : MonoBehaviour
@@ -16,12 +18,15 @@ public class Gamemanager : MonoBehaviour
     public int month;
     public int day;
     private int halfTime = 12;
-    private float currentTime = 1.2f;
-    private bool isAfternoon;
+    public float currentTime = 1.2f;
+    public bool isAfternoon;
     [Range(0.001f, 1f)] [SerializeField] private float timesensitivity = 1f;
     [SerializeField] private Light2D sun;
-    
-    
+    public UnityEvent onQuestChanged;
+
+    public string questTitle;
+    public string questDescription;
+     
     //Bank System - Partially used.
     [Header("Bank")]
     [SerializeField] private float rentFee;
@@ -45,6 +50,12 @@ public class Gamemanager : MonoBehaviour
         uiManager = FindFirstObjectByType<UIManager>();
         npcs = FindObjectsByType<NPC>(FindObjectsInactive.Exclude, FindObjectsSortMode.None).ToList();
         storageManager = FindFirstObjectByType<StorageManager>();
+        
+    }
+
+    private void Start()
+    {
+        onQuestChanged.AddListener(chageQuestText);
     }
 
     public string getDayOfWeek()
@@ -88,14 +99,16 @@ public class Gamemanager : MonoBehaviour
         {
             if (currentTime <= halfTime && !isAfternoon)
             {
-                currentTime += Time.deltaTime * timesensitivity;
+                //Need to control the time sensitivity
+                currentTime += Time.deltaTime * 0.1f * timesensitivity;
                 sun.intensity = currentTime / halfTime;
                 if(currentTime >= halfTime) 
                     isAfternoon = true;
             }
             else if(isAfternoon)
             {
-                currentTime -= Time.deltaTime * timesensitivity;
+                //Need to control the time sensitivity
+                currentTime -= Time.deltaTime * 0.1f  * timesensitivity;
                 sun.intensity = currentTime / halfTime;
                 if(currentTime <= 1.2f)     
                     isAfternoon = false;
@@ -119,10 +132,19 @@ public class Gamemanager : MonoBehaviour
     [YarnCommand("setQuest")]
     public void setQuest(string questName, string questDescription)
     {
+        this.questTitle = questName;
+        this.questDescription = questDescription;
+        onQuestChanged.Invoke();
+    }
+
+    private void chageQuestText()
+    {
         if(uiManager == null)
             uiManager = FindFirstObjectByType<UIManager>();
-        uiManager.setQuestText(questName, questDescription);
+        uiManager.setQuestText(questTitle, questDescription);
     }
+    
+    
     
     
 }

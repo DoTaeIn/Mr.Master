@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OrderManager : MonoBehaviour
 {
+    //In case of Limiting available orders -> Not using yet.
     public List<DrinkSO> availableOrders;
     public Dictionary<DrinkSO, int> cart;
     

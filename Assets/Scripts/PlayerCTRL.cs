@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using NavMeshPlus.Components;
+using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Yarn.Unity;
+
 
 public class PlayerCTRL : MonoBehaviour
 {
@@ -25,7 +27,7 @@ public class PlayerCTRL : MonoBehaviour
     
     //Temporary Dictionary for making Cocktail & Drink
     public Dictionary<float, Drink> currentDrink = new Dictionary<float, Drink>();
-    public List<string> testDrinks = new List<string>();
+    //public List<string> testDrinks = new List<string>();
     //Currently holding cocktail. 
     Cocktail currCotail;
     private int shakeAMT;
@@ -33,7 +35,7 @@ public class PlayerCTRL : MonoBehaviour
     //Movement
     [Header("Movement")]
     Vector2 movement;
-    [SerializeField] private float walkSpeed = 2.0f;
+    public float walkSpeed = 2.0f;
     [SerializeField] private float runSpeed = 3.0f;
     
     [Header("Yarn Spinner")]
@@ -65,6 +67,7 @@ public class PlayerCTRL : MonoBehaviour
     public float money;
     
     SpriteRenderer spriteRenderer;
+    SaveSystem saveSystem;
     private void Awake()
     {
         drinkManager = FindFirstObjectByType<DrinkManager>();
@@ -72,15 +75,21 @@ public class PlayerCTRL : MonoBehaviour
         talkDatas = FindFirstObjectByType<TalkDatas>();
         circleTransition = FindFirstObjectByType<CircleTransition>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        
+        saveSystem = FindFirstObjectByType<SaveSystem>();
     }
 
-    /**
+    
     private void Start()
     {
-        variableStorage.SetValue("$playerName", "Mr.Master");
+        //variableStorage.SetValue("$playerName", "Mr.Master");
+        //Debug.Log(JsonUtility.ToJson((saveSystem.saveGameObject(this.gameObject), Formatting.Indented)));
+        //saveSystem.saveToFileTest(saveSystem.saveGameObject(this.gameObject));
+
+        saveSystem.saveDataToFile(1);
+
+
     }
-    **/
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Interactable") && !isGrabbing && other.GetComponent<InteractData>() == null)
@@ -490,7 +499,6 @@ public class PlayerCTRL : MonoBehaviour
     
 
     #endregion
-    
     
     
     public void LoadSceneWithDelay(string name, float time)

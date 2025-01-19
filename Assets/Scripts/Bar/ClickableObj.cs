@@ -24,6 +24,7 @@ public class ClickableObj : MonoBehaviour
     BarManager barManager;
     private GameObject dump;
     bool isGrabbing = false;
+    bool once = true;
 
 
 
@@ -63,9 +64,10 @@ public class ClickableObj : MonoBehaviour
             case ClickableObjType.Book:
                 break;
             case ClickableObjType.Ice:
-                bool once = false;
                 int temp = 0;
-                temp = UnityEngine.Random.Range(0, 180);
+                if(once)
+                    temp = UnityEngine.Random.Range(0, 180);
+                once = false;
                 Quaternion tempQ = Quaternion.Euler(0, 0, temp);
                 SpawnObj(barManager.ice, true, tempQ);
                 break;
@@ -107,7 +109,7 @@ public class ClickableObj : MonoBehaviour
     {
         isMouseOn = false;
         if(uiManager == null)
-            uiManager = FindObjectOfType<UIManager>();
+            uiManager = FindFirstObjectByType<UIManager>();
         
         
         uiManager.startFollow = false;
@@ -169,5 +171,10 @@ public class ClickableObj : MonoBehaviour
             }
         }
     }
-    
+
+    private void OnMouseDown()
+    {
+        uiManager.orderPanel.SetActive(true);
+        uiManager.lastWindowCalled = "main";
+    }
 }

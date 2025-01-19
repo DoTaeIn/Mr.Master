@@ -76,6 +76,17 @@ public class UIManager : MonoBehaviour
     public List<GameObject> drinkList;
     [SerializeField] private List<Image> amtImg;
     
+    [Space]
+    //Ordering Panel
+    public GameObject orderPanel;
+    [SerializeField] private Transform orderListParent;
+    [SerializeField] private Slider pushtoOpen;
+    [SerializeField] private GameObject mainWindow;
+    [SerializeField] private GameObject orderWindow;
+    [SerializeField] private GameObject startWindow;
+    private Dictionary<string, GameObject> windows =  new Dictionary<string, GameObject>();
+    public string lastWindowCalled;
+    
     [Header("Date UI")]
     public TMP_Text dateText;
     private Gamemanager gm;
@@ -99,6 +110,8 @@ public class UIManager : MonoBehaviour
 
     public PlayerCTRL player;
     
+    OrderManager orderManager;
+    
     
     //Get&Set
     public string Name { get => name; set => name = value; }
@@ -120,7 +133,7 @@ public class UIManager : MonoBehaviour
         for(int i = 0; i < UIPanels.Length; i++)
         {
             talkUIDictionary.Add(UIPanels[i].name.ToLower(), UIPanels[i]);
-            Debug.Log(UIPanels[i].name);
+            //Debug.Log(UIPanels[i].name);
         }
 
         for (int i = 0; i < dontDestory.Length; i++)
@@ -129,7 +142,8 @@ public class UIManager : MonoBehaviour
         }
         
         currDialogueRunner.onDialogueComplete.AddListener(playerFinishInteract);
-            
+        
+        
     }
 
     private void playerFinishInteract()
@@ -142,6 +156,9 @@ public class UIManager : MonoBehaviour
     {
         transition = FindFirstObjectByType<CircleTransition>();
         gm = FindFirstObjectByType<Gamemanager>();
+        orderManager = FindFirstObjectByType<OrderManager>();
+        
+        windows.Add("main", mainWindow); windows.Add("start", startWindow); windows.Add("order", orderWindow);
         
         foreach (DrinkSO drink in TotalLiquid)
         {
@@ -149,21 +166,35 @@ public class UIManager : MonoBehaviour
             {
                 GameObject gm = Instantiate(panelPrefab, AlcoholsParent.transform);
                 gm.GetComponent<drinkSelect>().currDrink = drink;
-                gm.GetComponent<drinkSelect>().setTxt(drink);
+                gm.GetComponent<drinkSelect>().setTxt(false);
             }
             else
             {
                 GameObject gm = Instantiate(panelPrefab, NonAlcoholsParent.transform);
                 gm.GetComponent<drinkSelect>().currDrink = drink;
-                gm.GetComponent<drinkSelect>().setTxt(drink);
+                gm.GetComponent<drinkSelect>().setTxt(false);
             }
         }
+
+
+        foreach (DrinkSO obj in orderManager.availableOrders)
+        {
+            GameObject gm = Instantiate(panelPrefab, orderListParent);
+            gm.GetComponent<drinkSelect>().currDrink = obj;
+            gm.GetComponent<drinkSelect>().setTxt(true);
+        }
+        
     }
     
     
 
     private void Update()
     {
+        //PUSH TO OPEN
+        if (pushtoOpen.value >= 1)
+            lastWindowCalled = "main";
+        
+        
         //DATE CONTROL
         string dateFormat = gm.month.ToString("00") + " / " + gm.day.ToString("00") + "\n" + gm.getDayOfWeek();
         dateText.text = dateFormat;
@@ -188,6 +219,25 @@ public class UIManager : MonoBehaviour
             foreach (var dict in talkUIDictionary)
             {
                 if (dict.Key != currentPanelName)
+                {
+                    dict.Value.SetActive(false);
+                }
+            }
+        }
+        
+        //Deactivate All Panels except last one called - Shopping Menu
+        int tempOder = 0;
+        foreach (GameObject obj in windows.Values)
+        {
+            if(obj.activeSelf)
+                tempOder++;
+        }
+            
+        if (tempOder > 1)
+        {
+            foreach (var dict in windows)
+            {
+                if (dict.Key != lastWindowCalled)
                 {
                     dict.Value.SetActive(false);
                 }
@@ -312,6 +362,8 @@ public class UIManager : MonoBehaviour
         gm.GetComponent<drinkList>().drink = selectedDrink;
         gm.GetComponent<drinkList>().amount_fl = int.Parse(drinkAmountSlider.value.ToString());
         gm.GetComponent<drinkList>().Initiate();
+        
+        drinkAmountSlider.value = drinkAmountSlider.minValue;
         //Debug.Log(drinkAmountSlider.value + "ml");
     }
     
@@ -349,10 +401,8 @@ public class UIManager : MonoBehaviour
         {
             return hit.collider.gameObject.name;
         }
-        else
-        {
-            return "";
-        }
+        
+        return "";
     }
 
 
@@ -397,6 +447,7 @@ public class UIManager : MonoBehaviour
         }
     }
     **/
+    
     private void EndTalk()
     {
         currentTalk = 0; // Reset current talk
@@ -579,6 +630,13 @@ public class UIManager : MonoBehaviour
     
         return ""; // Return an empty string if no character name is found
     }
+
+    public void setLastCalledWindow(string name)
+    {
+        lastWindowCalled = name;
+    }
+        
+    
 
     
 }

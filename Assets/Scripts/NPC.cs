@@ -8,15 +8,15 @@ using UnityEngine.AI;
 using Yarn.Unity;
 using Random = UnityEngine.Random;
 
-public enum NPCStatusType
+public enum NPCEmotion
 {
-    Idle,
-    Walking,
-    Thinking,
+    Satisfied,
+    Unsatisfied,
+    HaveSmth,
+    LightlyDrunk,
+    HeavilyDrunk,
     Happy,
-    Sad,
-    Complex,
-    HaveSmth
+    Sad
 }
 
 
@@ -26,9 +26,7 @@ public class NPC : MonoBehaviour
     [Header("NPC Info")]
     public int npcId;
     public string npcName;
-    public NPCStatusType npcStatus;
     public YarnProject yarnLine;
-    public GameObject[] emotions;
     public List<string> like_favor;
     public List<string> desire_favor;
     public List<string> hate_favor;
@@ -42,6 +40,9 @@ public class NPC : MonoBehaviour
     private Transform sttingPos;
     
     [Header("NPC Emotion")]
+    [SerializeField] NPCEmotion emotion;
+    [SerializeField] List<GameObject> emotionGM;
+    Dictionary<NPCEmotion, GameObject> emotions = new Dictionary<NPCEmotion, GameObject>();
     [SerializeField] GameObject[] bubbles;
     [SerializeField] SpriteRenderer sr;
     [SerializeField] TMP_Text npc_short_Line;
@@ -81,6 +82,14 @@ public class NPC : MonoBehaviour
             Debug.Log(name);
         }
         lovePoints.Add(0, 0);
+        
+        NPCEmotion[] enumValues = (NPCEmotion[])System.Enum.GetValues(typeof(NPCEmotion));
+
+        // Populate the dictionary dynamically
+        for (int i = 0; i < enumValues.Length; i++)
+        {
+            emotions.Add(enumValues[i], emotionGM[i]);
+        }
     }
 
 
@@ -111,33 +120,7 @@ public class NPC : MonoBehaviour
         
         
         
-        //Show emotion
-        switch (npcStatus)
-        {
-            case NPCStatusType.Idle:
-                activeEmotion(0);
-                break;
-            case NPCStatusType.Walking:
-                activeEmotion(1);
-                break;
-            case NPCStatusType.Thinking:
-                activeEmotion(2);
-                break;
-            case NPCStatusType.Happy:
-                activeEmotion(3);
-                break;
-            case NPCStatusType.Sad:
-                activeEmotion(4);
-                break;
-            case NPCStatusType.Complex:
-                activeEmotion(5);
-                break;
-            case NPCStatusType.HaveSmth:
-                activeEmotion(6);
-                break;
-            default:
-                break;
-        }
+     
         
     }
     
@@ -173,24 +156,7 @@ public class NPC : MonoBehaviour
         temp[tempint].isSelected = true;
         return temp[tempint];
     }
-
     
-    //Repersent emotion since it only need to show one at time, shows only one.
-    public void activeEmotion(int i)
-    {
-        for (int j = 0; j < emotions.Length; j++)
-        {
-            if (i != j)
-            {
-                emotions[j].SetActive(false);
-            }
-            else
-            {
-                emotions[j].SetActive(true);
-            }
-        }
-    }
-
     
     /**
      * <summary>

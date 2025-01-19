@@ -1,0 +1,51 @@
+{
+    "dataSaveIndex": 1,
+    "playerData": {
+        "playerPos": {
+            "x": -0.9629999995231628,
+            "y": -2.9700000286102297
+        },
+        "playerRot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        },
+        "playerMoney": 0.0
+    },
+    "gameManagerData": {
+        "dayofWeekIndex": 0,
+        "month": 1,
+        "day": 1,
+        "currTime": 1.2000000476837159,
+        "isAfternoon": false,
+        "currQuestName": "",
+        "currQuestDescription": ""
+    },
+    "drinkManagerData": {
+        "drinks": [
+            {
+                "id": 1,
+                "name": "Test Drink",
+                "price": 10.0,
+                "proof": 5.0,
+                "amount": 100.0,
+                "color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "tastes": [
+                    "Sweet",
+                    "Fruity"
+                ]
+            }
+        ]
+    }
+}
+|
+{
+  "dataSaveIndex": 1,
+  "drinks": null
+}

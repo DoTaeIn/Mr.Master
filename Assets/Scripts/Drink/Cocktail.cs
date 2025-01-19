@@ -1,11 +1,12 @@
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Cocktail : Drink
 {
     // Amount of Drink & Type of Drink
-    private Dictionary<float, Drink> drinks;
-    private int shakeAmt;
+    [SerializeField] private Dictionary<float, Drink> drinks;
+    [SerializeField] private int shakeAmt;
 
     // Constructor
     public Cocktail(int id, string name, float price, float proof, float amount, List<string> tastes, Color color, Dictionary<float, Drink> drinks, int shakeAmt)

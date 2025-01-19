@@ -607,6 +607,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingBar: {fileID: 956996956}
   tipText: {fileID: 907903312}
+  loadingTips:
+  - "\uB9C8\uC2A4\uD130\uB294 \uBBF8\uC220\uC744 \uC804\uACF5\uD588\uC2B5\uB2C8\uB2E4."
+  - 
 --- !u!1 &1350645398
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,7 +701,7 @@ GameObject:
   - component: {fileID: 1785177684}
   - component: {fileID: 1785177686}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Wine Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -795,7 +798,7 @@ GameObject:
   - component: {fileID: 1889085100}
   - component: {fileID: 1889085099}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
