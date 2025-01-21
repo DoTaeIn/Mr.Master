@@ -76,11 +76,12 @@ public class NPC : MonoBehaviour
     private void Start()
     {
         moveToRandomChair();
-
+        /**
         foreach (string name in yarnLine.NodeNames)
         {
             Debug.Log(name);
         }
+        **/
         lovePoints.Add(0, 0);
         
         NPCEmotion[] enumValues = (NPCEmotion[])System.Enum.GetValues(typeof(NPCEmotion));

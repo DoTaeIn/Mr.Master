@@ -62,8 +62,8 @@ public class drinkSelect: MonoBehaviour
             if(orderManager == null)
                 orderManager = FindFirstObjectByType<OrderManager>();
         
-            if(!orderManager.cart.TryAdd(currDrink, 1))
-                orderManager.cart[currDrink] += 1;
+            if(!orderManager.Drinkcart.TryAdd(currDrink, 1))
+                orderManager.Drinkcart[currDrink] += 1;
         }
         else
         {

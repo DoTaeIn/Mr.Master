@@ -5,6 +5,7 @@ using UnityEngine;
 public class StorageManager : MonoBehaviour
 {
     public Dictionary<DrinkSO, List<DrinkSO>> drinks;
+    public Dictionary<BerryObj, List<BerryObj>> berry;
 
 
     private void Update()

@@ -22,7 +22,7 @@ public class OrderClickButton : MonoBehaviour
         if(orderManager == null)
             orderManager = FindFirstObjectByType<OrderManager>();
         
-        if(!orderManager.cart.TryAdd(orderObj, orderObjAmt))
-            orderManager.cart[orderObj] += orderAmt;
+        if(!orderManager.Drinkcart.TryAdd(orderObj, orderObjAmt))
+            orderManager.Drinkcart[orderObj] += orderAmt;
     }
 }
