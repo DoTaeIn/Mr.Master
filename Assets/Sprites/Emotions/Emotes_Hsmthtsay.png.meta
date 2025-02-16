@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 32b4e45dce30b4021969ede144251535
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5092929608565039451
+    second: Emotes_Hsmthtsay_0
+  - first:
+      213: -273857967046223662
+    second: Emotes_Hsmthtsay_1
+  - first:
+      213: 7253940706816872015
+    second: Emotes_Hsmthtsay_2
+  - first:
+      213: -7105182778514187585
+    second: Emotes_Hsmthtsay_3
+  - first:
+      213: 1224571957179049935
+    second: Emotes_Hsmthtsay_4
+  - first:
+      213: 6048071913952360880
+    second: Emotes_Hsmthtsay_5
+  - first:
+      213: -968555856544511318
+    second: Emotes_Hsmthtsay_6
+  - first:
+      213: 4524176568207748414
+    second: Emotes_Hsmthtsay_7
+  - first:
+      213: -668310025760371353
+    second: Emotes_Hsmthtsay_8
+  - first:
+      213: 1209153487890322814
+    second: Emotes_Hsmthtsay_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 122
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae596721874259b0800000000000000
+      internalID: -5092929608565039451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 122
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d89c4341af033cf0800000000000000
+      internalID: -273857967046223662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 122
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ec09bc3ac2ba460800000000000000
+      internalID: 7253940706816872015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_3
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 122
+        width: 13
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba507668e1556d90800000000000000
+      internalID: -7105182778514187585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_4
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 122
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7ef8df4bd8ef010800000000000000
+      internalID: 1224571957179049935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_5
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 122
+        width: 23
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9b5279c511fe350800000000000000
+      internalID: 6048071913952360880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_6
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 122
+        width: 19
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa4a81849ffe82f0800000000000000
+      internalID: -968555856544511318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_7
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 122
+        width: 19
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d2b216e9a19ce30800000000000000
+      internalID: 4524176568207748414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_8
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 122
+        width: 19
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d88ba829fa9b6f0800000000000000
+      internalID: -668310025760371353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Hsmthtsay_9
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 122
+        width: 19
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7590acd0b6c7c010800000000000000
+      internalID: 1209153487890322814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c0d7900282e9247c580592d3bccb9d3b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Emotes_Hsmthtsay_0: -5092929608565039451
+      Emotes_Hsmthtsay_1: -273857967046223662
+      Emotes_Hsmthtsay_2: 7253940706816872015
+      Emotes_Hsmthtsay_3: -7105182778514187585
+      Emotes_Hsmthtsay_4: 1224571957179049935
+      Emotes_Hsmthtsay_5: 6048071913952360880
+      Emotes_Hsmthtsay_6: -968555856544511318
+      Emotes_Hsmthtsay_7: 4524176568207748414
+      Emotes_Hsmthtsay_8: -668310025760371353
+      Emotes_Hsmthtsay_9: 1209153487890322814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -34,8 +34,8 @@ public class NPC : MonoBehaviour
     [Header("NPC Motion")]
     public List<TavernChair> chairs;
     [SerializeField] bool isPlanning2Sit = false;
-    [SerializeField] private GameObject leg_R;
-    [SerializeField] private GameObject leg_L;
+    //[SerializeField] private GameObject leg_R;
+    //[SerializeField] private GameObject leg_L;
     private Vector2 currPos;
     private Transform sttingPos;
     
@@ -57,19 +57,20 @@ public class NPC : MonoBehaviour
     public int index = 11;
     
     NavMeshAgent navMeshAgent;
-    Animator animator;
+    [SerializeField] Animator npcAnimator;
+    [SerializeField] Animator emotionAnimator;
     Rigidbody2D rb;
     private TavernChair randomPos;
     
     private void Awake()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        animator = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         
         //Navmesh default setting
         navMeshAgent.updateRotation = false;
         navMeshAgent.updateUpAxis = false;
+        navMeshAgent.speed = 1.5f;
     }
     
 
@@ -89,7 +90,7 @@ public class NPC : MonoBehaviour
         // Populate the dictionary dynamically
         for (int i = 0; i < enumValues.Length; i++)
         {
-            emotions.Add(enumValues[i], emotionGM[i]);
+            //emotions.Add(enumValues[i], emotionGM[i]);
         }
     }
 
@@ -97,11 +98,13 @@ public class NPC : MonoBehaviour
     private void Update()
     {
         //Debug.Log(navMeshAgent.velocity.magnitude);
+        sr.flipX = navMeshAgent.velocity.x > 0;
         //Animation
         if(navMeshAgent.velocity.magnitude > 0.1f)
         {
             //Debug.Log("Walking");
-            animator.SetBool("isWalk", true);
+            npcAnimator.SetBool("isWalk", true);
+            
             if (navMeshAgent.velocity.x < 0)
             {
                 // Moving left: flip horizontally
@@ -116,10 +119,10 @@ public class NPC : MonoBehaviour
         else
         {
             //Debug.Log("Stoped");
-            animator.SetBool("isWalk", false);
+            npcAnimator.SetBool("isWalk", false);
         }
         
-        
+        emotionAnimator.SetFloat("Blend", 10f);
         
      
         
@@ -198,11 +201,11 @@ public class NPC : MonoBehaviour
             currPos = transform.position;
             navMeshAgent.enabled = false;
             randomPos.GetComponent<CircleCollider2D>().enabled = false;
-            leg_R.transform.localPosition = new Vector3(-2.980232e-08f, -1.490116e-08f, 0f);
-            leg_R.transform.localRotation = Quaternion.Euler(0f, 0f, -63.732f);
+            //leg_R.transform.localPosition = new Vector3(-2.980232e-08f, -1.490116e-08f, 0f);
+            //leg_R.transform.localRotation = Quaternion.Euler(0f, 0f, -63.732f);
             
-            leg_L.transform.localPosition = new Vector2(-0.078f, -0.005f);
-            leg_L.transform.localRotation = Quaternion.Euler(0f, 0f, -65.997f);
+            //leg_L.transform.localPosition = new Vector2(-0.078f, -0.005f);
+            //leg_L.transform.localRotation = Quaternion.Euler(0f, 0f, -65.997f);
             
            gameObject.transform.SetParent(randomPos.transform);
            gameObject.transform.localPosition = Vector3.zero;
@@ -214,11 +217,11 @@ public class NPC : MonoBehaviour
         {
             gameObject.transform.SetParent(null);
             gameObject.transform.position = currPos;
-            leg_R.transform.localPosition = new Vector2(0, 0);
-            leg_R.transform.localRotation = Quaternion.Euler(0f, 0f, 0);
+            //leg_R.transform.localPosition = new Vector2(0, 0);
+            //leg_R.transform.localRotation = Quaternion.Euler(0f, 0f, 0);
             
-            leg_L.transform.localPosition = new Vector2(0, 0);
-            leg_L.transform.localRotation = Quaternion.Euler(0f, 0f, 0);
+            //leg_L.transform.localPosition = new Vector2(0, 0);
+            //leg_L.transform.localRotation = Quaternion.Euler(0f, 0f, 0);
             navMeshAgent.enabled = true;
             randomPos.GetComponent<CircleCollider2D>().enabled = true;
             rb.constraints = RigidbodyConstraints2D.None;

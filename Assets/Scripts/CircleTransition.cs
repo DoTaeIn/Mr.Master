@@ -15,6 +15,14 @@ public class CircleTransition : MonoBehaviour
 
     void Start()
     {
+        float aspectRatio = (float)Screen.width / Screen.height;
+        transitionMaterial.SetFloat("_AspectRatio", aspectRatio);
+        
+        Init();
+    }
+
+    public void Init()
+    {
         // Initialize the radius to the maximum (fully transparent circle)
         radius = maxRadius;
         transitionMaterial.SetFloat("_MaskRadius", radius);
@@ -33,7 +41,7 @@ public class CircleTransition : MonoBehaviour
             transitionMaterial.SetFloat("_MaskRadius", radius);
 
             // Stop transitioning when limits are reached
-            if (radius == minRadius || radius == maxRadius)
+            if (radius <= minRadius || radius >= maxRadius)
             {
                 isTransitioning = false;
             }
@@ -53,4 +61,14 @@ public class CircleTransition : MonoBehaviour
         shrinking = false;
         isTransitioning = true;
     }
+    
+    /**
+    public void ShutterClick()
+    {
+        transitionSpeed = 0.3f;
+        StartShrink();
+        Invoke("StartExpand", 0.35f);
+
+    }
+    **/
 }

@@ -23,6 +23,8 @@ public class Gamemanager : MonoBehaviour
     [Range(0.001f, 1f)] [SerializeField] private float timesensitivity = 1f;
     [SerializeField] private Light2D sun;
     public UnityEvent onQuestChanged;
+    
+    [SerializeField] private GameObject DDOL_OBJ;
 
     public string questTitle;
     public string questDescription;
@@ -50,13 +52,15 @@ public class Gamemanager : MonoBehaviour
         uiManager = FindFirstObjectByType<UIManager>();
         npcs = FindObjectsByType<NPC>(FindObjectsInactive.Exclude, FindObjectsSortMode.None).ToList();
         storageManager = FindFirstObjectByType<StorageManager>();
-        
     }
 
     private void Start()
     {
         onQuestChanged.AddListener(chageQuestText);
     }
+    
+    
+    
 
     public string getDayOfWeek()
     {
@@ -126,6 +130,19 @@ public class Gamemanager : MonoBehaviour
 
         if (month > 12)
             month = 1;
+
+        if (SceneManager.GetActiveScene().name != "Main_Menu" || SceneManager.GetActiveScene().name != "Loading")
+        {
+            if (DDOL_OBJ != null)
+                if(!DDOL_OBJ.activeSelf)
+                    DDOL_OBJ.SetActive(true);
+        }
+        else
+        {
+            if (DDOL_OBJ != null)
+                if(DDOL_OBJ.activeSelf)
+                    DDOL_OBJ.SetActive(false);
+        }
     }
 
     

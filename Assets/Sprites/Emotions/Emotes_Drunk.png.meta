@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: c9e77fc52e4a24ef6ac27185d91e3d70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6952137110077530009
+    second: Emotes_Drunk_0
+  - first:
+      213: -1919068854641263467
+    second: Emotes_Drunk_1
+  - first:
+      213: -5659469743100279094
+    second: Emotes_Drunk_2
+  - first:
+      213: -887175154809994805
+    second: Emotes_Drunk_3
+  - first:
+      213: -5623127001960850763
+    second: Emotes_Drunk_4
+  - first:
+      213: 4206386601425893606
+    second: Emotes_Drunk_5
+  - first:
+      213: -4700583848904652566
+    second: Emotes_Drunk_6
+  - first:
+      213: 3859125779560632375
+    second: Emotes_Drunk_7
+  - first:
+      213: -1559101745803776660
+    second: Emotes_Drunk_8
+  - first:
+      213: 1854496385579358181
+    second: Emotes_Drunk_9
+  - first:
+      213: 7839067873491177460
+    second: Emotes_Drunk_10
+  - first:
+      213: -2654865949832372420
+    second: Emotes_Drunk_11
+  - first:
+      213: -2345052070547554883
+    second: Emotes_Drunk_12
+  - first:
+      213: 8816383537923681126
+    second: Emotes_Drunk_13
+  - first:
+      213: 78990650287929874
+    second: Emotes_Drunk_14
+  - first:
+      213: -6870311607460134725
+    second: Emotes_Drunk_15
+  - first:
+      213: -8008089694478225254
+    second: Emotes_Drunk_16
+  - first:
+      213: 8445095087040419554
+    second: Emotes_Drunk_17
+  - first:
+      213: 2438745524150382012
+    second: Emotes_Drunk_18
+  - first:
+      213: 3608095252827387026
+    second: Emotes_Drunk_19
+  - first:
+      213: -1768632914942545627
+    second: Emotes_Drunk_20
+  - first:
+      213: 445897089112053124
+    second: Emotes_Drunk_21
+  - first:
+      213: 2848580186076202721
+    second: Emotes_Drunk_22
+  - first:
+      213: 3981670961907300994
+    second: Emotes_Drunk_23
+  - first:
+      213: 5394274914275038863
+    second: Emotes_Drunk_24
+  - first:
+      213: 8790780990510134752
+    second: Emotes_Drunk_25
+  - first:
+      213: 5762731135375380263
+    second: Emotes_Drunk_26
+  - first:
+      213: -2893575932243786788
+    second: Emotes_Drunk_27
+  - first:
+      213: -1116719638210533743
+    second: Emotes_Drunk_28
+  - first:
+      213: -6280286652583499312
+    second: Emotes_Drunk_29
+  - first:
+      213: 1848708894267162030
+    second: Emotes_Drunk_30
+  - first:
+      213: -5681819237264495743
+    second: Emotes_Drunk_31
+  - first:
+      213: 6482817867098858911
+    second: Emotes_Drunk_32
+  - first:
+      213: -6935989168856981997
+    second: Emotes_Drunk_33
+  - first:
+      213: -8530387425585598001
+    second: Emotes_Drunk_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Emotes_Drunk_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 76
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f5bfb1ed3fa7060800000000000000
+      internalID: 6952137110077530009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 76
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c779b5b091e55e0800000000000000
+      internalID: -1919068854641263467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 76
+        width: 18
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6cf69f0468571b0800000000000000
+      internalID: -5659469743100279094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_3
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 76
+        width: 26
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc18ffba5ee10b3f0800000000000000
+      internalID: -887175154809994805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 76
+        width: 34
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba5739c8c3a6f1b0800000000000000
+      internalID: -5623127001960850763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_5
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 76
+        width: 46
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8f3fdd356106a30800000000000000
+      internalID: 4206386601425893606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_6
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae88919e4eb24ceb0800000000000000
+      internalID: -4700583848904652566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_7
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7309342337e5e8530800000000000000
+      internalID: 3859125779560632375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_8
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6daca00935fc5ae0800000000000000
+      internalID: -1559101745803776660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_9
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e714bb13ae7cb910800000000000000
+      internalID: 1854496385579358181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_10
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff4e91a2b6f9cc60800000000000000
+      internalID: 7839067873491177460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_11
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f16f51c75082bd0800000000000000
+      internalID: -2654865949832372420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_12
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdf7330193b47fd0800000000000000
+      internalID: -2345052070547554883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_13
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bea85dd161a5a70800000000000000
+      internalID: 8816383537923681126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_14
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a3df2f391a81100800000000000000
+      internalID: 78990650287929874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_15
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb088155effb7a0a0800000000000000
+      internalID: -6870311607460134725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_16
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90b82ff9dc8dd090800000000000000
+      internalID: -8008089694478225254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_17
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6d075dc31033570800000000000000
+      internalID: 8445095087040419554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_18
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdae88122a28d120800000000000000
+      internalID: 2438745524150382012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_19
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294bc841487821230800000000000000
+      internalID: 3608095252827387026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_20
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52139c60cbd8477e0800000000000000
+      internalID: -1768632914942545627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_21
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48597e24a05203600800000000000000
+      internalID: 445897089112053124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_22
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6c9493690388720800000000000000
+      internalID: 2848580186076202721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_23
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28af8f0e4acb14730800000000000000
+      internalID: 3981670961907300994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_24
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f861a2654705cda40800000000000000
+      internalID: 5394274914275038863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_25
+      rect:
+        serializedVersion: 2
+        x: 3532
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5fc9d3cb02ff970800000000000000
+      internalID: 8790780990510134752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_26
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f02247f6559ff40800000000000000
+      internalID: 5762731135375380263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_27
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd34dfb3504f7d7d0800000000000000
+      internalID: -2893575932243786788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_28
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19622cad76d9080f0800000000000000
+      internalID: -1116719638210533743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_29
+      rect:
+        serializedVersion: 2
+        x: 4092
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d922295090f7d8a0800000000000000
+      internalID: -6280286652583499312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_30
+      rect:
+        serializedVersion: 2
+        x: 4232
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead36e7c1fee7a910800000000000000
+      internalID: 1848708894267162030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_31
+      rect:
+        serializedVersion: 2
+        x: 4372
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b6edcd18f1621b0800000000000000
+      internalID: -5681819237264495743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_32
+      rect:
+        serializedVersion: 2
+        x: 4512
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95abffa08897f950800000000000000
+      internalID: 6482817867098858911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_33
+      rect:
+        serializedVersion: 2
+        x: 4652
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e9250799a6ebf90800000000000000
+      internalID: -6935989168856981997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Drunk_34
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 76
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1f28515d9fd9980800000000000000
+      internalID: -8530387425585598001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 67734b7fcfea147c9ab8e51e7352d25d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Emotes_Drunk_0: 6952137110077530009
+      Emotes_Drunk_1: -1919068854641263467
+      Emotes_Drunk_10: 7839067873491177460
+      Emotes_Drunk_11: -2654865949832372420
+      Emotes_Drunk_12: -2345052070547554883
+      Emotes_Drunk_13: 8816383537923681126
+      Emotes_Drunk_14: 78990650287929874
+      Emotes_Drunk_15: -6870311607460134725
+      Emotes_Drunk_16: -8008089694478225254
+      Emotes_Drunk_17: 8445095087040419554
+      Emotes_Drunk_18: 2438745524150382012
+      Emotes_Drunk_19: 3608095252827387026
+      Emotes_Drunk_2: -5659469743100279094
+      Emotes_Drunk_20: -1768632914942545627
+      Emotes_Drunk_21: 445897089112053124
+      Emotes_Drunk_22: 2848580186076202721
+      Emotes_Drunk_23: 3981670961907300994
+      Emotes_Drunk_24: 5394274914275038863
+      Emotes_Drunk_25: 8790780990510134752
+      Emotes_Drunk_26: 5762731135375380263
+      Emotes_Drunk_27: -2893575932243786788
+      Emotes_Drunk_28: -1116719638210533743
+      Emotes_Drunk_29: -6280286652583499312
+      Emotes_Drunk_3: -887175154809994805
+      Emotes_Drunk_30: 1848708894267162030
+      Emotes_Drunk_31: -5681819237264495743
+      Emotes_Drunk_32: 6482817867098858911
+      Emotes_Drunk_33: -6935989168856981997
+      Emotes_Drunk_34: -8530387425585598001
+      Emotes_Drunk_4: -5623127001960850763
+      Emotes_Drunk_5: 4206386601425893606
+      Emotes_Drunk_6: -4700583848904652566
+      Emotes_Drunk_7: 3859125779560632375
+      Emotes_Drunk_8: -1559101745803776660
+      Emotes_Drunk_9: 1854496385579358181
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

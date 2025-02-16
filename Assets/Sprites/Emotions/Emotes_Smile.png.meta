@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 2e249e1586a5f45ca94d02d4c481da44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1384128010641327438
+    second: Emotes_Smile_0
+  - first:
+      213: 6594325122841662196
+    second: Emotes_Smile_1
+  - first:
+      213: 4663469679398891740
+    second: Emotes_Smile_2
+  - first:
+      213: 6731683109974587400
+    second: Emotes_Smile_3
+  - first:
+      213: 6449326551017570539
+    second: Emotes_Smile_4
+  - first:
+      213: -532605160715189531
+    second: Emotes_Smile_5
+  - first:
+      213: -6902987523639329142
+    second: Emotes_Smile_6
+  - first:
+      213: 8118843735203570042
+    second: Emotes_Smile_7
+  - first:
+      213: -4955923264535424344
+    second: Emotes_Smile_8
+  - first:
+      213: 3219279644035460085
+    second: Emotes_Smile_9
+  - first:
+      213: -4278371691478701062
+    second: Emotes_Smile_10
+  - first:
+      213: -4673648988138493874
+    second: Emotes_Smile_11
+  - first:
+      213: -4593441579535558267
+    second: Emotes_Smile_12
+  - first:
+      213: 2224853757552338269
+    second: Emotes_Smile_13
+  - first:
+      213: 6661806193035959074
+    second: Emotes_Smile_14
+  - first:
+      213: 4110529564242461800
+    second: Emotes_Smile_15
+  - first:
+      213: 4994424791329789268
+    second: Emotes_Smile_16
+  - first:
+      213: -5655632528175440966
+    second: Emotes_Smile_17
+  - first:
+      213: 939683924153486983
+    second: Emotes_Smile_18
+  - first:
+      213: 7463794156442853556
+    second: Emotes_Smile_19
+  - first:
+      213: -5384233687182245992
+    second: Emotes_Smile_20
+  - first:
+      213: 6216775100780529730
+    second: Emotes_Smile_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Emotes_Smile_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 28
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba3e0268e69acce0800000000000000
+      internalID: -1384128010641327438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 28
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f25960d2cfb38b50800000000000000
+      internalID: 6594325122841662196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 28
+        width: 18
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0306d17f8f7b040800000000000000
+      internalID: 4663469679398891740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_3
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 28
+        width: 26
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808388e5f1ebb6d50800000000000000
+      internalID: 6731683109974587400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 28
+        width: 34
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0c5e1045c908950800000000000000
+      internalID: 6449326551017570539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_5
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 28
+        width: 46
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2080e9d6ecb98f0800000000000000
+      internalID: -532605160715189531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_6
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e368cbb69a330a0800000000000000
+      internalID: -6902987523639329142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_7
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71e6b79c5deba070800000000000000
+      internalID: 8118843735203570042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_8
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2954b6c06093bb0800000000000000
+      internalID: -4955923264535424344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_9
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb216f97cd2dac20800000000000000
+      internalID: 3219279644035460085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_10
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb23584d9b20a4c0800000000000000
+      internalID: -4278371691478701062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_11
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e482421e10dd32fb0800000000000000
+      internalID: -4673648988138493874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_12
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58916437831d040c0800000000000000
+      internalID: -4593441579535558267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_13
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55a91864b440ee10800000000000000
+      internalID: 2224853757552338269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_14
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bd762df6d737c50800000000000000
+      internalID: 6661806193035959074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_15
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864c9633cd88b0930800000000000000
+      internalID: 4110529564242461800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_16
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455dd98d2e2cf4540800000000000000
+      internalID: 4994424791329789268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_17
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb55f13e282381b0800000000000000
+      internalID: -5655632528175440966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_18
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e4054ec8d6a0d00800000000000000
+      internalID: 939683924153486983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_19
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0a96b8d39b49760800000000000000
+      internalID: 7463794156442853556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_20
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f7fc70dfb5745b0800000000000000
+      internalID: -5384233687182245992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emotes_Smile_21
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 28
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248448a240c664650800000000000000
+      internalID: 6216775100780529730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e878590065c04257a59fcadce8eee3c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Emotes_Smile_0: -1384128010641327438
+      Emotes_Smile_1: 6594325122841662196
+      Emotes_Smile_10: -4278371691478701062
+      Emotes_Smile_11: -4673648988138493874
+      Emotes_Smile_12: -4593441579535558267
+      Emotes_Smile_13: 2224853757552338269
+      Emotes_Smile_14: 6661806193035959074
+      Emotes_Smile_15: 4110529564242461800
+      Emotes_Smile_16: 4994424791329789268
+      Emotes_Smile_17: -5655632528175440966
+      Emotes_Smile_18: 939683924153486983
+      Emotes_Smile_19: 7463794156442853556
+      Emotes_Smile_2: 4663469679398891740
+      Emotes_Smile_20: -5384233687182245992
+      Emotes_Smile_21: 6216775100780529730
+      Emotes_Smile_3: 6731683109974587400
+      Emotes_Smile_4: 6449326551017570539
+      Emotes_Smile_5: -532605160715189531
+      Emotes_Smile_6: -6902987523639329142
+      Emotes_Smile_7: 8118843735203570042
+      Emotes_Smile_8: -4955923264535424344
+      Emotes_Smile_9: 3219279644035460085
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

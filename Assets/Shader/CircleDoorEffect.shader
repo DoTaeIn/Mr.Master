@@ -1,22 +1,18 @@
 Shader "Custom/CircleDoorEffect"
 {
-   Properties
+    Properties
     {
-        _MaskCenter ("Mask Center", Vector) = (0.5, 0.5, 0, 0) // Center of the mask
-        _MaskRadius ("Mask Radius", Float) = 0.5               // Radius of the transparent circle
-        _MaskSoftness ("Mask Softness", Float) = 0.02          // Softness at the edge of the circle
+        _MaskRadius ("Mask Radius", Range(0, 1)) = 0.5
+        _AspectRatio ("Aspect Ratio", Float) = 1.77778
     }
     SubShader
     {
-        Tags { "RenderType"="Transparent" }
-        LOD 100
-        Blend SrcAlpha OneMinusSrcAlpha
+        Tags { "RenderType"="Opaque" }
         Pass
         {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-
             #include "UnityCG.cginc"
 
             struct appdata_t
@@ -27,32 +23,35 @@ Shader "Custom/CircleDoorEffect"
 
             struct v2f
             {
-                float4 vertex : SV_POSITION;
                 float2 uv : TEXCOORD0;
+                float4 vertex : SV_POSITION;
             };
 
-            float2 _MaskCenter;
+            sampler2D _MainTex;
             float _MaskRadius;
-            float _MaskSoftness;
+            float _AspectRatio;
 
             v2f vert (appdata_t v)
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = v.vertex.xy / float2(1920, 1080); // Normalize for 1920x1080
+                o.uv = v.uv;
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
-                // Calculate distance from the center
-                float dist = distance(i.uv, _MaskCenter);
+                // Adjust UV coordinates for aspect ratio
+                float2 adjustedUV = float2(i.uv.x, i.uv.y / _AspectRatio);
 
-                // Create a hole effect
-                float alpha = smoothstep(_MaskRadius, _MaskRadius - _MaskSoftness, dist);
+                // Calculate distance from center (0.5, 0.5 normalized screen space)
+                float dist = distance(adjustedUV, float2(0.5, 0.5));
 
-                // Black screen with a transparent hole in the center
-                return fixed4(0, 0, 0, 1 - alpha);
+                // Apply the mask based on distance and radius
+                if (dist < _MaskRadius)
+                    return float4(0, 0, 0, 1); // Black for masked area
+                else
+                    return tex2D(_MainTex, i.uv); // Render the rest of the texture
             }
             ENDCG
         }

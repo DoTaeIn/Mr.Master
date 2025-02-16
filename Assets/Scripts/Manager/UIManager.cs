@@ -135,6 +135,7 @@ public class UIManager : MonoBehaviour
             talkUIDictionary.Add(UIPanels[i].name.ToLower(), UIPanels[i]);
             //Debug.Log(UIPanels[i].name);
         }
+        
 
         for (int i = 0; i < dontDestory.Length; i++)
         {
@@ -454,7 +455,7 @@ public class UIManager : MonoBehaviour
         talkTxt.pageToDisplay = 1; // Reset page display
         setActivePanelWName(currentPanelName, false); // Deactivate the current panel
         Debug.Log("Talk ended."); // Optional debug log
-        player = FindObjectOfType<PlayerCTRL>();
+        player = FindFirstObjectByType<PlayerCTRL>();
         player.isInteracting = false;
     }
 
@@ -489,6 +490,7 @@ public class UIManager : MonoBehaviour
             if (pair.Key == name) // Compare value
                 return pair.Value;     // Return the key
         }
+        Debug.Log("Key not found: " + name);
 
         // If the value is not found
         throw new KeyNotFoundException("The value was not found in the dictionary.");

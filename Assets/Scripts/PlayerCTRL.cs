@@ -85,7 +85,7 @@ public class PlayerCTRL : MonoBehaviour
         //Debug.Log(JsonUtility.ToJson((saveSystem.saveGameObject(this.gameObject), Formatting.Indented)));
         //saveSystem.saveToFileTest(saveSystem.saveGameObject(this.gameObject));
 
-        saveSystem.saveDataToFile(1);
+        //saveSystem.saveDataToFile(1);
 
 
     }
@@ -259,10 +259,15 @@ public class PlayerCTRL : MonoBehaviour
                         {
                             isInteracting = true;
                             uiManager.setActivePanelWName("circle", true);
+                            if(circleTransition == null)
+                                circleTransition = FindFirstObjectByType<CircleTransition>();
                             circleTransition.StartShrink();
                             interactObj = null;
                             isInteracting = false;
-                            LoadSceneWithDelay("Tavern", 1f);
+                            if (SceneManager.GetActiveScene().name == "Map")
+                                LoadSceneWithDelay("Tavern", 1f);
+                            else
+                                LoadSceneWithDelay("Map", 1f);
                         }
                         if (interactables.GetInteractableType(interactObjId) == InteractableType.Sign)
                         {

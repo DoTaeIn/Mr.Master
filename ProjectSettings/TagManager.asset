@@ -10,6 +10,7 @@ TagManager:
   - Bar_Behind
   - Bar_Obj
   - Cup
+  - DDOL
   layers:
   - Default
   - TransparentFX
